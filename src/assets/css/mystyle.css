@@ -713,7 +713,7 @@ button[type="submit"].primary-submit:hover {
   color: #ffffff;
   font-family: "Barlow", sans-serif;
   background: #ce1446;
-  border-radius: 5px;
+  border-radius: 30px;
   border: 2px solid #ce1446;
   display: inline-block;
   padding: 8px 45px;
@@ -767,10 +767,10 @@ button[type="submit"].primary-submit:hover {
 .primary-btn-outline-s2 {
   font-weight: 600;
   font-size: 17px;
-  color: #ffffff;
+  color: #ce1446;
   background: transparent;
   border-radius: 30px;
-  border: 2px solid #fff;
+  border: 2px solid #ce1446;
   display: inline-block;
   padding: 11px 42px;
   -webkit-transition: all 0.35s;
@@ -778,8 +778,8 @@ button[type="submit"].primary-submit:hover {
 }
 
 .primary-btn-outline-s2:hover {
-  background: #2d373c;
-  border: 2px solid #2d373c;
+  background: #ce1446;
+  border: 2px solid #ce1446;
   color: #fff;
 }
 
@@ -1859,7 +1859,7 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .hero-area .hero-slider {
-  padding: 240px 0 230px 0;
+  padding: 200px 0 200px 0;
 }
 
 .hero-area .hero-slider .slide-content h5 {
@@ -1968,6 +1968,12 @@ header .header-style-two .main-nav ul li a.active span {
   top: 40%;
   right: 50px;
 }
+
+.hero-area .slider-arrows2 {
+    position: absolute;
+    top: 15%;
+    right: 0px;
+  }
 
 .hero-area .slider-arrows span {
   margin-bottom: 23px;
