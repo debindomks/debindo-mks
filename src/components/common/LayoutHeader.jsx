@@ -4,13 +4,17 @@ import { Link, NavLink } from "react-router-dom";
 import "../../assets/css/animate.css";
 // image import
 import NavLogo from "../../assets/images/logo-v2.png";
-import Logo from "../../assets/images/logo.png";
-class LayoutHeader extends Component {
+// import Logo from "../../assets/images/logo.png";
+class HomeHeader extends Component {
   // Inheritaed Parenty Options
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      
+    };
+ 
   }
+
 
   // Init JS Script
   componentDidMount() {
@@ -18,24 +22,21 @@ class LayoutHeader extends Component {
   }
   inItScripts() {
     $(document).ready(function () {
-      // header active class
-      $(".main-nav ul li a").click(function () {
-        $("li a").removeClass("active");
+       // header active class
+       $('.main-nav ul li a').click(function(){
+        $('li a').removeClass("active");
         $(this).addClass("active");
-      });
-      $(".main-nav ul li.has-child-menu ul.sub-menu li a").click(function () {
-        $(this)
-          .parent()
-          .parent()
-          .parent()
-          .find("a.has-child-menu-item")
-          .addClass("active");
-      });
-      // header active class end
-  
-  
+    });
+    $('.main-nav ul li.has-child-menu ul.sub-menu li a').click(function(){
+        $(this).parent().parent().parent().find('a.has-child-menu-item').addClass("active");
+    });
 
       /****** custom cursor Js ******/
+
+    $('.main-nav ul li.has-child-menu ul.sub-menu li a').click(function(){
+        $(this).parent().parent().parent().find('a.has-child-menu-item').addClass("active");
+    });
+
       var cursor = document.querySelector(".cursor");
       var cursorinner = document.querySelector(".cursor2");
       var a = document.querySelectorAll("a");
@@ -99,6 +100,7 @@ class LayoutHeader extends Component {
         }
         $fl.next(".sub-menu").slideToggle();
       });
+      /****** custom cursor Js end ******/
 
       /****** Sticky Navber Js ******/
       $(window).on("scroll", function () {
@@ -109,11 +111,13 @@ class LayoutHeader extends Component {
           $(".header-area").removeClass("sticky");
         }
       });
-      // preloader
-      $(".preloader").delay(1000).fadeOut("slow");
+      /****** Sticky Navber Js ******/
+
+      /******  preloader Js start ******/
+      $(".preloader").delay(2000).fadeOut("slow");
+      /******  preloader Js end ******/
 
       /****** Custom Select Input JS ******/
-
       var x, i, j, l, ll, selElmnt, b, c;
       x = document.getElementsByClassName("custom-select");
       l = x.length;
@@ -184,6 +188,7 @@ class LayoutHeader extends Component {
         }
       }
       document.addEventListener("click", closeAllSelect);
+      /****** Custom Select Input JS end ******/
 
       /****** schedule-sidebar JS ******/
       document.querySelectorAll(".sidebar-style-two i").forEach((element) => {
@@ -200,6 +205,7 @@ class LayoutHeader extends Component {
             .forEach((element) => element.classList.remove("sb-active"));
         });
       });
+      /****** schedule-sidebar JS end ******/
     });
   }
   scrollTop() {
@@ -208,12 +214,13 @@ class LayoutHeader extends Component {
       behavior: "smooth",
     });
   }
+
   render() {
     return (
       <>
         {/* ===============  header area start =============== */}
         <header>
-          <div className="header-area header-style-one header-light">
+          <div className="header-area header-style-two">
             <div className="container">
               <div className="row">
                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-xl-flex align-items-center">
@@ -221,16 +228,9 @@ class LayoutHeader extends Component {
                     <Link
                       onClick={this.scrollTop}
                       to={`${process.env.PUBLIC_URL}/`}
-                      className="logo-dark"
-                    >
-                      <img src={Logo} alt="logo" />
-                    </Link>
-                    <Link
-                      onClick={this.scrollTop}
-                      to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      <img src={NavLogo} alt="logo" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png" alt="debindo logo" />
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -247,121 +247,48 @@ class LayoutHeader extends Component {
                 </div>
                 <div className="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
                   <nav className="main-nav">
-                    <div className="inner-logo d-xl-none">
+                    <div className="inner-logo d-xl-none" style={{'background':'#fff','borderRadius':'15px','padding':'7px'}}>
                       <Link to={"#"} onClick={this.scrollTop}>
-                        <img src={NavLogo} alt="NavLogo" />
+                        <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png" alt="NavLogo" />
                       </Link>
                     </div>
                     <ul>
                       <li className="has-child-menu">
-                        <Link to={"#"}>
-                          Home <span>02</span>
+                        <Link  id="home" to={"/"} onClick={this.state.activeState}>
+                          Home <span>01</span>
                         </Link>
-                        <i className="fl flaticon-plus">+</i>
-                        <ul className="sub-menu">
-                          <li>
-                            <NavLink
-                              to={`${process.env.PUBLIC_URL}/`}
-                              className="sub-item"
-                              onClick={this.scrollTop}
-                            >
-                              Home One
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink
-                              to={`${process.env.PUBLIC_URL}/home-page-2`}
-                              className="sub-item"
-                              onClick={this.scrollTop}
-                            >
-                              Home Two
-                            </NavLink>
-                          </li>
-                        </ul>
                       </li>
                       <li>
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/about`}
-                          // className="sub-item"
-                          className="has-child-menu-item"
+                          className="sub-item"
                           onClick={this.scrollTop}
-                          // id="home"
                         >
-                          About <span>01</span>
+                          About <span>02</span>
                         </NavLink>
                       </li>
-                      <li className="has-child-menu">
-                        <Link
-                          className="has-child-menu-item"
-                          to={"#"}
+                      <li>
+                        <NavLink
+                          to={`${process.env.PUBLIC_URL}/event`}
+                          className="sub-item"
                           onClick={this.scrollTop}
                         >
                           Events <span>03</span>
-                        </Link>
-                        <i className="fl flaticon-plus">+</i>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link to={`${process.env.PUBLIC_URL}/event`} onClick={this.scrollTop}>
-                              Event Grid
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to={`${process.env.PUBLIC_URL}/event-sidebar`} onClick={this.scrollTop}>
-                              Event Sidebar
-                            </Link>
-                          </li>
-                          <li>
-                            <Link to={`${process.env.PUBLIC_URL}/event-details`} onClick={this.scrollTop}>
-                              Event Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="has-child-menu">
-                        <Link
-                          className="has-child-menu-item"
-                          to={"#"}
+                        </NavLink>
+                      </li>                      
+                      
+                      <li>
+                        <NavLink
+                          to={`${process.env.PUBLIC_URL}/speaker`}
+                          className="sub-item"
                           onClick={this.scrollTop}
                         >
-                          Spekars <span>03</span>
-                        </Link>
-                        <i className="fl flaticon-plus">+</i>
-                        <ul className="sub-menu">
-                          <li>
-                            <NavLink
-                              id="speaker"
-                              to={`${process.env.PUBLIC_URL}/speaker`}
-                              onClick={this.scrollTop}
-                            >
-                              Speaker Grid
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink
-                              id="speaker"
-                              to={`${process.env.PUBLIC_URL}/speaker-topbar`}
-                              onClick={this.scrollTop}
-                            >
-                              Speaker Topbar
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink
-                              id="speaker"
-                              to={`${process.env.PUBLIC_URL}/speaker-details`}
-                              onClick={this.scrollTop}
-                            >
-                              Speaker Details
-                            </NavLink>
-                          </li>
-                        </ul>
+                          Our Team <span>04</span>
+                        </NavLink>
                       </li>
+
                       <li className="has-child-menu">
-                        <Link
-                          className="has-child-menu-item"
-                          to={"#"}
-                          onClick={this.scrollTop}
-                        >
+                        <Link to={"#"} onClick={this.scrollTop}>
                           Pages <span>05</span>
                         </Link>
                         <i className="fl flaticon-plus">+</i>
@@ -409,7 +336,7 @@ class LayoutHeader extends Component {
                         </ul>
                       </li>
                       <li className="has-child-menu">
-                        <Link to={"#"} className="has-child-menu-item" onClick={this.scrollTop}>
+                        <Link to={"#"} onClick={this.scrollTop}>
                           Blog Grid <span>04</span>
                         </Link>
                         <i className="fl flaticon-plus">+</i>
@@ -463,7 +390,7 @@ class LayoutHeader extends Component {
                         onClick={this.scrollTop}
                         className="primary-btn-fill"
                       >
-                        Get Ticket
+                        Login
                       </Link>
                     </div>
                   </nav>
@@ -477,7 +404,7 @@ class LayoutHeader extends Component {
                           to={`${process.env.PUBLIC_URL}/event-details`}
                           onClick={this.scrollTop}
                         >
-                          Get Ticket
+                          Login
                         </Link>
                       </li>
                     </ul>
@@ -500,4 +427,4 @@ class LayoutHeader extends Component {
   }
 }
 
-export default LayoutHeader;
+export default HomeHeader;

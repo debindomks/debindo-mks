@@ -38,7 +38,7 @@ class Events extends Component {
                   <div className="page-outlined-text">
                     <h1>Event</h1>
                   </div>
-                  <h2 className="page-title">Popular Event</h2>
+                  <h2 className="page-title">Event</h2>
                   <ul className="page-switcher">
                     <li>
                       <Link
@@ -47,7 +47,7 @@ class Events extends Component {
                         Home <i className="bi bi-caret-right" />
                       </Link>
                     </li>
-                    <li>Popular Event</li>
+                    <li>Event</li>
                   </ul>
                 </div>
               </div>
