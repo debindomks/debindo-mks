@@ -171,7 +171,7 @@ class Events extends Component {
                           data-wow-duration="1500ms">
                           <div className="event-card-md">
                             <div className="event-thumb">
-                              <img src={EventIMFG1}  alt="Imgs" />
+                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/ekspo_rei_DjjS3ibXK.png`}  alt="Imgs" />
                               <div className="event-lavel">
                                 <i className="bi bi-diagram-3" />
                                 <span>500 Seat</span>
@@ -187,8 +187,8 @@ class Events extends Component {
                                 </div>
                                 <div className="event-location">
                                   <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Broadw, New
-                                    York
+                                    <i className="bi bi-geo-alt" />
+                                    Mal Ratu Indah, Makassar                                    
                                   </Link>
                                 </div>
                               </div>
@@ -196,8 +196,9 @@ class Events extends Component {
                                 <Link
                                   onClick={this.scrollTop}
                                   to={`${process.env.PUBLIC_URL}/event-details`}>
-                                  Media companies need to better one then
-                                  educate advertisers.
+                                  Ekspo REI 2022 merupakan Ikon pameran 
+                                  perumahan terbesar yang ada di Sulawesi selatan, 
+                                  dengan luas area pameran 500 m2
                                 </Link>
                               </h5>
                               <div className="event-bottom">
