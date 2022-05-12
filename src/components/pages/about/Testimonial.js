@@ -62,13 +62,8 @@ class Testimonial extends Component {
                       <h2>testimonial</h2>
                     </div>
                     <h5>Testimonial</h5>
-                    <h3>What People Say About Eventlab.</h3>
-                    <p>
-                      Cras semper, massa vel aliquam luctus, eros odio tempor
-                      turpis, ac placerat metus tortor eget magna. Donec mattis
-                      posuere pharetra. Donec vestibulum ornare velit ut
-                      sollicitudin ut sollicitudin.
-                    </p>
+                    <h3>What People Say About PT. DEBINDO MEGA PROMO</h3>
+                    <p></p>
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -82,24 +77,25 @@ class Testimonial extends Component {
                             </div>
                             <div className="testimonial-top">
                               <div className="reviewer-image">
-                                <img src={Reviewer} alt="" />
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/testimonial/tr:w-197,-133/jufri_rahman_uEBTi6g_w.png`} alt="" />
                               </div>
                               <div className="reviewer-info">
                                 <div className="quote-icon d-md-block d-none">
                                   <img src={QuoteIcon} alt="" />
                                 </div>
                                 <h3 className="reviewer-name">
-                                  Scarlett Eleanor
+                                  Jufri Rahman
                                 </h3>
-                                <p>Marketing</p>
+                                <small>Staf Ahli Menteri PANRB Bidang Otonomi Daerah</small>
                               </div>
                             </div>
                             <div className="review-texts">
                               <p>
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut.
+                                Debindo merupakan Event Organizer yang profesional 
+                                dalam menangani event dan selalu bisa menyesuaikan tampilan 
+                                event yang sedang trend dan yang sedang digemari publik. Kemampuan
+                                debindo merancang dan mengemas event dengan ciri dan gaya unik, serta
+                                berbeda dengan yang lain.
                               </p>
                             </div>
                           </div>
@@ -111,24 +107,25 @@ class Testimonial extends Component {
                             </div>
                             <div className="testimonial-top">
                               <div className="reviewer-image">
-                                <img src={Reviewer} alt="" />
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/testimonial/tr:w-197,-133/jufri_rahman_uEBTi6g_w.png`} alt="" />
                               </div>
                               <div className="reviewer-info">
                                 <div className="quote-icon d-md-block d-none">
                                   <img src={QuoteIcon} alt="" />
                                 </div>
                                 <h3 className="reviewer-name">
-                                  Scarlett Eleanor
+                                  Jufri Rahman
                                 </h3>
-                                <p>Marketing</p>
+                                <small>Staf Ahli Menteri PANRB Bidang Otonomi Daerah</small>
                               </div>
                             </div>
                             <div className="review-texts">
                               <p>
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut.
+                                Debindo merupakan Event Organizer yang profesional 
+                                dalam menangani event dan selalu bisa menyesuaikan tampilan 
+                                event yang sedang trend dan yang sedang digemari publik. Kemampuan
+                                debindo merancang dan mengemas event dengan ciri dan gaya unik, serta
+                                berbeda dengan yang lain.
                               </p>
                             </div>
                           </div>
@@ -140,24 +137,25 @@ class Testimonial extends Component {
                             </div>
                             <div className="testimonial-top">
                               <div className="reviewer-image">
-                                <img src={Reviewer} alt="" />
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/testimonial/tr:w-197,-133/jufri_rahman_uEBTi6g_w.png`} alt="" />
                               </div>
                               <div className="reviewer-info">
                                 <div className="quote-icon d-md-block d-none">
                                   <img src={QuoteIcon} alt="" />
                                 </div>
                                 <h3 className="reviewer-name">
-                                  Scarlett Eleanor
+                                  Jufri Rahman
                                 </h3>
-                                <p>Marketing</p>
+                                <small>Staf Ahli Menteri PANRB Bidang Otonomi Daerah</small>
                               </div>
                             </div>
                             <div className="review-texts">
                               <p>
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut.
+                                Debindo merupakan Event Organizer yang profesional 
+                                dalam menangani event dan selalu bisa menyesuaikan tampilan 
+                                event yang sedang trend dan yang sedang digemari publik. Kemampuan
+                                debindo merancang dan mengemas event dengan ciri dan gaya unik, serta
+                                berbeda dengan yang lain.
                               </p>
                             </div>
                           </div>
