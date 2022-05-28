@@ -327,13 +327,17 @@ class HeroArea extends Component {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="slide-content">
-                      <h5 style={{'color':'#000'}}>
-                        <i className="bi bi-calendar2-week" /> January 21,
+                      <h5 style={{'color':'#fff'}}>
+                        <i className="bi bi-calendar2-week" style={{'color':'#fff'}} /> January 21,
                         2021
                       </h5>
-                      <h2>
-                        PROFESSIONAL <span>EVENT ORGANIZER</span>
+                      <h2 style={{'color':'#fff'}}>
+                        PROFESSIONAL <span style={{'color':'#fff'}}>EVENT ORGANIZER</span>
                       </h2>
+                      <p style={{
+                        'fontFamily':'Dancing Script, cursive',
+                        'fontSize':'2.5em',
+                        'color':'#fff'}}>Commitment to Excellent</p>
                       
                       <div className="slider-btns">
                         <Link
@@ -345,7 +349,7 @@ class HeroArea extends Component {
                         <Link
                           onClick={this.scrollTop}
                           to={`${process.env.PUBLIC_URL}/event-details`}
-                          className="primary-btn-outline-s2">
+                          className="primary-btn-outline">
                           View Details
                         </Link>
                       </div>
@@ -356,7 +360,7 @@ class HeroArea extends Component {
               </div>
             </div>
             <div className="slider-arrows2 d-lg-block d-none">
-              <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-665,h-606/IMAGE_HOME_D1Br7_45G.png" />
+              <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-665,h-606/slider_item2_bAA2CRcTX.png" />
             </div>
           </div>
           {/* ===============  hero area end  =============== */}

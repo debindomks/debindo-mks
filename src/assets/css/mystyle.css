@@ -68,6 +68,8 @@ p {
   margin-bottom: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 .pt-120 {
   padding-top: 120px;
 }
@@ -710,11 +712,15 @@ button[type="submit"].primary-submit:hover {
 .primary-btn-fill {
   font-weight: 600;
   font-size: 17px;
-  color: #ffffff;
+  color: red;
+  /* color: #ffffff; */
   font-family: "Barlow", sans-serif;
-  background: #ce1446;
-  border-radius: 30px;
-  border: 2px solid #ce1446;
+  background: #fff;
+  /* background: #ce1446; */
+  border-radius: 5px;
+  /* border-radius: 30px; */
+  border: 2px solid #fff;
+  /* border: 2px solid #ce1446; */
   display: inline-block;
   padding: 8px 45px;
   -webkit-transition: all 0.35s ease;
@@ -723,17 +729,20 @@ button[type="submit"].primary-submit:hover {
 
 .primary-btn-fill:hover {
   background: transparent;
-  color: #ce1446;
+  color: #fff;
+  /* color: #ce1446; */
 }
 
 .primary-btn-outline {
   font-weight: 600;
   font-size: 17px;
-  color: #ce1446;
+  color: #fff;
+  /* color: #ce1446; */
   font-family: "Barlow", sans-serif;
   background: transparent;
   border-radius: 5px;
-  border: 2px solid #ce1446;
+  border: 2px solid #fff;
+  /* border: 2px solid #ce1446; */
   display: inline-block;
   padding: 8px 45px;
   -webkit-transition: all 0.35s ease;
@@ -741,8 +750,10 @@ button[type="submit"].primary-submit:hover {
 }
 
 .primary-btn-outline:hover {
-  background: #ce1446;
-  color: #fff;
+  /* background: #ce1446;
+  color: #fff; */
+  background: #fff;
+  color: red;
 }
 
 .primary-btn-fill-s2 {
@@ -1839,7 +1850,8 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .hero-area {
-  background: conic-gradient(from 243.17deg at 52.66% 45.72%, rgba(206, 20, 70, 0.25) 0deg, rgba(255, 255, 255, 0) 66.85deg, rgba(222, 95, 129, 0.3) 266.25deg, rgba(206, 20, 70, 0.25) 360deg);
+  /* background: conic-gradient(from 243.17deg at 52.66% 45.72%, rgba(206, 20, 70, 0.25) 0deg, rgba(255, 255, 255, 0) 66.85deg, rgba(222, 95, 129, 0.3) 266.25deg, rgba(206, 20, 70, 0.25) 360deg); */
+  background-image: url('https://ik.imagekit.io/qqyiqqfya/home/slider_item1_r6P6W6EDK.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1653662695552');
   position: relative;
 }
 
