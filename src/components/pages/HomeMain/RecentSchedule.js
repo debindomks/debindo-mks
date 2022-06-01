@@ -58,7 +58,7 @@ class Schedule extends Component {
                   <h2>schedule</h2>
                 </div>
                 <div className="section-head">
-                  <h3>Recent Event Schedule</h3>
+                  <h3>Jadwal Event Terbaru</h3>
                 </div>
               </div>
             </div>
