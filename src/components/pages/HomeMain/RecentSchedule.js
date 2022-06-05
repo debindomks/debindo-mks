@@ -58,7 +58,7 @@ class Schedule extends Component {
                   <h2>schedule</h2>
                 </div>
                 <div className="section-head">
-                  <h3>Jadwal Event Terbaru</h3>
+                  <h3>Past Event</h3>
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ class Schedule extends Component {
                     <SwiperSlide className="swiper-slide">
                       <div className="schedule-wrapper">
                         <div className="event-date">
-                          <h3>30 Sep 2021</h3>
+                          <h3></h3>
                         </div>
                         <div
                           className="single-schedule-card row wow fadeInLeft animated"
@@ -83,60 +83,29 @@ class Schedule extends Component {
                           <div className="col-xl-4 col-lg-5 p-0">
                             <div className="single-schedule-left">
                               <div className="schedule-top">
-                                <h4>10.00 AM - 11.30 PM</h4>
-                                <h5>
-                                  Room No - <span>01</span>
-                                </h5>
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/HARKOPNAS__NDA9S6uS.png`} />
                               </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker1} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>John Loganin</h4>
-                                  <p>Marketing</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
+
                             </div>
                           </div>
                           <div className="col-xl-8 col-lg-7 p-0">
                             <div className="single-schedule-right">
                               <h3 className="schedule-title">
                                 <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
+                                  {/* Nulla nisl tellus hendrerit nec dignissim
+                                  pellentesqu posu in est Suspendisse bibendum. */}
                                 </Link>
                               </h3>
                               <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
+                              Harkopnas Expo merupakan etalase pencapaian gerakan koperasi nasional bersama Dekopin dan 
+pemerintah, baik dipusat maupun di daerah, perusahaan swasta, BUMN dan BUMD di seluruh Indonesia. 
+Harkopnas Expo juga menjadi wadah strategis untuk mempromosikan produk-produk unggulan beserta 
+peluang bisnis dan investasi yang dimilikikoperasi dan UMKM diseluruh Indonesia. Acara Harkopnas
+Expo yang dibuka Gubernur Jawa Tengah Ganjar Pranowoitu telah diikuti 400 peserta, Puncak Harkopnas 
+Expo merupakan pelaksanaan yang paling megah, dan semarak dariyang pernah dilaksanakan selama ini. 
+Pelaksanaan sukses kerena dukungan dari masyarakat.
                               </p>
-                              <div className="schedule-topics">
+                              {/* <div className="schedule-topics">
                                 <h5>Topic</h5>
                                 <div className="row">
                                   <div className="col-md-4">
@@ -173,7 +142,7 @@ class Schedule extends Component {
                                     </ul>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>
@@ -185,41 +154,7 @@ class Schedule extends Component {
                           <div className="col-xl-4 col-lg-5 p-0">
                             <div className="single-schedule-left">
                               <div className="schedule-top">
-                                <h4>11.30 AM - 12.30 PM</h4>
-                                <h5>
-                                  Room No - <span>02</span>
-                                </h5>
-                              </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker2} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>Joseph John</h4>
-                                  <p>Management</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/SULSEL_EXPO_bUOsQ3A0c.png`} />
                               </div>
                             </div>
                           </div>
@@ -227,76 +162,19 @@ class Schedule extends Component {
                             <div className="single-schedule-right">
                               <h3 className="schedule-title">
                                 <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
+                                  {/* Nulla nisl tellus hendrerit nec dignissim
+                                  pellentesqu posu in est Suspendisse bibendum. */}
                                 </Link>
                               </h3>
                               <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
+                              Sulsel Expo hadir sebagai visualisasi kinerja pembangunan di Sulawesi Selatan, bekerja sama dengan 
+pemerintah  provinsi Sulawesi Selatan dalam menciptakan akselerasi pembangunan khususnya disektor 
+pariwisata. kegiatan Sulsel  Expo kita harapkan dapat membawa dampak positif terhadap perputaran 
+perekonomian masyarakat Sulawesi Selatan. Acara yang diikuti 111 peserta ini terdiri dari perwakilan 
+organisasi perangkat daerah Sulawesi Selatan, instansi vertikal,Pemkab, Pemkot, Pemprov, BUMN, 
+dan BUMD.
                               </p>
-                              <div className="schedule-topics">
-                                <h5>Topic</h5>
-                                <div className="row">
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="single-schedule-card row wow fadeInLeft animated"
-                          data-wow-delay="400ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="col-xl-4 col-lg-5 p-0">
-                            <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <h4>01.00 AM - 01.30 PM</h4>
-                                <h5>
-                                  Room No - <span>05</span>
-                                </h5>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
-                            <div className="single-schedule-right has-break">
-                              <h3 className="break-type">Lunch Time</h3>
+
                             </div>
                           </div>
                         </div>
@@ -308,41 +186,7 @@ class Schedule extends Component {
                           <div className="col-xl-4 col-lg-5 p-0">
                             <div className="single-schedule-left">
                               <div className="schedule-top">
-                                <h4>02.00 PM - 03.00 PM</h4>
-                                <h5>
-                                  Room No - <span>07</span>
-                                </h5>
-                              </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker3} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>Gianna Abiga</h4>
-                                  <p>Developing</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/CELEBES_CRAFT_NOBIhq2H1t.png`}  alt="Imgs" />
                               </div>
                             </div>
                           </div>
@@ -350,59 +194,24 @@ class Schedule extends Component {
                             <div className="single-schedule-right">
                               <h3 className="schedule-title">
                                 <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
+                                  {/* Nulla nisl tellus hendrerit nec dignissim
+                                  pellentesqu posu in est Suspendisse bibendum. */}
                                 </Link>
                               </h3>
                               <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
+                              Celebes Craft 2019 merupakan suatu  gelaran event yang fokus terhadap industri kreatif danusaha kecil 
+dan menengah (UMKM). Bertajuk the finest fashion, batik, bordir dan craft event ini melibatkan ratusan 
+peserta terdiri dari dinas perindustrian se Indonesia dandinas perindustrian se provinsi Sulawesi Selatan. 
+Celebes Craft yang di inisiasi Dinas Perindustrian  Sulawesi Selatan dan Debindo menghadirkan puluhan 
+IKM dari 24 kabupaten kota dengan berbagai produk unggulan dari dearah masing-masing.
                               </p>
                               <div className="schedule-topics">
-                                <h5>Topic</h5>
-                                <div className="row">
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
+
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div
+                        {/* <div
                           className="single-schedule-card row wow fadeInLeft animated"
                           data-wow-delay="600ms"
                           data-wow-duration="1500ms"
@@ -503,473 +312,8 @@ class Schedule extends Component {
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div className="ticket-progress-wrap">
-                          <div className="ticket-progressbar" />
-                          <h4>
-                            Available Seat: <span>390-500</span>
-                          </h4>
-                          <div className="ticket-book-btn">
-                            <Link
-                              onClick={this.scrollTop}
-                              to={"#"}
-                              className="primary-btn-fill"
-                            >
-                              Book Now
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="schedule-wrapper">
-                        <div className="event-date">
-                          <h3>01 Oct 2021</h3>
-                        </div>
-                        <div
-                          className="single-schedule-card row  wow fadeInLeft animated"
-                          data-wow-delay="200ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="col-xl-4 col-lg-5 p-0">
-                            <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <h4>10.00 AM - 11.30 PM</h4>
-                                <h5>
-                                  Room No - <span>01</span>
-                                </h5>
-                              </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker1} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>John Loganin</h4>
-                                  <p>Marketing</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
-                            <div className="single-schedule-right">
-                              <h3 className="schedule-title">
-                                <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
-                                </Link>
-                              </h3>
-                              <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
-                              </p>
-                              <div className="schedule-topics">
-                                <h5>Topic</h5>
-                                <div className="row">
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="single-schedule-card row wow fadeInRight animated"
-                          data-wow-delay="300ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="col-xl-4 col-lg-5 p-0">
-                            <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <h4>11.30 AM - 12.30 PM</h4>
-                                <h5>
-                                  Room No - <span>02</span>
-                                </h5>
-                              </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker2} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>Joseph John</h4>
-                                  <p>Management</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
-                            <div className="single-schedule-right">
-                              <h3 className="schedule-title">
-                                <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
-                                </Link>
-                              </h3>
-                              <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
-                              </p>
-                              <div className="schedule-topics">
-                                <h5>Topic</h5>
-                                <div className="row">
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="single-schedule-card row  wow fadeInLeft animated"
-                          data-wow-delay="400ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="col-xl-4 col-lg-5 p-0">
-                            <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <h4>01.00 AM - 01.30 PM</h4>
-                                <h5>
-                                  Room No - <span>05</span>
-                                </h5>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
-                            <div className="single-schedule-right has-break">
-                              <h3 className="break-type">Lunch Time</h3>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="single-schedule-card row wow fadeInRight animated"
-                          data-wow-delay="500ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="col-xl-4 col-lg-5 p-0">
-                            <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <h4>02.00 PM - 03.00 PM</h4>
-                                <h5>
-                                  Room No - <span>07</span>
-                                </h5>
-                              </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker3} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>Gianna Abiga</h4>
-                                  <p>Developing</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
-                            <div className="single-schedule-right">
-                              <h3 className="schedule-title">
-                                <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
-                                </Link>
-                              </h3>
-                              <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
-                              </p>
-                              <div className="schedule-topics">
-                                <h5>Topic</h5>
-                                <div className="row">
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          className="single-schedule-card row  wow fadeInLeft animated"
-                          data-wow-delay="600ms"
-                          data-wow-duration="1500ms"
-                        >
-                          <div className="col-xl-4 col-lg-5 p-0">
-                            <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <h4>03.00 PM - 04.00 PM</h4>
-                                <h5>
-                                  Room No - <span>01</span>
-                                </h5>
-                              </div>
-                              <div className="schedule-bottom">
-                                <div className="speaker-image">
-                                  <img src={speaker4} alt="RecentSheduelIMG" />
-                                </div>
-                                <div className="speaker-info">
-                                  <h4>Michael Etha</h4>
-                                  <p>Marketing</p>
-                                  <ul className="speaker-social-links">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
-                            <div className="single-schedule-right">
-                              <h3 className="schedule-title">
-                                <Link onClick={this.scrollTop} to={"#"}>
-                                  Nulla nisl tellus hendrerit nec dignissim
-                                  pellentesqu posu in est Suspendisse bibendum.
-                                </Link>
-                              </h3>
-                              <p className="schedule-discription">
-                                Cras semper, massa vel aliquam luctus, eros odio
-                                tempor turpis, ac placerat metus tortor eget
-                                magna. Donec mattis posuere pharetra. Donec
-                                vestibulum ornare velit ut sollicitudin ut
-                                sollicitudin.
-                              </p>
-                              <div className="schedule-topics">
-                                <h5>Topic</h5>
-                                <div className="row">
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-4">
-                                    <ul>
-                                      <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="ticket-progress-wrap">
-                          <div className="ticket-progressbar" />
-                          <h4>
-                            Available Seat: <span>390-500</span>
-                          </h4>
-                          <div className="ticket-book-btn">
-                            <Link
-                              onClick={this.scrollTop}
-                              to={"#"}
-                              className="primary-btn-fill"
-                            >
-                              Book Now
-                            </Link>
-                          </div>
-                        </div>
+                        </div> */}
+                        
                       </div>
                     </SwiperSlide>
                   </Swiper>

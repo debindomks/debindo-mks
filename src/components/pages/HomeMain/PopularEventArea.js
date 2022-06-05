@@ -38,7 +38,7 @@ class PopularEventArea extends Component {
                   <h2>Event</h2>
                 </div>
                 <div className="section-head">
-                  <h3>Popular Event</h3>
+                  <h3>Next Event</h3>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ class PopularEventArea extends Component {
                           data-wow-duration="1500ms">
                           <div className="event-card-md">
                             <div className="event-thumb">
-                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/ekspo_rei_DjjS3ibXK.png`}  alt="Imgs" />
+                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/EKSPO_REI_-xbIJfzdT.png`}  alt="Imgs" />
                               <div className="event-lavel">
                                 <i className="bi bi-diagram-3" />
                                 <span>500 Seat</span>
@@ -81,11 +81,18 @@ class PopularEventArea extends Component {
                                   </Link>
                                 </div>
                               </div>
-                              <h5 className="event-title">
+                              <h5 className="event-title" style={{'fontSize':'1.1em'}}>
                                 <Link
                                   onClick={this.scrollTop}
                                   to={`${process.env.PUBLIC_URL}/event-details`}>
-                                  Ekspo REI 2022 merupakan Ikon pameran perumahan terbesar yang ada di Sulawesi selatan, dengan luas area pameran 500 m2
+Ekspo REI 2022 merupakan Ikon pameran perumahan 
+terbesar yang ada di Sulawesi Selatan, yang bekerja 
+sama dengan DPD REI Sulawesi Selatan yang senantiasa
+terus berinovasi menghadirkan solusi bagi masyarakat
+dalam menentukan pilihan property, ada puluhan stand
+yang akan memberikan informasi dan memperkenalkan 
+produk perumahan komersil dan subsidi, pengunjung 
+Ekspo REI juga akan dihibur oleh talkshow dan live musik.                                  
                                 </Link>
                               </h5>
                               <div className="event-bottom">
@@ -134,7 +141,7 @@ class PopularEventArea extends Component {
                           data-wow-duration="1500ms">
                           <div className="event-card-md">
                             <div className="event-thumb">
-                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/EKSPO_REI_-xbIJfzdT.png`}  alt="Imgs" />
+                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/PROPERTY_bPVzbeEK2.png`}  alt="Imgs" />
                               <div className="event-lavel">
                                 <i className="bi bi-diagram-3" />
                                 <span>500 Seat</span>
@@ -154,12 +161,19 @@ class PopularEventArea extends Component {
                                   </Link>
                                 </div>
                               </div>
-                              <h5 className="event-title">
+                              <h5 className="event-title" style={{'fontSize':'1.1em'}}>
                                 <Link
                                   onClick={this.scrollTop}
                                   to={`${process.env.PUBLIC_URL}/event-details`}>
-Ekspo REI 2022 merupakan Ikon pameran perumahan terbesar yang ada di Sulawesi Selatan, yang bekerja 
-sama dengan DPD REI Sulawesi Selatan ...
+Property & Building Material Expo merupakan fasilitator 
+antara pelaku usaha dan calon pembeli baik material 
+building maupun property secara langsung, yang bekerja 
+sama dengan DPD REI Sulawesi Selatan, bertujuan untuk 
+menjadi faktor pendukung akselerasi industri property 
+Indonesia. Yang menarik pada pameran kali ini adalah
+promo-promo yang dihadirkan oleh setiap booth sangat 
+luar biasa dikarenakan bekerja sama dengan beberapa
+bank dengan bunga 0-5%
                                 </Link>
                               </h5>
                               <div className="event-bottom">
@@ -228,12 +242,17 @@ sama dengan DPD REI Sulawesi Selatan ...
                                   </Link>
                                 </div>
                               </div>
-                              <h5 className="event-title">
+                              <h5 className="event-title" style={{'fontSize':'1.1em'}}>
                                 <Link
                                   onClick={this.scrollTop}
                                   to={`${process.env.PUBLIC_URL}/event-details`}>
-Property & Building Material Expo merupakan fasilitator antara pelaku usaha dan calon pembeli baik material 
-building maupun property secara langsung
+Ideal Home 2022 Hadir menjadi fasilitator antara pelaku 
+usaha dan calon pembeli baik interior dan furniture 
+maupun property secara langsung, serta menjadi faktor
+pendukung akselerasi industri property Indonesia. 
+Pelaksanaan pameran akan berlangsung selam 5 hari
+oleh berbagai peserta dari developer, perbankan, home
+apliance, interior furniture, dan produk penunjang lainnya.
                                 </Link>
                               </h5>
                               <div className="event-bottom">
@@ -259,450 +278,6 @@ building maupun property secara langsung
                                     <li>
                                       <Link onClick={this.scrollTop} to={"#"}>
                                         <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                  <div className="share-btn">
-                                    <i className="bi bi-share" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div
-                          className="col-lg-4 col-md-6 wow fadeInUp animated"
-                          data-wow-delay="400ms"
-                          data-wow-duration="1500ms">
-                          <div className="event-card-md">
-                            <div className="event-thumb">
-                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/PROPERTY_bPVzbeEK2.png`}  alt="Imgs" />
-                              <div className="event-lavel">
-                                <i className="bi bi-diagram-3" />
-                                <span>500 Seat</span>
-                              </div>
-                            </div>
-                            <div className="event-content">
-                              <div className="event-info">
-                                <div className="event-date">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-calendar2-week" />{" "}
-                                    January 21, 2021
-                                  </Link>
-                                </div>
-                                <div className="event-location">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Mall Ratu Indah, Makassar
-                                  </Link>
-                                </div>
-                              </div>
-                              <h5 className="event-title">
-                                <Link
-                                  onClick={this.scrollTop}
-                                  to={`${process.env.PUBLIC_URL}/event-details`}>
-Ideal Home 2022 Hadir menjadi fasilitator antara pelaku usaha dan calon pembeli baik interior dan furniture 
-maupun property secara langsung
-                                </Link>
-                              </h5>
-                              <div className="event-bottom">
-                                <div className="event-readme">
-                                  <Link
-                                    onClick={this.scrollTop}
-                                    to={`${process.env.PUBLIC_URL}/event-details`}>
-                                    Book Now
-                                  </Link>
-                                </div>
-                                <div className="event-share-icons">
-                                  <ul className="share-options">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                  <div className="share-btn">
-                                    <i className="bi bi-share" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div
-                          className="col-lg-4 col-md-6 wow fadeInUp animated"
-                          data-wow-delay="400ms"
-                          data-wow-duration="1500ms">
-                          <div className="event-card-md">
-                            <div className="event-thumb">
-                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/HARKOPNAS__NDA9S6uS.png`}  alt="Imgs" />
-                              <div className="event-lavel">
-                                <i className="bi bi-diagram-3" />
-                                <span>500 Seat</span>
-                              </div>
-                            </div>
-                            <div className="event-content">
-                              <div className="event-info">
-                                <div className="event-date">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-calendar2-week" />{" "}
-                                    January 21, 2021
-                                  </Link>
-                                </div>
-                                <div className="event-location">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Broadw, Jawa Tengah
-                                  </Link>
-                                </div>
-                              </div>
-                              <h5 className="event-title">
-                                <Link
-                                  onClick={this.scrollTop}
-                                  to={`${process.env.PUBLIC_URL}/event-details`}>
-Harkopnas Expo merupakan etalase pencapaian gerakan koperasi nasional bersama Dekopin dan 
-pemerintah, baik dipusat maupun di daerah, perusahaan swasta, BUMN dan BUMD di seluruh Indonesia.                                  
-                                </Link>
-                              </h5>
-                              <div className="event-bottom">
-                                <div className="event-readme">
-                                  <Link
-                                    onClick={this.scrollTop}
-                                    to={`${process.env.PUBLIC_URL}/event-details`}>
-                                    Book Now
-                                  </Link>
-                                </div>
-                                <div className="event-share-icons">
-                                  <ul className="share-options">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                  <div className="share-btn">
-                                    <i className="bi bi-share" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div
-                          className="col-lg-4 col-md-6 wow fadeInUp animated"
-                          data-wow-delay="400ms"
-                          data-wow-duration="1500ms">
-                          <div className="event-card-md">
-                            <div className="event-thumb">
-                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/SULSEL_EXPO_bUOsQ3A0c.png`}  alt="Imgs" />
-                              <div className="event-lavel">
-                                <i className="bi bi-diagram-3" />
-                                <span>500 Seat</span>
-                              </div>
-                            </div>
-                            <div className="event-content">
-                              <div className="event-info">
-                                <div className="event-date">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-calendar2-week" />{" "}
-                                    January 21, 2021
-                                  </Link>
-                                </div>
-                                <div className="event-location">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Broadw, Makassar
-                                    York
-                                  </Link>
-                                </div>
-                              </div>
-                              <h5 className="event-title">
-                                <Link
-                                  onClick={this.scrollTop}
-                                  to={`${process.env.PUBLIC_URL}/event-details`}>
-Sulsel Expo hadir sebagai visualisasi kinerja pembangunan di Sulawesi Selatan, bekerja sama dengan 
-pemerintah  provinsi Sulawesi Selatan dalam menciptakan akselerasi pembangunan khususnya disektor 
-pariwisata.
-                                </Link>
-                              </h5>
-                              <div className="event-bottom">
-                                <div className="event-readme">
-                                  <Link
-                                    onClick={this.scrollTop}
-                                    to={`${process.env.PUBLIC_URL}/event-details`}>
-                                    Book Now
-                                  </Link>
-                                </div>
-                                <div className="event-share-icons">
-                                  <ul className="share-options">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                  <div className="share-btn">
-                                    <i className="bi bi-share" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div
-                          className="col-lg-4 col-md-6 wow fadeInUp animated"
-                          data-wow-delay="200ms"
-                          data-wow-duration="1500ms">
-                          <div className="event-card-md">
-                            <div className="event-thumb">
-                              <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/CELEBES_CRAFT_NOBIhq2H1t.png`}  alt="Imgs" />
-                              <div className="event-lavel">
-                                <i className="bi bi-diagram-3" />
-                                <span>500 Seat</span>
-                              </div>
-                            </div>
-                            <div className="event-content">
-                              <div className="event-info">
-                                <div className="event-date">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-calendar2-week" />{" "}
-                                    January 21, 2019
-                                  </Link>
-                                </div>
-                                <div className="event-location">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Broadw, Makassar
-                                    York
-                                  </Link>
-                                </div>
-                              </div>
-                              <h5 className="event-title">
-                                <Link
-                                  onClick={this.scrollTop}
-                                  to={`${process.env.PUBLIC_URL}/event-details`}>
-Celebes Craft 2019 merupakan suatu  gelaran event yang fokus terhadap industri kreatif danusaha kecil 
-dan menengah (UMKM).
-                                </Link>
-                              </h5>
-                              <div className="event-bottom">
-                                <div className="event-readme">
-                                  <Link
-                                    onClick={this.scrollTop}
-                                    to={`${process.env.PUBLIC_URL}/event-details`}>
-                                    Book Now
-                                  </Link>
-                                </div>
-                                <div className="event-share-icons">
-                                  <ul className="share-options">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                  <div className="share-btn">
-                                    <i className="bi bi-share" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div
-                          className="col-lg-4 col-md-6 wow fadeInUp animated"
-                          data-wow-delay="200ms"
-                          data-wow-duration="1500ms">
-                          <div className="event-card-md">
-                            <div className="event-thumb">
-                              <img src={EventIMFG2}  alt="Imgs" />
-                              <div className="event-lavel">
-                                <i className="bi bi-diagram-3" />
-                                <span>500 Seat</span>
-                              </div>
-                            </div>
-                            <div className="event-content">
-                              <div className="event-info">
-                                <div className="event-date">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-calendar2-week" />{" "}
-                                    January 21, 2021
-                                  </Link>
-                                </div>
-                                <div className="event-location">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Broadw, New
-                                    York
-                                  </Link>
-                                </div>
-                              </div>
-                              <h5 className="event-title">
-                                <Link
-                                  onClick={this.scrollTop}
-                                  to={`${process.env.PUBLIC_URL}/event-details`}>
-                                  companies share strategies to Then capture
-                                  audiences on mobile.
-                                </Link>
-                              </h5>
-                              <div className="event-bottom">
-                                <div className="event-readme">
-                                  <Link
-                                    onClick={this.scrollTop}
-                                    to={`${process.env.PUBLIC_URL}/event-details`}>
-                                    Book Now
-                                  </Link>
-                                </div>
-                                <div className="event-share-icons">
-                                  <ul className="share-options">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
-                                      </Link>
-                                    </li>
-                                  </ul>
-                                  <div className="share-btn">
-                                    <i className="bi bi-share" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>                      
-
-                        <div
-                          className="col-lg-4 col-md-6 wow fadeInUp animated"
-                          data-wow-delay="200ms"
-                          data-wow-duration="1500ms">
-                          <div className="event-card-md">
-                            <div className="event-thumb">
-                              <img src={EventIMFG2}  alt="Imgs" />
-                              <div className="event-lavel">
-                                <i className="bi bi-diagram-3" />
-                                <span>500 Seat</span>
-                              </div>
-                            </div>
-                            <div className="event-content">
-                              <div className="event-info">
-                                <div className="event-date">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-calendar2-week" />{" "}
-                                    January 21, 2021
-                                  </Link>
-                                </div>
-                                <div className="event-location">
-                                  <Link onClick={this.scrollTop} to={"#"}>
-                                    <i className="bi bi-geo-alt" /> Broadw, New
-                                    York
-                                  </Link>
-                                </div>
-                              </div>
-                              <h5 className="event-title">
-                                <Link
-                                  onClick={this.scrollTop}
-                                  to={`${process.env.PUBLIC_URL}/event-details`}>
-                                  companies share strategies to Then capture
-                                  audiences on mobile.
-                                </Link>
-                              </h5>
-                              <div className="event-bottom">
-                                <div className="event-readme">
-                                  <Link
-                                    onClick={this.scrollTop}
-                                    to={`${process.env.PUBLIC_URL}/event-details`}>
-                                    Book Now
-                                  </Link>
-                                </div>
-                                <div className="event-share-icons">
-                                  <ul className="share-options">
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-facebook-f" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-instagram" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-linkedin-in" />
-                                      </Link>
-                                    </li>
-                                    <li>
-                                      <Link onClick={this.scrollTop} to={"#"}>
-                                        <i className="fab fa-twitter" />
                                       </Link>
                                     </li>
                                   </ul>
