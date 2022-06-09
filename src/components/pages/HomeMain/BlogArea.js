@@ -19,11 +19,10 @@ class BlogArea extends Component {
             <div className="row">
               <div className="col-lg-12 ">
                 <div className="background-title text-style-one">
-                  <h2>LATEST Blog</h2>
+                  <h2>NEWS EVENT</h2>
                 </div>
                 <div className="section-head">
-                  <h5>Blog</h5>
-                  <h3>Latest News</h3>
+                  <h3>NEWS EVENT</h3>
                 </div>
               </div>
             </div>
@@ -173,6 +172,7 @@ class BlogArea extends Component {
             </div>
           </div>
         </div>
+        <br></br>
         {/* ===============  Blog area end  =============== */}
       </>
     );

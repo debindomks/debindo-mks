@@ -28,10 +28,10 @@ class HomePage extends Component {
         <HeroArea />
         <PopularEventArea />
         <RecentSchedule />
-        <AchiveMentCounter />
-        <SpeakerArea />
+        {/* <AchiveMentCounter /> */}
+        {/* <SpeakerArea /> */}
         <TestimonialArea />
-        <PricingArea />
+        {/* <PricingArea /> */}
         <EventTimer />
         <BlogArea />
         {/* all section component import start */}

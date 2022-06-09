@@ -65,12 +65,7 @@ class Schedule extends Component {
             <div className="row position-relative">
               <div className="col-lg-12 overflow-hidden ">
                 <div className="swiper-container schedule-slider position-relative">
-                  <Swiper
-                    {...sliderInit}
-                    className="swiper-wrapper"
-                    style={{ maxWidth: "98%", margin: "0 auto" }}
-                  >
-                    <SwiperSlide className="swiper-slide">
+
                       <div className="schedule-wrapper">
                         <div className="event-date">
                           <h3></h3>
@@ -80,15 +75,27 @@ class Schedule extends Component {
                           data-wow-delay="200ms"
                           data-wow-duration="1500ms"
                         >
-                          <div className="col-xl-4 col-lg-5 p-0">
+                          <div className="col-xl-4 col-lg-5" style={{
+                              'content': "",
+                              'backgroundColor':'#D3E0F3',
+                              'opacity': 0.7,
+                              'top': 0,
+                              'left': 0,
+                              'bottom': 0,
+                              'right': 0,
+                              'z-index': -1,
+                              'borderRadius': '0.9em'
+                            }}>
                             <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/HARKOPNAS__NDA9S6uS.png`} />
-                              </div>
-
+                              <img src="https://ik.imagekit.io/qqyiqqfya/event/HARKOPNAS__NDA9S6uS.png" style={{
+                              'backgroundRepeat':'no-repeat',
+                              'backgroundPosition':'center',
+                              'backgroundSize':'cover',
+                              'border':'none'                        
+                              }} /> 
                             </div>
                           </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
+                          <div className="col-xl-8 col-lg-7">
                             <div className="single-schedule-right">
                               <h3 className="schedule-title">
                                 <Link onClick={this.scrollTop} to={"#"}>
@@ -96,53 +103,46 @@ class Schedule extends Component {
                                   pellentesqu posu in est Suspendisse bibendum. */}
                                 </Link>
                               </h3>
-                              <p className="schedule-discription">
+                              <p className="schedule-discription" style={{'fontSize':'0.9em'}}>
                               Harkopnas Expo merupakan etalase pencapaian gerakan koperasi nasional bersama Dekopin dan 
 pemerintah, baik dipusat maupun di daerah, perusahaan swasta, BUMN dan BUMD di seluruh Indonesia. 
 Harkopnas Expo juga menjadi wadah strategis untuk mempromosikan produk-produk unggulan beserta 
 peluang bisnis dan investasi yang dimilikikoperasi dan UMKM diseluruh Indonesia. Acara Harkopnas
 Expo yang dibuka Gubernur Jawa Tengah Ganjar Pranowoitu telah diikuti 400 peserta, Puncak Harkopnas 
-Expo merupakan pelaksanaan yang paling megah, dan semarak dariyang pernah dilaksanakan selama ini. 
+Expo merupakan pelaksanaan yang paling megah, dan semarak dari yang pernah dilaksanakan selama ini. 
 Pelaksanaan sukses kerena dukungan dari masyarakat.
+
                               </p>
-                              {/* <div className="schedule-topics">
-                                <h5>Topic</h5>
+
+                              <div className="schedule-topics">
                                 <div className="row">
-                                  <div className="col-md-4">
+                                  <div className="col-md-3">
                                     <ul>
                                       <li>
-                                        <i className="bi bi-check" /> Color
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Typhography
+                                        <i className="fab fa-instagram" />&nbsp;
+                                        harkopnasexpo
                                       </li>
                                     </ul>
                                   </div>
-                                  <div className="col-md-4">
+                                  <div className="col-md-3">
                                     <ul>
                                       <li>
-                                        <i className="bi bi-check" /> Allingment
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" />{" "}
-                                        Development
+                                        <i className="fab fa-facebook-f" />&nbsp;
+                                        harkopnas expo
                                       </li>
                                     </ul>
                                   </div>
-                                  <div className="col-md-4">
+                                  <div className="col-md-5">
                                     <ul>
                                       <li>
-                                        <i className="bi bi-check" /> Graphic
-                                        Design
-                                      </li>
-                                      <li>
-                                        <i className="bi bi-check" /> Web Design
+                                        <i className="fab fa-google" />&nbsp;
+                                        harkopnasexpo19@gmail.com
                                       </li>
                                     </ul>
                                   </div>
                                 </div>
-                              </div> */}
+                              </div>
+
                             </div>
                           </div>
                         </div>
@@ -151,14 +151,27 @@ Pelaksanaan sukses kerena dukungan dari masyarakat.
                           data-wow-delay="300ms"
                           data-wow-duration="1500ms"
                         >
-                          <div className="col-xl-4 col-lg-5 p-0">
+                          <div className="col-xl-4 col-lg-5" style={{
+                              'content': "",
+                              'backgroundColor':'#D3E0F3',
+                              'opacity': 0.7,
+                              'top': 0,
+                              'left': 0,
+                              'bottom': 0,
+                              'right': 0,
+                              'z-index': -1,
+                              'borderRadius': '0.9em'
+                            }}>
                             <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/SULSEL_EXPO_bUOsQ3A0c.png`} />
-                              </div>
+                              <img src="https://ik.imagekit.io/qqyiqqfya/event/SULSEL_EXPO_bUOsQ3A0c.png" style={{
+                              'backgroundRepeat':'no-repeat',
+                              'backgroundPosition':'center',
+                              'backgroundSize':'cover',
+                              'border':'none'                        
+                              }} />
                             </div>
                           </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
+                          <div className="col-xl-8 col-lg-7">
                             <div className="single-schedule-right">
                               <h3 className="schedule-title">
                                 <Link onClick={this.scrollTop} to={"#"}>
@@ -166,7 +179,7 @@ Pelaksanaan sukses kerena dukungan dari masyarakat.
                                   pellentesqu posu in est Suspendisse bibendum. */}
                                 </Link>
                               </h3>
-                              <p className="schedule-discription">
+                              <p className="schedule-discription" style={{'fontSize':'0.9em'}}>
                               Sulsel Expo hadir sebagai visualisasi kinerja pembangunan di Sulawesi Selatan, bekerja sama dengan 
 pemerintah  provinsi Sulawesi Selatan dalam menciptakan akselerasi pembangunan khususnya disektor 
 pariwisata. kegiatan Sulsel  Expo kita harapkan dapat membawa dampak positif terhadap perputaran 
@@ -174,6 +187,36 @@ perekonomian masyarakat Sulawesi Selatan. Acara yang diikuti 111 peserta ini ter
 organisasi perangkat daerah Sulawesi Selatan, instansi vertikal,Pemkab, Pemkot, Pemprov, BUMN, 
 dan BUMD.
                               </p>
+
+
+                              <div className="schedule-topics">
+                                <div className="row">
+                                  <div className="col-md-3">
+                                    <ul>
+                                      <li>
+                                        <i className="fab fa-instagram" />&nbsp;
+                                        sulselexpo2019
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div className="col-md-3">
+                                    <ul>
+                                      <li>
+                                        <i className="fab fa-facebook-f" />&nbsp;
+                                        sulsel expo
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div className="col-md-5">
+                                    <ul>
+                                      <li>
+                                        <i className="fab fa-google" />&nbsp;
+                                        sulselexpo19@gmail.com
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>                              
 
                             </div>
                           </div>
@@ -183,14 +226,27 @@ dan BUMD.
                           data-wow-delay="500ms"
                           data-wow-duration="1500ms"
                         >
-                          <div className="col-xl-4 col-lg-5 p-0">
+                          <div className="col-xl-4 col-lg-5" style={{
+                              'content': "",
+                              'backgroundColor':'#D3E0F3',
+                              'opacity': 0.7,
+                              'top': 0,
+                              'left': 0,
+                              'bottom': 0,
+                              'right': 0,
+                              'z-index': -1,
+                              'borderRadius': '0.9em'                              
+                            }}>
                             <div className="single-schedule-left">
-                              <div className="schedule-top">
-                                <img src={`https://ik.imagekit.io/qqyiqqfya/event/tr:w-370,h-230/CELEBES_CRAFT_NOBIhq2H1t.png`}  alt="Imgs" />
-                              </div>
+                              <img src="https://ik.imagekit.io/qqyiqqfya/event/CELEBES_CRAFT_NOBIhq2H1t.png" style={{
+                              'backgroundRepeat':'no-repeat',
+                              'backgroundPosition':'center',
+                              'backgroundSize':'cover',
+                              'border':'none'                
+                              }} />
                             </div>
                           </div>
-                          <div className="col-xl-8 col-lg-7 p-0">
+                          <div className="col-xl-8 col-lg-7">
                             <div className="single-schedule-right">
                               <h3 className="schedule-title">
                                 <Link onClick={this.scrollTop} to={"#"}>
@@ -198,16 +254,43 @@ dan BUMD.
                                   pellentesqu posu in est Suspendisse bibendum. */}
                                 </Link>
                               </h3>
-                              <p className="schedule-discription">
+                              <p className="schedule-discription" style={{'fontSize':'0.9em'}}>
                               Celebes Craft 2019 merupakan suatu  gelaran event yang fokus terhadap industri kreatif danusaha kecil 
 dan menengah (UMKM). Bertajuk the finest fashion, batik, bordir dan craft event ini melibatkan ratusan 
 peserta terdiri dari dinas perindustrian se Indonesia dandinas perindustrian se provinsi Sulawesi Selatan. 
 Celebes Craft yang di inisiasi Dinas Perindustrian  Sulawesi Selatan dan Debindo menghadirkan puluhan 
 IKM dari 24 kabupaten kota dengan berbagai produk unggulan dari dearah masing-masing.
                               </p>
-                              <div className="schedule-topics">
 
+                              <div className="schedule-topics">
+                                <div className="row">
+                                  <div className="col-md-3">
+                                    <ul>
+                                      <li>
+                                        <i className="fab fa-instagram" />&nbsp;
+                                        celebescraft
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div className="col-md-3">
+                                    <ul>
+                                      <li>
+                                        <i className="fab fa-facebook-f" />&nbsp;
+                                        celebes craft
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div className="col-md-5">
+                                    <ul>
+                                      <li>
+                                        <i className="fab fa-google" />&nbsp;
+                                        celebescraft@gmail.com
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
                               </div>
+
                             </div>
                           </div>
                         </div>
@@ -315,31 +398,14 @@ IKM dari 24 kabupaten kota dengan berbagai produk unggulan dari dearah masing-ma
                         </div> */}
                         
                       </div>
-                    </SwiperSlide>
-                  </Swiper>
+
                 </div>
               </div>
-              <div className="schedule-arrows text-center d-lg-block d-none">
-                <div
-                  className="schedule-button-next"
-                  tabIndex={0}
-                  role="button"
-                  aria-label="Next slide"
-                >
-                  <i className="bi bi-chevron-right" />
-                </div>
-                <div
-                  className="schedule-button-prev"
-                  tabIndex={0}
-                  role="button"
-                  aria-label="Previous slide"
-                >
-                  <i className="bi bi-chevron-left" />
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
+        <br></br>
         {/* ===============  Recent schedule end  =============== */}
       </>
     );

@@ -3570,7 +3570,6 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .single-schedule-card .single-schedule-left {
-  background: #ce1446;
   border-radius: 5px 0px 0px 5px;
   color: #ffffff;
   display: -webkit-box;
@@ -3588,7 +3587,7 @@ header .header-style-two .main-nav ul li a.active span {
 
 .single-schedule-card .single-schedule-left .schedule-top {
   text-align: center;
-  padding: 15px 15px 17px 15px;
+  padding: 10px 10px 10px 10px;
 }
 
 .single-schedule-card .single-schedule-left .schedule-top h4 {
@@ -3673,11 +3672,12 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .single-schedule-card .single-schedule-right {
-  padding: 20px 40px;
-  border: 1px solid #ce1446;
+  padding: 10px 30px;
+  border: 1px solid gray;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 0 5px 5px 0;
+          box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+  border-radius: 0 20px 20px 0;
   min-height: 100%;
 }
 
@@ -5492,7 +5492,7 @@ header .header-style-two .main-nav ul li a.active span {
 .event-countdown {
   padding-top: 90px;
   padding-bottom: 94px;
-  background: url(../images/shapes/event-count-bg.png) no-repeat center;
+  background: #c00000;
   background-size: cover;
 }
 
@@ -5723,7 +5723,7 @@ header .header-style-two .main-nav ul li a.active span {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #ffffff;
-  background: #ce1446;
+  background: #c00000;
   -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.04);
           box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
@@ -5846,7 +5846,7 @@ header .header-style-two .main-nav ul li a.active span {
 .blog-category-wrap .view-blog-btn a {
   text-align: center;
   display: block;
-  background: #ce1446;
+  background: #c00000;
   border-radius: 5px;
   font-weight: 700;
   font-size: 18px;
@@ -6158,7 +6158,7 @@ header .header-style-two .main-nav ul li a.active span {
   17. Footer area start
 ==============================*/
 .footer-area {
-  background: #2d373c;
+  background: #c00000;
 }
 
 .footer-area .watermark-bg {
@@ -6188,7 +6188,7 @@ header .header-style-two .main-nav ul li a.active span {
 
 .footer-area .footer-widget .footer-widget-title {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
   padding-bottom: 13px;
 }
@@ -6322,7 +6322,7 @@ header .header-style-two .main-nav ul li a.active span {
 
 .footer-area .footer-about .footer-social-icon li a {
   display: inline-block;
-  color: #81878a;
+  color: #fff;
   font-size: 35px;
 }
 
