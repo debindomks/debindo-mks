@@ -2346,9 +2346,8 @@ header .header-style-two .main-nav ul li a.active span {
 
 .event-card-md .event-content .event-title {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 27px;
   color: #2d373c;
   padding-top: 12px;
 }

@@ -91,7 +91,7 @@ class HomeFooter extends Component {
                   <div className="col-lg-6 order-lg-2 order-3">
                     <div className="footer-about">
                       <div className="footer-logo">
-                        <img src={`https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png`} alt="logo v2" />
+                        <img src={`https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png`} alt="logo debindo white" />
                       </div>
                       <p>
                         Jl. Lanto dg. pasewang No. 18 F Kel. Maricaya Selatan

@@ -81,7 +81,7 @@ class PopularEventArea extends Component {
                                   </Link>
                                 </div>
                               </div>
-                              <h5 className="event-title" style={{'fontSize':'1.1em'}}>
+                              <h5 className="event-title">
                                 <Link
                                   onClick={this.scrollTop}
                                   to={`${process.env.PUBLIC_URL}/event-details`}>
