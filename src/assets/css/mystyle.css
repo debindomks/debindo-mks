@@ -350,8 +350,7 @@ Custom Cursor
 
 /* breadcrumb area*/
 .breadcrumb-area {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(45, 55, 60, 0.9)), to(rgba(45, 55, 60, 0.9))), url(../images/backgrounds/breadcrumb-bg.png);
-  background: linear-gradient(rgba(45, 55, 60, 0.9) 100%, rgba(45, 55, 60, 0.9) 100%), url(../images/backgrounds/breadcrumb-bg.png);
+  background: url(https://ik.imagekit.io/qqyiqqfya/about/header_background_awcvaHFhC.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -375,6 +374,21 @@ Custom Cursor
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #2f383e;
+  word-break: break-all;
+}
+
+.breadcrumb-area .breadcrumb-content .page-inline-text {
+  position: absolute;
+  top: 135px;
+  left: 0;
+}
+
+.breadcrumb-area .breadcrumb-content .page-inline-text h1 {
+  line-height: 1;
+  font-weight: 900;
+  font-size: 82px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: #fff;
   word-break: break-all;
 }
 
@@ -995,7 +1009,6 @@ button[type="submit"].primary-submit:hover {
   font-size: 45px;
   line-height: 54px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   color: #2d373c;
 }
 
@@ -4040,12 +4053,11 @@ header .header-style-two .main-nav ul li a.active span {
  10. achievement area start
 ==============================*/
 .achievement-area .achievement-overlay {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(45, 55, 60, 0.9)), to(rgba(45, 55, 60, 0.9))), url(../images/backgrounds/achievement-bg.png);
-  background: linear-gradient(rgba(45, 55, 60, 0.9) 100%, rgba(45, 55, 60, 0.9) 100%), url(../images/backgrounds/achievement-bg.png);
+  background: url(https://ik.imagekit.io/qqyiqqfya/about/latar_indonesia_BsXXal8Xq.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 88px;
+  padding-top: 82px;
   padding-bottom: 102px;
 }
 

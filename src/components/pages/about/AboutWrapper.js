@@ -45,223 +45,45 @@ class AboutWrapper extends Component {
           <div className="container">
             <div className="about-company">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-8">
                   <div className="company-info">
-                    <h5>About EventLab</h5>
-                    <h2>
-                      Sed malesuada massa lacinia, dictum dui a, dignissim sem.
-                    </h2>
-                    <p>
-                      Cras semper, massa vel aliquam luctus, eros odio tempor
-                      turpis, ac placerat metus tortor eget magna. Donec mattis
-                      posuere pharetra. Donec vestibulum ornare velit ut
-                      sollicitudin. Pellentesque in faucibus purus.
+                    <h2>PT Debindo Mega Promo</h2>
+                    <p style={{'fontSize':'1.5em'}}>
+                    Sejak awal berdirinya pada tahun 1996 PT Debindo Mega Promo
+                    yang bergerak di dunia industri Event Organizer & MICE
+                    (Meeting, Incentive, Convention, Exhibition) telah terbukti
+                    dalam pelaksanaan event berskala nasional maupun internasional.
                     </p>
-                    <div className="row">
-                      <div className="col-sm-4 col-6">
-                        <div className="about-infobox">
-                          <div className="info-icon">
-                            <img src={Icon1}  alt="Imgs" />
-                          </div>
-                          <div className="info-content">
-                            <h3>
-                              <CountUp
-                                start={0}
-                                end={100}
-                                duration={4.75}></CountUp>
-                              +
-                            </h3>
-                            <h6>Speaker</h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-4 col-6">
-                        <div className="about-infobox">
-                          <div className="info-icon">
-                            <img src={Icon2}  alt="Imgs" />
-                          </div>
-                          <div className="info-content">
-                            <h3>
-                              <CountUp
-                                start={0}
-                                end={400}
-                                duration={3.75}></CountUp>
-                              +
-                            </h3>
-                            <h6>Event</h6>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-sm-4 col-6">
-                        <div className="about-infobox">
-                          <div className="info-icon">
-                            <img src={Icon3}  alt="Imgs" />
-                          </div>
-                          <div className="info-content">
-                            <h3>
-                              <CountUp
-                                start={0}
-                                end={100}
-                                duration={4.75}></CountUp>
-                              +
-                            </h3>
-                            <h6>Schedule</h6>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="about-more-btn">
-                      <Link
-                        onClick={this.scrollTop}
-                        to={"#"}
-                        className="primary-btn-fill">
-                        Read More
-                      </Link>
-                    </div>
+
+                    <p style={{'fontSize':'1.5em'}}>
+                    Dengan motto "Commitment to Excellence" kami senantiasa
+                    memberikan kepuasan kepada Client melalui kualitas konsep
+                    dan pelaksanaan kegiatan dengan ide-ide kreatif & inovatif.
+                    </p>
+
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="company-mini-gallary">
-                    <div className="Gallary-item1 Gallary-item">
-                      <img src={MiniGallary1}  alt="Imgs" className="img-fluid" />
-                    </div>
-                    <div className="Gallary-item2 Gallary-item">
-                      <img src={MiniGallary2}  alt="Imgs" className="img-fluid" />
-                    </div>
-                    <div className="Gallary-item3 Gallary-item Gallary-video">
-                      <img
-                        src={AboutVideo}
-                        alt="abput vedio"
-                        className="img-fluid"
-                      />
-                      <div className="video-icon">
-                      <i onClick={() => this.setState({ isOpen: true })} class="
-                      video-popup"><img src={VideoShapeIcon}  alt="Imgs"/></i>
-                      </div>
-                    </div>
-                  </div>
+                <div className="col-lg-4">
+                  <img src={`https://ik.imagekit.io/qqyiqqfya/about/gedung_U8Ej9zsr4.png`} alt="Imgs" className="img-fluid" />
                 </div>
               </div>
-            </div>
-            <div className="company-feature mt-96">
+
               <div className="row">
-                <div className="col-lg-6">
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <div className="company-feature-box">
-                        <div className="feature-icon">
-                          <img src={FeatureIcon1}  alt="Imgs" />
-                        </div>
-                        <h5>we all time Provide Intelligent Speaker</h5>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="company-feature-box">
-                        <div className="feature-icon">
-                          <img src={FeatureIcon2}  alt="Imgs" />
-                        </div>
-                        <h5>A good answer will Best knowledge</h5>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="company-feature-box">
-                        <div className="feature-icon">
-                          <img src={FeatureIcon3}  alt="Imgs" />
-                        </div>
-                        <h5>we are always dedicated our Guest</h5>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="company-feature-box">
-                        <div className="feature-icon">
-                          <img src={FeatureIcon1}  alt="Imgs" />
-                        </div>
-                        <h5>we are provide friendly environment</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="feature-info">
-                    <h5>Why Choose us</h5>
-                    <h2>
-                      Sed malesuada massa lacinia, dictum dui a, dignissim sem.
-                    </h2>
-                    <p>
-                      Cras semper, massa vel aliquam luctus, eros odio tempor
-                      turpis, ac placerat metus tortor eget magna. Donec mattis
-                      posuere pharetra. Donec vestibulum ornare velit ut
-                      sollicitudin. Pellentesque in faucibus purus.
+                <div className="col-lg-12">
+                  <div className="company-info">
+                    <p style={{'fontSize':'1.5em'}}>
+                    PT Debindo Mega Promo mempunyai komitmen untuk mencapai kepuasan pelanggan dengan
+    memberikan produk dan jasa berkualitas tinggi yang tepat waktu dan dengan harga yang kompetitif.
+    Meningkatkan sistem manajemen mutu serta berkelanjutan melalui penetapan tujuan sasaran
+    program mutu untuk produk, aktivitas dan jasa yang secara periodik ditinjau dan kemajuannya diukur
+    untuk memastikan peningkatan dicapai.
                     </p>
-                    <div className="feature-list row ">
-                      <div className="col-xl-4 col-sm-6">
-                        <div className="single-feature">
-                          <i className="bi bi-check" />{" "}
-                          <span>Free Certificate</span>
-                        </div>
-                      </div>
-                      <div className="col-xl-4 col-sm-6">
-                        <div className="single-feature">
-                          <i className="bi bi-check" />{" "}
-                          <span>Conference Lunch</span>
-                        </div>
-                      </div>
-                      <div className="col-xl-4 col-sm-6">
-                        <div className="single-feature">
-                          <i className="bi bi-check" />{" "}
-                          <span>Conference Snaks</span>
-                        </div>
-                      </div>
-                      <div className="col-xl-4 col-sm-6">
-                        <div className="single-feature">
-                          <i className="bi bi-check" />{" "}
-                          <span>24/7 Support </span>
-                        </div>
-                      </div>
-                      <div className="col-xl-4 col-sm-6">
-                        <div className="single-feature">
-                          <i className="bi bi-check" />{" "}
-                          <span>All Type Event</span>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
-            <div className="about-history position-relative mt-120">
-              <h3 className="float-title position-absolute">EventLab Story</h3>
-              <div className="qoute-icon position-absolute">
-                <img src={QuoteIcon}  alt="Imgs" />
-              </div>
-              <p>
-                Cras semper, massa vel aliquam luctus, eros odio tempor turpis,
-                ac placerat metus tortor eget magna. Donec mattis posuere
-                pharetra. Donec vestibulum ornare velit ut sollicitudin.
-                Pellentesque in faucibus purus.Nulla nisl tellus, hendrerit nec
-                dignissim pellentesque, posuere in est. Suspendisse bibendum
-                vestibulum elit eu placerat. In ut ipsum in odio euismod
-                tincidunt non lacinia nunc. Donec ligula augue, mattis eu varius
-                ac, tempus vel ex. Pellentesque habitant morbi tristique
-                senectus et netus et malesuada fames ac turpis egestas. Nam
-                viverra porttitor urna, quis ultricies turpis euismod et. Ut
-                sapien quam, iaculis eu purus at, egestas pharetra nisi. Cras
-                tristique.
-              </p>
-              <p>
-                mauris convallis molestie lacinia, orci massa lobortis felis, at
-                auctor ipsum leo sit amet diam. Donec vel euismod erat, at
-                gravida metus. Quisque nunc quam, pretium ornare tristique sed,
-                porttitor id dolor.Nulla nisl tellus, hendrerit nec dignissim
-                pellentesque, posuere in est. Suspendisse bibendum vestibulum
-                elit eu placerat. In ut ipsum in odio euismod tincidunt non
-                lacinia nunc. Donec ligula augue, mattis eu varius ac, tempus
-                vel ex. Pellentesque habitant morbi tristique senectus et netus
-                et malesuada fames ac turpis egestas. Nam viverra porttitor
-                urna, quis ultricies turpis euismod et. Ut sapien quam Nulla
-                nisl tellus, hendrerit nec dignissim.
-              </p>
-            </div>
+
           </div>
         </div>
         {/* =============== About wrapper end =============== */}

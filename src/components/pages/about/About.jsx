@@ -15,10 +15,9 @@ class About extends Component {
         <Breadcrumb />
         <AboutWrapper />
         <AchivementArea />
-        <Speaker />
+        {/* <Speaker /> */}
         <BreandLogo />
-        <Testimonial />
-        <BlogArea />
+        {/* <BlogArea /> */}
       </>
     );
   }

@@ -17,17 +17,17 @@ class Breadcrumb extends Component {
             <div className="row align-items-end">
               <div className="col-lg-12">
                 <div className="breadcrumb-content">
-                  <div className="page-outlined-text">
+                  <div className="page-inline-text">
                     <h1>about us</h1>
                   </div>
-                  <h2 className="page-title">About Us</h2>
+
                   <ul className="page-switcher">
                     <li>
                       <Link onClick={this.scrollTop} to={`${process.env.PUBLIC_URL}/event-details`}>
-                        Home <i className="bi bi-caret-right" />
+                        HOME <i className="bi bi-caret-right" />
                       </Link>
                     </li>
-                    <li>About Us</li>
+                    <li style={{'color':'#fff'}}>ABOUT US</li>
                   </ul>
                 </div>
               </div>
