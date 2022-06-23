@@ -58,50 +58,11 @@ class EventTimer extends Component {
     return (
       <>
         {/* ===============  Event Countdown start  =============== */}
-        <div className="event-countdown-outer pt-120 gray-300">
+        <div className="event-countdown-outer pt-70 gray-300">
           <div className="event-countdown">
             <div className="container">
               <div className="row">
-                <div className="col-lg-12">
-                  <div className="event-countdown-head">
-                    <h2>Next Event</h2>
-                  </div>
-                </div>
-              </div>
-              <div className="row" id="timer">
-                <div className="col-lg-3 col-md-6 col-sm-6">
-                  <div className="countdown-box">
-                    <div className="countdown-line-shape d-lg-block d-none">
-                      <img src={CountdownShape} alt="countIMG" />
-                    </div>
-                    <h3 id="days">05</h3>
-                    <h5>Days</h5>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-6">
-                  <div className="countdown-box">
-                    <div className="countdown-line-shape d-lg-block d-none">
-                      <img src={CountdownShape} alt="countIMG" />
-                    </div>
-                    <h3 id="hours">05</h3>
-                    <h5>Hour</h5>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-6">
-                  <div className="countdown-box">
-                    <div className="countdown-line-shape d-lg-block d-none">
-                      <img src={CountdownShape} alt="countIMG" />
-                    </div>
-                    <h3 id="miniutes">05</h3>
-                    <h5>Miniute</h5>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-6 col-sm-6">
-                  <div className="countdown-box">
-                    <h3 id="seconds">05</h3>
-                    <h5>Secoend</h5>
-                  </div>
-                </div>
+                <img src="https://ik.imagekit.io/qqyiqqfya/home/debindo_network_epPLxnVJg.png" width="100%" />
               </div>
             </div>
           </div>

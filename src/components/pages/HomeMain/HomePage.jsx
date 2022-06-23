@@ -33,7 +33,7 @@ class HomePage extends Component {
         <TestimonialArea />
         {/* <PricingArea /> */}
         <EventTimer />
-        <BlogArea />
+        {/* <BlogArea /> */}
         {/* all section component import start */}
 
       </div>
