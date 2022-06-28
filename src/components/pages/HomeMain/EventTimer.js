@@ -62,7 +62,7 @@ class EventTimer extends Component {
           <div className="event-countdown">
             <div className="container">
               <div className="row">
-                <img src="https://ik.imagekit.io/qqyiqqfya/home/debindo_network_epPLxnVJg.png" width="100%" />
+                <img src="https://ik.imagekit.io/qqyiqqfya/home/debindo_network_epPLxnVJg.png" width="80%" />
               </div>
             </div>
           </div>

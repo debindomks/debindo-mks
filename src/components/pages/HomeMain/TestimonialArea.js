@@ -46,7 +46,7 @@ class Testimonial extends Component {
     return (
       <>
         {/* ===============  testimonial area start  =============== */}
-        <div className="testimonial-area" style={{'backgroundColor':'#fff'}}>
+        <div className="testimonial-area" style={{'backgroundColor':'#EDF2F2'}}>
           <div className="position-relative">
             
               
@@ -54,16 +54,64 @@ class Testimonial extends Component {
                 <div className="col-lg-6">
                     <img src="https://ik.imagekit.io/qqyiqqfya/home/testimonial_78UrHgZUZ.png" width="100%" />
                 </div>
-                <div className="col-lg-6">
-                    <div className="row align-items-center">
-                      <div className="">
-                        
+{/* testimonial */}
+              <div className="col-lg-6">
+                  <div className="testimonial-slider-wrapper">
+                    <div className="swiper testimonial-slider">
+                      <Swiper {...sliderInit} className="swiper-wrapper">
+                        <SwiperSlide className="swiper-slide">
+                          <div className="testimonial-card">
+                            <div className="testimonial-shape">
+
+                            </div>
+                            <div className="testimonial-top" style={{'backgroundColor':'#EDF2F2'}}>
+                              <div className="reviewer-image">
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/testimonial/tr:-w-200,h-200/JUFRI_RAHMAN_WeEDO2P2h.png`}  alt="Imgs" />
+                              </div>
+                              <div className="reviewer-info" >
+                                <h3 className="reviewer-name" style={{'textAlign':'left'}}>
+                                  Jufri Rahman
+                                  <p style={{'fontSize':'15px','textAlign':'left !important'}}>Staf Ahli Menteri PANRB Bidang Otonomi Daerah</p>
+                                </h3>
+                                <hr/>
+                                <p className="customSlider">
+                                PT Debindo Mega Promo merupakan Event Organizer yang 
+                                profesional dalam menangani acara dan selalu bisa menyesuaikan
+                                tampilan acara yang sedang trend dan yang sedang digemari publik
+                                kemampuan Debindo merancang dan mengemas acara dengan
+                                ciri dan gaya unik, serta berbeda dengan yang lain
+                              </p>                                
+                              </div>
+                            </div>
+                            <div className="review-texts" style={{'backgroundColor':'#EDF2F2'}}>
+                             
+                            </div>
+                          </div>
+                        </SwiperSlide>
+                       
+                      </Swiper>
+                    </div>
+                    <div className="swiper-pagination" />
+                    <div className="testi-arrows text-center d-lg-flex d-none">
+                      <div
+                        className="testi-button-prev"
+                        tabIndex={0}
+                        role="button"
+                        aria-label="Previous slide">
+                        <i className="bi bi-chevron-left" />
+                      </div>
+                      <div
+                        className="testi-button-next"
+                        tabIndex={0}
+                        role="button"
+                        aria-label="Next slide">
+                        <i className="bi bi-chevron-right" />
                       </div>
                     </div>
+                  </div>
                 </div>
-              </div>
-
-            
+{/*  */}
+            </div>            
           </div>
         </div>
         {/* ===============  testimonial area end  =============== */}

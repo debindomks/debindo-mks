@@ -67,6 +67,16 @@ a {
 p {
   margin-bottom: 0;
 }
+@font-face {
+  font-family: "exo-soft";
+  src: url("../fonts/Exo_Soft_W05_Semi_Bold.otf");
+}
+
+p.customSlider {
+  font-family: 'exo-soft';
+  font-size: 1em !important;
+  text-align: left; 
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
@@ -4882,7 +4892,7 @@ header .header-style-two .main-nav ul li a.active span {
 
 .testimonial-slider-wrapper {
   padding: 24px 0 24px 24px;
-  border: 2px solid rgba(206, 20, 70, 0.2);
+  /* border: 2px solid rgba(206, 20, 70, 0.2); */
   border-right: none;
   border-bottom: none;
   position: relative;

@@ -62,13 +62,13 @@ class Schedule extends Component {
                 </div>
               </div>
             </div>
-            <div className="row position-relative">
-              <div className="col-lg-12 overflow-hidden">
-                <div className="swiper-container schedule-slider position-relative">
+            <div className="row position-relative" style={{'paddingTop':0}}>
+              <div className="col-lg-12 overflow-hidden" style={{'paddingTop':0}}>
+                <div className="swiper-container schedule-slider position-relative text-center" style={{'marginTop':0}}>
 
-                  <img src="https://ik.imagekit.io/qqyiqqfya/home/here_our_service_MtTTwxvx9.png" width="100%" />
+                  <img src="https://ik.imagekit.io/qqyiqqfya/home/here_our_service_MtTTwxvx9.png" width="80%" />
 
-                  <br/><br/>
+                  <br/><br/><br/>
 
                 </div>
               </div>
