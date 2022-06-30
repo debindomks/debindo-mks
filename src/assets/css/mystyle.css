@@ -71,12 +71,35 @@ p {
   font-family: "exo-soft";
   src: url("../fonts/Exo_Soft_W05_Semi_Bold.otf");
 }
+@font-face {
+  font-family: "exo-bold";
+  src: url("../fonts/Exo_Soft_W05_Bold.otf");
+}
 
 p.customSlider {
   font-family: 'exo-soft';
   font-size: 1em !important;
   text-align: left; 
 }
+
+span.team {
+  display:inline-block;
+  border-bottom:2px solid grey;
+  padding-bottom:2px;
+  font-family: "exo-bold";
+}
+
+span.team-2x {
+  display:inline-block;
+  border-bottom:2px solid grey;
+  padding-bottom:2px;
+  font-family: "exo-bold";
+  font-size: 2em;
+}
+
+div.custom-speaker-info {
+  padding-top: 20px;
+} 
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
@@ -779,6 +802,21 @@ button[type="submit"].primary-submit:hover {
   transition: all 0.35s ease;
 }
 
+.primary-btn-outline-header2 {
+  font-weight: 600;
+  font-size: 11px;
+  color: #000;
+  /* color: #ce1446; */
+  font-family: "Barlow", sans-serif;
+  background: transparent;
+  border: 2px solid #000;
+  /* border: 2px solid #ce1446; */
+  display: inline-block;
+  padding: 8px 35px;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
 .primary-btn-outline-header:hover {
   /* background: #ce1446;
   color: #fff; */
@@ -1033,7 +1071,7 @@ button[type="submit"].primary-submit:hover {
 }
 
 .section-head {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   padding-bottom: 35px;
 }

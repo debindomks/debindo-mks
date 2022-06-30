@@ -261,7 +261,7 @@ class HomeHeader extends Component {
 
                       <li>
                         <NavLink
-                          to={`${process.env.PUBLIC_URL}/speaker`}
+                          to={`${process.env.PUBLIC_URL}/team`}
                           className="sub-item"
                           onClick={this.scrollTop}
                         >

@@ -220,7 +220,7 @@ class HomeHeader extends Component {
       <>
         {/* ===============  header area start =============== */}
         <header>
-          <div className="header-area header-style-two">
+          <div className="header-area header-style-one">
             <div className="container">
               <div className="row">
                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-xl-flex align-items-center">
@@ -247,141 +247,71 @@ class HomeHeader extends Component {
                 </div>
                 <div className="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
                   <nav className="main-nav">
-                    <div className="inner-logo d-xl-none" style={{'background':'#fff','borderRadius':'15px','padding':'7px'}}>
+                    <div className="inner-logo d-xl-none">
                       <Link to={"#"} onClick={this.scrollTop}>
-                        <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png" alt="NavLogo" />
+                        <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="NavLogo" />
                       </Link>
                     </div>
                     <ul>
-                      <li className="has-child-menu">
-                        <Link  id="home" to={"/"} onClick={this.state.activeState}>
-                          Home <span>01</span>
-                        </Link>
-                      </li>
                       <li>
-                        <NavLink
-                          to={`${process.env.PUBLIC_URL}/about`}
-                          className="sub-item"
-                          onClick={this.scrollTop}
-                        >
-                          About <span>02</span>
+                        <NavLink  id="home" to={"/"} className="active" onClick={this.state.activeState} style={{'color':'#000'}}>
+                          Who we are
                         </NavLink>
                       </li>
+
+                      <li>
+                        <NavLink
+                          to={`${process.env.PUBLIC_URL}/team`}
+                          className="sub-item"
+                          onClick={this.scrollTop}
+                          style={{'color':'#000'}}
+                        >
+                          Team
+                        </NavLink>
+                      </li>
+
                       <li>
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/event`}
                           className="sub-item"
                           onClick={this.scrollTop}
+                          style={{'color':'#000'}}
                         >
-                          Events <span>03</span>
-                        </NavLink>
-                      </li>                      
-                      
-                      <li>
-                        <NavLink
-                          to={`${process.env.PUBLIC_URL}/speaker`}
-                          className="sub-item"
-                          onClick={this.scrollTop}
-                        >
-                          Our Team <span>04</span>
+                          Event
                         </NavLink>
                       </li>
 
-                      <li className="has-child-menu">
-                        <Link to={"#"} onClick={this.scrollTop}>
-                          Pages <span>05</span>
-                        </Link>
-                        <i className="fl flaticon-plus">+</i>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/schedule`}
-                              onClick={this.scrollTop}
-                            >
-                              Schedule
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/gallary`}
-                              onClick={this.scrollTop}
-                            >
-                              Gallary
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/pricing`}
-                              onClick={this.scrollTop}
-                            >
-                              Pricing
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/faq`}
-                              onClick={this.scrollTop}
-                            >
-                              FAQ
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/error`}
-                              onClick={this.scrollTop}
-                            >
-                              404
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="has-child-menu">
-                        <Link to={"#"} onClick={this.scrollTop}>
-                          Blog Grid <span>04</span>
-                        </Link>
-                        <i className="fl flaticon-plus">+</i>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/blog`}
-                              onClick={this.scrollTop}
-                            >
-                              Blog Grid
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/blog-sidebar`}
-                              onClick={this.scrollTop}
-                            >
-                              Blog Sidebar
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/blog-standard`}
-                              onClick={this.scrollTop}
-                            >
-                              Blog Standard
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              to={`${process.env.PUBLIC_URL}/blog-details`}
-                              onClick={this.scrollTop}
-                            >
-                              Blog Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
                       <li>
-                        <Link
+                        <NavLink
+                          to={`#asd`}
+                          className="sub-item"
+                          onClick={this.scrollTop}
+                          style={{'color':'#000'}}
+                        >
+                          Portfolio
+                        </NavLink>
+                      </li>                      
+
+                      <li>
+                        <NavLink
+                          to={`#`}
+                          className="sub-item"
+                          onClick={this.scrollTop}
+                          style={{'color':'#000'}}
+                        >
+                          Client
+                        </NavLink>
+                      </li>                      
+                      
+                      
+                      <li>
+                        <NavLink
                           to={`${process.env.PUBLIC_URL}/contact`}
                           onClick={this.scrollTop}
+                          style={{'color':'#000'}}
                         >
-                          Contact <span>01</span>
-                        </Link>
+                          Contact
+                        </NavLink>
                       </li>
                     </ul>
                     <div className="inner-btn d-xl-none">
@@ -389,6 +319,7 @@ class HomeHeader extends Component {
                         to={`${process.env.PUBLIC_URL}/event-details`}
                         onClick={this.scrollTop}
                         className="primary-btn-fill"
+                        style={{'color':'#000'}}
                       >
                         Login
                       </Link>
@@ -400,11 +331,11 @@ class HomeHeader extends Component {
                     <ul>
                       <li className="nav-btn">
                         <Link
-                          className="primary-btn-fill"
+                          className="primary-btn-outline-header2"
                           to={`${process.env.PUBLIC_URL}/event-details`}
                           onClick={this.scrollTop}
                         >
-                          Login
+                          Contact via WA
                         </Link>
                       </li>
                     </ul>

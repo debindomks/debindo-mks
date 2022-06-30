@@ -170,9 +170,9 @@ class LayoutFooter extends Component {
                     <div className="footer-copyright text-center">
                       <p>
                         Copyright 2022 Debindo Mega Promo | Powered by&nbsp;
-                        <Link onClick={this.scrollTop} to={"#"}>
+                        <a href="https://imtoor.com" target="_blank">
                           imtoor
-                        </Link>
+                        </a>
                       </p>
                     </div>
                   </div>

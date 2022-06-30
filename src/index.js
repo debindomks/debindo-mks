@@ -24,6 +24,7 @@ import FAQ from "./components/pages/Faq/FAQ";
 import Gallary from "./components/pages/Gallary/Gallary";
 import Pricing from "./components/pages/pricing/Pricing";
 import Schedule from "./components/pages/Schedule/Schedule";
+import Team from "./components/pages/team/Team";
 import Speaker from "./components/pages/speakers/Speaker";
 import SpeakersDetails from "./components/pages/speakers/SpeakersDetails";
 import SpeakerTopBar from "./components/pages/speakers/SpeakerTopBar";
@@ -75,7 +76,10 @@ class Root extends React.Component {
                 path={`${process.env.PUBLIC_URL}/blog-standard`}
                 component={BlogStandard}
               />
-
+              <Route
+                path={`${process.env.PUBLIC_URL}/team`}
+                component={Team}
+              />
               <Route
                 path={`${process.env.PUBLIC_URL}/speaker`}
                 component={Speaker}
