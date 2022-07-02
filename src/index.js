@@ -12,6 +12,7 @@ import MainTwoLayout from "./components/layout/Main-two";
 /*import all pages from components*/
 import Error from "./components/pages/404/Error";
 import About from "./components/pages/about/About";
+import Client from "./components/pages/client/Client";
 import Blog from "./components/pages/Blog/Blog";
 import BlogDetails from "./components/pages/Blog/BlogDetails";
 import BlogSidebar from "./components/pages/Blog/BlogSidebar";
@@ -57,6 +58,10 @@ class Root extends React.Component {
                 path={`${process.env.PUBLIC_URL}/about`}
                 component={About}
               />
+              <Route
+                path={`${process.env.PUBLIC_URL}/client`}
+                component={Client}
+              />              
               <Route
                 path={`${process.env.PUBLIC_URL}/contact`}
                 component={ContactPage}

@@ -281,7 +281,7 @@ class HomeHeader extends Component {
 
                       <li>
                         <NavLink
-                          to={`#asd`}
+                          to={`#`}
                           className="sub-item"
                           onClick={this.scrollTop}
                         >
@@ -291,7 +291,7 @@ class HomeHeader extends Component {
 
                       <li>
                         <NavLink
-                          to={`#`}
+                          to={`${process.env.PUBLIC_URL}/client`}
                           className="sub-item"
                           onClick={this.scrollTop}
                         >
