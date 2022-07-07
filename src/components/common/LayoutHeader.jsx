@@ -214,6 +214,10 @@ class HomeHeader extends Component {
       behavior: "smooth",
     });
   }
+  
+  console(text) {
+    console.log(text);
+  }
 
   render() {
     return (

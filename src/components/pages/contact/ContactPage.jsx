@@ -16,25 +16,17 @@ class ContactPage extends Component {
     return (
       <>
         {/* ===============  breadcrumb area start =============== */}
-        <div className="breadcrumb-area">
+        <div className="contact-breadcrumb-area">
           <div className="container">
             <div className="row align-items-end">
               <div className="col-lg-12">
-                <div className="breadcrumb-content">
-                  <div className="page-outlined-text">
-                    <h1>Contact Us</h1>
-                  </div>
-                  <h2 className="page-title">Contact Us</h2>
-                  <ul className="page-switcher">
-                    <li>
-                      <Link
-                        onClick={this.scrollTop}
-                        to={`${process.env.PUBLIC_URL}/`}>
-                        Home <i className="bi bi-caret-right" />
-                      </Link>
-                    </li>
-                    <li>Contact Us</li>
-                  </ul>
+                <div className="breadcrumb-content text-center">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/contact/logo_debindo_putih_e2xVdVJ5K.png" width="50%" style={{'marginBottom':'25px'}} />
+                    <h4 style={{'color':'#fff','marginBottom':'25px'}}>Jl. Lanto dg. pasewang No. 18 F Kel. Maricaya Selatan Kec.<br />Mamajang, Makassar Sulawesi Selatan 90131</h4>
+                    <h4 style={{'color':'#fff'}}>Contact Us</h4>
+                    <a style={{'color':'#fff','fontSize':'1.1em','marginRight':'10px'}} href="//debindomks.com" target="_blank">www.debindomks.com</a>
+                    <a style={{'color':'#fff','fontSize':'1.1em','marginLeft':'10px'}} href="mailto:info@debindomks.com">info@debindomks.com</a><br/>
+                    <a style={{'color':'#fff','fontSize':'1.1em','wordSpacing':'2px'}} href="javascript:void(0)">(62-411) 858-353, 858-363, 858-383</a>
                 </div>
               </div>
             </div>
@@ -45,96 +37,60 @@ class ContactPage extends Component {
         <div className="contact-wrapper overflow-hidden">
           <div className="container pt-120 position-relative">
             <div className="background-title text-style-one">
-              <h2>Contact Now</h2>
             </div>
             <div className="row">
-              <div className="col-lg-6">
-                <div className="contact-card mt-0">
-                  <div className="contact-box-corner1">
-                    <img src={cornarShape1}  alt="Imgs" />
-                  </div>
-                  <div className="contact-box-corner2">
-                    <img src={cornarShape2}  alt="Imgs" />
-                  </div>
-                  <div className="contact-icon">
-                    <img src={iconsIMG}  alt="Imgs" />
-                  </div>
-                  <div className="contact-info">
-                    <h3 className="contact-title">Location</h3>
-                    <Link onClick={this.scrollTop} to={"#"}>
-                      Digital Agency Network 20 Eastbourne Terrace, London
-                    </Link>
-                  </div>
-                </div>
-                <div className="contact-card">
-                  <div className="contact-box-corner1">
-                    <img src={cornarShape1}  alt="Imgs" />
-                  </div>
-                  <div className="contact-box-corner2">
-                    <img src={cornarShape2}  alt="Imgs" />
-                  </div>
-                  <div className="contact-icon">
-                    <img src={iconsIMG}  alt="Imgs" />
-                  </div>
-                  <div className="contact-info">
-                    <h3 className="contact-title">Phone</h3>
-                    <Link onClick={this.scrollTop} to={"#"}>
-                      +012 3456 789102
-                    </Link>
-                    <Link onClick={this.scrollTop} to={"#"}>
-                      +012 3456 789102
-                    </Link>
-                  </div>
-                </div>
-                <div className="contact-card">
-                  <div className="contact-box-corner1">
-                    <img src={cornarShape1}  alt="Imgs" />
-                  </div>
-                  <div className="contact-box-corner2">
-                    <img src={cornarShape2}  alt="Imgs" />
-                  </div>
-                  <div className="contact-icon">
-                    <img src={iconsIMG2}  alt="Imgs" />
-                  </div>
-                  <div className="contact-info">
-                    <h3 className="contact-title">Email</h3>
-                    <Link onClick={this.scrollTop} to={"#"}>
-                      info@example.com{" "}
-                    </Link>
-                    <Link onClick={this.scrollTop} to={"#"}>
-                      support@example.com{" "}
-                    </Link>
-                  </div>
-                </div>
+              <div className="col-md-12 text-center">
+                <p style={{'fontWeight':'bolder',
+                'fontSize':'3em',
+                'display':'inline-block',
+                'marginBottom':'15px'}}>Your Exhibition Partner</p>
+                <hr style={{'border':'3px solid #c0c1c3','width':'25em','margin':'auto'}} />
+                <p style={{'fontSize':'1.2em','marginTop':'15px'}}>PT Debindo Mega Promo didirikan di Makassar pada tahun 1996 dengan tujuan<br/>
+                untuk memberikan pameran yang unggul, jasa konstruksi untuk klien yang berbasis di Indonesia.<br/>
+                Lingkup bisnis perusahaan terus berkembang untuk memberikan layanan manajemen pameran<br/>
+                penuh kepada klien yang berpartisipasi dalam pameran domestik, pameran<br/>
+                dagang dan pameran, konvensi dan seminar.</p>
               </div>
-              <div className="col-lg-6">
+            </div>
+            <div className="row">
+              <div className="col-lg-12 text-center">
                 <form action="#" id="contact-form">
                   <div className="contact-form-wrapper">
-                    <h4 className="contact-form-title">Write a Message</h4>
-                    <div className="primary-input-group">
-                      <input type="text" id="name" placeholder="Your Name" />
+                    <div className="row" style={{'padding':'2em'}}>
+                      <div className="col-lg-6">
+                        <div className="primary-input-group">
+                          <input type="text" id="name" placeholder="Your Name" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px'}} />
+                        </div>
+                        <div className="primary-input-group">
+                          <input type="email" id="email" placeholder="Your Email" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px'}} />
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="primary-input-group">
+                          <input type="tel" id="phone" placeholder="Your Phone" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px'}} />
+                        </div>
+                        <div className="primary-input-group">
+                          <input type="text" id="subject" placeholder="Subject" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px'}} />
+                        </div>                        
+                      </div>
+                      <div className="col-lg-12">
+                      <div className="primary-input-group">
+                        <textarea
+                          name="massege"
+                          id="message"
+                          cols={30}
+                          rows={7}
+                          placeholder="Write Message"
+                          defaultValue={""}
+                          style={{'backgroundColor':'#f6f8f8','borderRadius':'10px'}}
+                        />
+                      </div>
+                      </div>
                     </div>
-                    <div className="primary-input-group">
-                      <input type="email" id="email" placeholder="Your Email" />
-                    </div>
-                    <div className="primary-input-group">
-                      <input type="tel" id="phone" placeholder="Your Phone" />
-                    </div>
-                    <div className="primary-input-group">
-                      <input type="text" id="subject" placeholder="Subject" />
-                    </div>
-                    <div className="primary-input-group">
-                      <textarea
-                        name="massege"
-                        id="message"
-                        cols={30}
-                        rows={7}
-                        placeholder="Write Message"
-                        defaultValue={""}
-                      />
-                    </div>
+
+
                     <div className="submit-btn">
-                      <button type="submit" className="primary-submit">
+                      <button type="submit" className="primary-submit" style={{'backgroundColor':'#b60000','fontWeight':'bolder','fontSize':'1.5em'}}>
                         Submit Now
                       </button>
                     </div>
