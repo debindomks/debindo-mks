@@ -894,6 +894,21 @@ button[type="submit"].primary-submit:hover {
   transition: all 0.35s ease;
 }
 
+.primary-btn-outline-header-contact {
+  font-weight: 600;
+  font-size: 11px;
+  color: #fff;
+  /* color: #ce1446; */
+  font-family: "Barlow", sans-serif;
+  background: transparent;
+  border: 2px solid #fff;
+  /* border: 2px solid #ce1446; */
+  display: inline-block;
+  padding: 8px 35px;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
 .primary-btn-outline-header:hover {
   /* background: #ce1446;
   color: #fff; */
@@ -1405,7 +1420,7 @@ header .header-style-one .main-nav ul li a {
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
-  font-family: "Barlow", sans-serif;
+  font-family: "exo-soft", sans-serif;
   text-decoration: none;
   position: relative;
 }

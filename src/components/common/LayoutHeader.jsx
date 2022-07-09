@@ -215,10 +215,6 @@ class HomeHeader extends Component {
     });
   }
   
-  console(text) {
-    console.log(text);
-  }
-
   render() {
     return (
       <>

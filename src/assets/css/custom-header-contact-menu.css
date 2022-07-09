@@ -1,0 +1,252 @@
+.custom-header-contact-menu.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 21;
+    padding: 0;
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+            animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-header-contact-menu.header-light.sticky .logo-dark {
+        display: block;
+}
+
+.custom-header-contact-menu.header-light.sticky .logo-white {
+        display: none;
+}
+
+.custom-header-contact-menu.header-light .logo-dark {
+        display: none;
+}
+
+.custom-header-contact-menu.header-light .logo-white {
+        display: block;
+}
+
+header .custom-header-contact-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9;
+}
+
+header .custom-header-contact-menu .main-nav {
+        float: right;
+}
+
+header .custom-header-contact-menu .main-nav ul {
+        margin: 0;
+        list-style: none;
+}
+
+header .custom-header-contact-menu .main-nav ul li {
+        display: inline-block;
+        position: relative;
+        padding: 0 6px;
+}
+
+header .custom-header-contact-menu .main-nav ul li:hover > a {
+        color: #ce1446;
+}
+
+header .custom-header-contact-menu .main-nav ul li a {
+        padding: 32px 10px;
+        display: inline-block;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: "Barlow", sans-serif;
+        text-decoration: none;
+        position: relative;
+}
+
+header .custom-header-contact-menu .main-nav ul li a span {
+        display: none;
+}
+
+header .custom-header-contact-menu .main-nav ul li ul.sub-menu > li {
+        padding: 0;
+}
+
+header .custom-header-contact-menu .main-nav ul li ul.sub-menu > li a {
+        display: block;
+        padding: 15px 10px;
+        color: #2d373c;
+        line-height: 1;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+}
+
+header .custom-header-contact-menu .main-nav ul li ul.sub-menu > li a.active {
+        color: #d21756;
+        font-weight: 500;
+}
+
+header .custom-header-contact-menu .main-nav ul li ul.sub-menu > li a:hover {
+        background: transparent;
+        color: #d21756 !important;
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+}
+
+header .custom-header-contact-menu .main-nav ul li ul.sub-menu > li a:hover::before {
+        opacity: 0;
+}
+
+header .custom-header-contact-menu .main-nav ul li:hover.has-child-menu:after {
+        -webkit-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+}
+
+header .custom-header-contact-menu .nav-right ul li a.search-btn i:before {
+        font-size: 18px;
+        font-weight: 600;
+        color: #707070;
+        vertical-align: middle;
+}
+
+header .custom-header-contact-menu .main-nav > ul > li > a.active {
+        color: #fff;
+        font-weight: bolder;
+        font-size: 16px;
+}
+
+header .custom-header-contact-menu .main-nav > ul > li > a.active::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 28px;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+}
+
+header .custom-header-contact-menu .main-nav > ul > li > a.active span {
+        position: absolute;
+        top: 33%;
+        left: 10px;
+        font-weight: 800;
+        font-size: 12px;
+        color: #ce1446;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        background: #faf9fa;
+        line-height: 1;
+        padding: 0 2px;
+        display: inline-block;
+}
+
+.custom-header-contact-menu .main-nav ul li .sub-menu {
+        position: absolute;
+        left: -50%;
+        top: auto;
+        right: 0;
+        min-width: 200px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: #f3f2f7;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+        -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        border-top: 3px solid #ce1446;
+}
+
+.custom-header-contact-menu .main-nav ul li .sub-menu li .sub-menu {
+right: -200px;
+left: inherit;
+top: 0;
+}
+
+.custom-header-contact-menu .main-nav ul li .sub-menu > li {
+display: block;
+margin: 0;
+position: relative;
+}
+
+.custom-header-contact-menu .main-nav ul > li a:hover {
+background: transparent;
+color: #d21756 !important;
+}
+
+.custom-header-contact-menu .main-nav .fl {
+width: 30px;
+font-size: 20px;
+line-height: 35px;
+text-align: center;
+color: #fff;
+font-style: normal;
+position: absolute;
+right: -5px;
+top: 0;
+z-index: 999;
+display: none;
+cursor: pointer;
+}
+
+.custom-header-contact-menu .main-nav .fl:before {
+font-size: 14px;
+text-align: center;
+line-height: 35px;
+}
+
+.custom-header-contact-menu .main-nav > ul > li + li > .sub-menu {
+left: -50%;
+}
+
+.custom-header-contact-menu .main-nav > ul > li:hover > .sub-menu {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+visibility: visible;
+opacity: 1;
+}
+
+.custom-header-contact-menu .main-nav ul li .sub-menu li:hover > .sub-menu,
+.custom-header-contact-menu .main-nav ul li .sub-menu li .sub-menu li:hover > .sub-menu {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+visibility: visible;
+opacity: 1;
+}
+
+header .custom-header-contact-menu.header-light .main-nav ul li a {
+color: #fff;
+}
+
+header .custom-header-contact-menu.header-light .main-nav ul li a.active {
+color: #ce1446;
+}
+
+header .custom-header-contact-menu.header-light .main-nav ul li a.active span {
+background: rgba(45, 55, 60, 0.9);
+display: inline-block;
+}
+
+header .custom-header-contact-menu.header-light.sticky .main-nav ul li a {
+        color: #000 !important;
+}
+
+header .custom-header-contact-menu.header-light.sticky .main-nav ul li a.active {
+        color: #ce1446;
+}
+
+header .custom-header-contact-menu.header-light.sticky .main-nav ul li a.active span {
+        background: #fff;
+}
