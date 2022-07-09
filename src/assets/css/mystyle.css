@@ -72,6 +72,10 @@ p {
   src: url("../fonts/Exo_Soft_W05_Semi_Bold.otf");
 }
 @font-face {
+  font-family: "exo-light";
+  src: url("../fonts/Exo_Soft_W05_Light.otf");
+}
+@font-face {
   font-family: "exo-bold";
   src: url("../fonts/Exo_Soft_W05_Bold.otf");
 }
