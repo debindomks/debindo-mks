@@ -254,7 +254,7 @@ class HomeHeader extends Component {
                     </div>
                     <ul>
                       <li>
-                        <NavLink  id="home" to={"#"} className="active" onClick={this.state.activeState}>
+                        <NavLink id="home" to={"#"} className="active" style={{'fontFamily':'exo-soft'}} onClick={this.state.activeState}>
                           Who we are
                         </NavLink>
                       </li>
@@ -263,6 +263,7 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/team`}
                           className="sub-item"
+                          style={{'fontFamily':'exo-soft'}}
                           onClick={this.scrollTop}
                         >
                           Team
@@ -273,6 +274,7 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/event`}
                           className="sub-item"
+                          style={{'fontFamily':'exo-soft'}}
                           onClick={this.scrollTop}
                         >
                           Event
@@ -283,6 +285,7 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`#`}
                           className="sub-item"
+                          style={{'fontFamily':'exo-soft'}}
                           onClick={this.scrollTop}
                         >
                           Portfolio
@@ -293,6 +296,7 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/client`}
                           className="sub-item"
+                          style={{'fontFamily':'exo-soft'}}
                           onClick={this.scrollTop}
                         >
                           Client
@@ -304,6 +308,7 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/contact`}
                           onClick={this.scrollTop}
+                          style={{'fontFamily':'exo-soft'}}
                         >
                           Contact
                         </NavLink>

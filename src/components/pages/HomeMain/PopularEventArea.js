@@ -43,10 +43,11 @@ class PopularEventArea extends Component {
                     'textDecorationLine':'underline',
                     'textUnderlineOffset':'15px',
                     'textDecorationColor':'grey',
+                    'fontFamily':'exo-bold'
                     }}><b>ABOUT</b></h3>
                 </div>
                 <br/>
-                <p style={{'fontSize':'1.2em','letterSpacing':'1px'}}><b>PT Debindo Mega Promo</b> yang bergerak di dunia industri Event Organizer & MICE (Meeting, Incentive, Convention, Exhibition)  telah
+                <p style={{'fontSize':'1.2em','letterSpacing':'1px','fontFamily':'exo-light'}}><b>PT Debindo Mega Promo</b> yang bergerak di dunia industri Event Organizer & MICE (Meeting, Incentive, Convention, Exhibition)  telah
 terbukti  dalam pelaksanaan event berskala nasional maupun internasional. Dengan motto "Commitment to Excellence" kami 
 senantiasa memberikan kepuasan kepada Client melalui kualitas konsep dan pelaksanaan kegiatan dengan ide-ide kreatif & inovatif.</p>
                 
@@ -56,11 +57,12 @@ senantiasa memberikan kepuasan kepada Client melalui kualitas konsep dan pelaksa
                   <h3 style={{
                     'textDecorationLine':'underline',
                     'textUnderlineOffset':'15px',
-                    'textDecorationColor':'grey',                    
+                    'textDecorationColor':'grey',
+                    'fontFamily':'exo-bold',
                     }}><b>PROFESSIONAL EVENT ORGANIZER</b></h3>
                 </div>
                 <br/>
-                <p style={{'fontSize':'1.2em','letterSpacing':'1px'}}>Kami mempunyai komitmen untuk mencapai kepuasan pelanggan dengan memberikan produk dan jasa berkualitas tinggi yang tepat
+                <p style={{'fontSize':'1.2em','letterSpacing':'1px','fontFamily':'exo-light'}}>Kami mempunyai komitmen untuk mencapai kepuasan pelanggan dengan memberikan produk dan jasa berkualitas tinggi yang tepat
 waktu dan dengan harga yang kompetitif. Meningkatkan sistem manajemen mutu serta berkelanjutan melalui penetapan tujuan
 sasaran program mutu untuk produk, aktivitas dan jasa yang secara periodik ditinjau dan kemajuannya diukur untuk
 memastikan peningkatan dicapai</p>

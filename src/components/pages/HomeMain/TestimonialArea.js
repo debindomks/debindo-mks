@@ -52,7 +52,7 @@ class Testimonial extends Component {
               
               <div className="row align-items-center">
                 <div className="col-lg-6">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/home/testimonial_78UrHgZUZ.png" width="100%" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/home/testimonial2_jFxIxQevO.png" width="100%" />
                 </div>
 {/* testimonial */}
               <div className="col-lg-6">
@@ -69,12 +69,12 @@ class Testimonial extends Component {
                                 <img src={`https://ik.imagekit.io/qqyiqqfya/testimonial/tr:-w-200,h-200/JUFRI_RAHMAN_WeEDO2P2h.png`}  alt="Imgs" />
                               </div>
                               <div className="reviewer-info" >
-                                <h3 className="reviewer-name" style={{'textAlign':'left'}}>
+                                <h3 className="reviewer-name" style={{'textAlign':'left','fontFamily':'exo-bold'}}>
                                   Jufri Rahman
-                                  <p style={{'fontSize':'15px','textAlign':'left !important'}}>Staf Ahli Menteri PANRB Bidang Otonomi Daerah</p>
+                                  <p style={{'fontSize':'15px','textAlign':'left !important','fontFamily':'exo-bold'}}>Staf Ahli Menteri PANRB Bidang Otonomi Daerah</p>
                                 </h3>
                                 <hr/>
-                                <p className="customSlider">
+                                <p className="customSlider" style={{'fontFamily':'exo-light'}}>
                                 PT Debindo Mega Promo merupakan Event Organizer yang 
                                 profesional dalam menangani acara dan selalu bisa menyesuaikan
                                 tampilan acara yang sedang trend dan yang sedang digemari publik

@@ -66,7 +66,7 @@ class Schedule extends Component {
               <div className="col-lg-12 overflow-hidden" style={{'paddingTop':0}}>
                 <div className="swiper-container schedule-slider position-relative text-center" style={{'marginTop':0}}>
 
-                  <img src="https://ik.imagekit.io/qqyiqqfya/home/here_our_service_MtTTwxvx9.png" width="80%" />
+                  <img src="https://ik.imagekit.io/qqyiqqfya/home/here_our_service2_Z6sNWkza8.png" width="80%" />
 
                   <br/><br/><br/>
 
