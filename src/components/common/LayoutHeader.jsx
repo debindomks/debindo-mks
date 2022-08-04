@@ -283,7 +283,7 @@ class HomeHeader extends Component {
 
                       <li>
                         <NavLink
-                          to={`#`}
+                          to={`${process.env.PUBLIC_URL}/portfolio`}
                           className="sub-item"
                           onClick={this.scrollTop}
                           style={{'color':'#000'}}

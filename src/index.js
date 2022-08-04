@@ -21,6 +21,7 @@ import ContactPage from "./components/pages/contact/ContactPage";
 import EventDetails from "./components/pages/events/eventDetails/EventDetails";
 import Events from "./components/pages/events/Events";
 import EventSidebar from "./components/pages/events/EventSidebar";
+import Portfolio from "./components/pages/portfolio/Portfolio";
 import FAQ from "./components/pages/Faq/FAQ";
 import Gallary from "./components/pages/Gallary/Gallary";
 import Pricing from "./components/pages/pricing/Pricing";
@@ -110,6 +111,11 @@ class Root extends React.Component {
               <Route
                 path={`${process.env.PUBLIC_URL}/event-details`}
                 component={EventDetails}
+              />
+
+              <Route
+                path={`${process.env.PUBLIC_URL}/portfolio`}
+                component={Portfolio}
               />
 
               {/* page menu components */}
