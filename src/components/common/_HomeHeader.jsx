@@ -331,7 +331,7 @@ class HomeHeader extends Component {
                       <li className="nav-btn">
                         <Link
                           className="primary-btn-outline-header"
-                          to={`${process.env.PUBLIC_URL}/event-details`}
+                          to={`#`}
                           onClick={this.scrollTop}
                         >
                           Contact via WA
