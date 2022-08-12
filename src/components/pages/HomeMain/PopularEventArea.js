@@ -47,8 +47,8 @@ class PopularEventArea extends Component {
                     }}><b>ABOUT</b></h3>
                 </div>
                 <br/>
-                <p style={{'fontSize':'1.2em','letterSpacing':'1px','fontFamily':'exo-light'}}><b>PT Debindo Mega Promo</b> yang bergerak di dunia industri Event Organizer & MICE (Meeting, Incentive, Convention, Exhibition)  telah
-terbukti  dalam pelaksanaan event berskala nasional maupun internasional. Dengan motto "Commitment to Excellence" kami 
+                <p style={{'fontSize':'1.2em','letterSpacing':'1px','fontFamily':'exo-light'}}><b>PT Debindo Mega Promo</b> yang bergerak di dunia industri <i>Event Organizer & MICE (Meeting, Incentive, Convention, Exhibition)</i> telah
+terbukti  dalam pelaksanaan event berskala nasional maupun internasional. Dengan motto <i>"Commitment to Excellence"</i> kami 
 senantiasa memberikan kepuasan kepada Client melalui kualitas konsep dan pelaksanaan kegiatan dengan ide-ide kreatif & inovatif.</p>
                 
                 <br/><br/>

@@ -57,11 +57,12 @@ class ContactPage extends Component {
                 'display':'inline-block',
                 'marginBottom':'15px','fontFamily':'exo-bold'}}>Your Exhibition Partner</p>
                 <hr style={{'border':'3px solid #c0c1c3','width':'25em','margin':'auto'}} />
-                <p style={{'fontSize':'1.2em','marginTop':'15px','fontFamily':'exo-light'}}>PT Debindo Mega Promo didirikan di Makassar pada tahun 1996 dengan tujuan<br/>
-                untuk memberikan pameran yang unggul, jasa konstruksi untuk klien yang berbasis di Indonesia.<br/>
-                Lingkup bisnis perusahaan terus berkembang untuk memberikan layanan manajemen pameran<br/>
-                penuh kepada klien yang berpartisipasi dalam pameran domestik, pameran<br/>
-                dagang dan pameran, konvensi dan seminar.</p>
+                <p style={{'fontSize':'1.2em','marginTop':'15px','fontFamily':'exo-light'}}>
+                PT Debindo Mega Promo didirikan di Makassar pada tahun 1996 dengan tujuan untuk<br/>
+memberikan pameran yang unggul, jasa konstruksi untuk klien yang berbasis di Indonesia.<br/>
+Lingkup bisnis perusahaan terus berkembang untuk memberikan layanan manajemen pameran<br/>
+penuh kepada klien yang berpartisipasi dalam pameran domestik, pameran  dagang , konvensi dan seminar.                  
+                </p>
               </div>
             </div>
             <div className="row">
