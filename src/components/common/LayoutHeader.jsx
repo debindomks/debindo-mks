@@ -254,7 +254,7 @@ class HomeHeader extends Component {
                     </div>
                     <ul>
                       <li>
-                        <NavLink  id="home" to={"/"} className="active" onClick={this.state.activeState} style={{'color':'#000'}}>
+                        <NavLink  id="home" to={"/who-we-are"} className="active" onClick={this.state.activeState} style={{'color':'#000'}}>
                           Who we are
                         </NavLink>
                       </li>

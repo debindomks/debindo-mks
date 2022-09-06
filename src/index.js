@@ -6,6 +6,7 @@ import SimpleReactLightbox from "simple-react-lightbox";
 /*import wrapping layout*/
 import Layout from "./components/App";
 // layout default import from compnent
+import Prehome from "./components/layout/Prehome";
 import HomeLayout from "./components/layout/Home";
 import MainLayout from "./components/layout/Main";
 import MainTwoLayout from "./components/layout/Main-two";
@@ -49,12 +50,15 @@ class Root extends React.Component {
       <>
         <BrowserRouter basename="/">
           <Switch>
-            <Route exact path="/" component={HomeLayout} />
+            <Route exact path="/" component={Prehome} />
             <Route
               path={`${process.env.PUBLIC_URL}/home-page-2`}
               component={MainTwoLayout}
             />
             <Layout>
+              <Route
+                path={`${process.env.PUBLIC_URL}/who-we-are`}
+                component={HomeLayout} />
               <Route
                 path={`${process.env.PUBLIC_URL}/about`}
                 component={About}
