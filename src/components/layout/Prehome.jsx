@@ -4,7 +4,7 @@ import HomeHeader from "../common/_HomeHeader";
 import PrehomePage from "../pages/Prehome/Prehome";
 import HomeFooter from "../common/_HomeFooter";
 
-class Prehome extends Component {
+class PrehomeLayout extends Component {
     render() {
         return (
             <>
@@ -16,4 +16,4 @@ class Prehome extends Component {
     }
 }
 
-export default Prehome;
+export default PrehomeLayout;

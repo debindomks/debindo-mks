@@ -5,7 +5,7 @@ import "../../assets/css/animate.css";
 // image import
 import NavLogo from "../../assets/images/logo-v2.png";
 // import Logo from "../../assets/images/logo.png";
-class HomeHeader extends Component {
+class WhoweareHeader extends Component {
   // Inheritaed Parenty Options
   constructor(props) {
     super(props);
@@ -107,10 +107,8 @@ class HomeHeader extends Component {
         var scroll = $(window).scrollTop();
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
-          $('.main-nav ul li a').css('color', '#000');
         } else {
           $(".header-area").removeClass("sticky");
-          $('.main-nav ul li a').css('color', '#fff');
         }
       });
       /****** Sticky Navber Js ******/
@@ -232,6 +230,7 @@ class HomeHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
+
                       <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
                     </Link>
                     <div className="mobile-menu d-flex ">
@@ -251,7 +250,7 @@ class HomeHeader extends Component {
                   <nav className="main-nav">
                     <div className="inner-logo d-xl-none">
                       <Link to={"#"} onClick={this.scrollTop}>
-                        <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="NavLogo" />
+
                       </Link>
                     </div>
                     <ul>
@@ -309,13 +308,11 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/contact`}
                           onClick={this.scrollTop}
-                          className="sub-item"
                           style={{'fontFamily':'exo-soft'}}
                         >
                           Contact
                         </NavLink>
                       </li>
-                      
                     </ul>
                     <div className="inner-btn d-xl-none">
                       <Link
@@ -360,4 +357,4 @@ class HomeHeader extends Component {
   }
 }
 
-export default HomeHeader;
+export default WhoweareHeader;

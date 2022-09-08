@@ -12,18 +12,7 @@ import TestimonialArea from "./TestimonialArea";
 class HomePage extends Component {
   render() {
     return (
-      <div className="homepage">
-        {/* <!-- Start Preloader Area --> */}
-       
-        <div className="preloader">
-          <div className="loader">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        {/* <!-- End Preloader Area --> */}
+      <>
         {/* all section component import start */}
         <HeroArea />
         <PopularEventArea />
@@ -36,7 +25,7 @@ class HomePage extends Component {
         {/* <BlogArea /> */}
         {/* all section component import start */}
 
-      </div>
+      </>
     );
   }
 }

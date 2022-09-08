@@ -12,7 +12,6 @@ class HomeHeader extends Component {
     this.state = {
       
     };
- 
   }
 
 
@@ -20,6 +19,7 @@ class HomeHeader extends Component {
   componentDidMount() {
     this.inItScripts();
   }
+
   inItScripts() {
     $(document).ready(function () {
        // header active class
@@ -230,7 +230,7 @@ class HomeHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png" alt="debindo logo" />
+                      {window.location.pathname != "/who-we-are" && <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png" alt="debindo logo" />}
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -256,17 +256,6 @@ class HomeHeader extends Component {
                       <li>
                         <NavLink  id="home" to={"/who-we-are"} className="active" onClick={this.state.activeState} style={{'color':'#000'}}>
                           Who we are
-                        </NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink
-                          to={`${process.env.PUBLIC_URL}/team`}
-                          className="sub-item"
-                          onClick={this.scrollTop}
-                          style={{'color':'#000'}}
-                        >
-                          Team
                         </NavLink>
                       </li>
 
@@ -303,6 +292,16 @@ class HomeHeader extends Component {
                         </NavLink>
                       </li>                      
                       
+                      <li>
+                        <NavLink
+                          to={`${process.env.PUBLIC_URL}/team`}
+                          className="sub-item"
+                          onClick={this.scrollTop}
+                          style={{'color':'#000'}}
+                        >
+                          Team
+                        </NavLink>
+                      </li>                      
                       
                       <li>
                         <NavLink
