@@ -1,7 +1,24 @@
+import $ from "jquery";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 class Client extends Component {
+  componentDidMount() {
+    this.inItScripts();
+  }
+  
+  inItScripts() {
+    $('.main-nav ul li a').css('color', '#000');
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 20) {
+        
+      } else {
+        $('.main-nav ul li a').css('color', '#000');
+      };
+    });
+  }
+
   scrollTop() {
     window.scrollTo({
       top: 0,

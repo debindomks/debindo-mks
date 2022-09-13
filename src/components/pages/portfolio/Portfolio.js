@@ -1,3 +1,4 @@
+import $ from "jquery";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // image import
@@ -11,6 +12,22 @@ import Speaker7 from "../../../assets/images/speaker/speaker-7.png";
 import Speaker8 from "../../../assets/images/speaker/speaker-8.png";
 import Speaker9 from "../../../assets/images/speaker/speaker-9.png";
 class Portfolio extends Component {
+  componentDidMount() {
+    this.inItScripts();
+  }
+  
+  inItScripts() {
+    $('.main-nav ul li a').css('color', '#000');
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 20) {
+        
+      } else {
+        $('.main-nav ul li a').css('color', '#000');
+      };
+    });
+  }
+
   scrollTop() {
     window.scrollTo({
       top: 0,

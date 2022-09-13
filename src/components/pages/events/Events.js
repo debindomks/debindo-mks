@@ -1,3 +1,4 @@
+import $ from "jquery";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // page animation
@@ -18,8 +19,22 @@ import EventIMFG8 from "../../../assets/images/event/ev-md8.png";
 import EventIMFG9 from "../../../assets/images/event/ev-md9.png";
 class Events extends Component {
   componentDidMount(){
-    new WOW.WOW().init()
+    new WOW.WOW().init();
+    this.inItScripts();
   }
+
+  inItScripts() {
+    $('.main-nav ul li a').css('color', '#000');
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 20) {
+        
+      } else {
+        $('.main-nav ul li a').css('color', '#000');
+      };
+    });
+  }
+
   scrollTop() {
     window.scrollTo({
       top: 0,
@@ -79,7 +94,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_PROPERTY_l3DtAykbL.png"  alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_CSS_vvYiQCI0F.png"  alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -94,7 +109,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_CSS_vvYiQCI0F.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_TANJUNG_BUNGA_ZtsYKCEb_.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info text-left">
 
@@ -108,6 +123,19 @@ class Events extends Component {
                   <div className="speaker-card">
                     <div className="speaker-image">
                       <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAL_HOME_JeTt-JzIU.png" alt="Imgs" />
+                    </div>
+                    <div className="custom-speaker-info">
+
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-1 col-md-1 col-sm-1"></div>
+
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
+                  <div className="speaker-card">
+                    <div className="speaker-image">
+                      {/* <img src="" alt="Imgs" /> */}
                     </div>
                     <div className="custom-speaker-info">
 

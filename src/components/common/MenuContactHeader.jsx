@@ -107,8 +107,14 @@ class MenuContactHeader extends Component {
         var scroll = $(window).scrollTop();
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
+          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+          $('.main-nav ul li a').css('color', '#000');
         } else {
           $(".header-area").removeClass("sticky");
+          $('.main-nav ul li a').css('color', '#fff');
+
+          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png');
+
         }
       });
       /****** Sticky Navber Js ******/
@@ -230,7 +236,7 @@ class MenuContactHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
+                      <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -255,18 +261,9 @@ class MenuContactHeader extends Component {
                     <ul>
                       <li>
                         <NavLink 
-                        id="home" to={"/"}
+                        id="home" to={"/who-we-are"}
                         onClick={this.scrollTop}>
                           Who we are
-                        </NavLink>
-                      </li>
-
-                      <li>
-                        <NavLink
-                          to={`${process.env.PUBLIC_URL}/team`}
-                          onClick={this.scrollTop}
-                        >
-                          Team
                         </NavLink>
                       </li>
 
@@ -281,7 +278,7 @@ class MenuContactHeader extends Component {
 
                       <li>
                         <NavLink
-                          to={`#`}
+                          to={`${process.env.PUBLIC_URL}/portfolio`}
                           onClick={this.scrollTop}
                         >
                           Portfolio
@@ -297,6 +294,14 @@ class MenuContactHeader extends Component {
                         </NavLink>
                       </li>                      
                       
+                      <li>
+                        <NavLink
+                          to={`${process.env.PUBLIC_URL}/team`}
+                          onClick={this.scrollTop}
+                        >
+                          Team
+                        </NavLink>
+                      </li>                      
                       
                       <li>
                         <NavLink

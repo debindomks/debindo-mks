@@ -1,3 +1,4 @@
+import $ from "jquery";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // image import
@@ -11,6 +12,22 @@ import Speaker7 from "../../../assets/images/speaker/speaker-7.png";
 import Speaker8 from "../../../assets/images/speaker/speaker-8.png";
 import Speaker9 from "../../../assets/images/speaker/speaker-9.png";
 class Team extends Component {
+  componentDidMount() {
+    this.inItScripts();
+  }
+  
+  inItScripts() {
+    $('.main-nav ul li a').css('color', '#000');
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 20) {
+        
+      } else {
+        $('.main-nav ul li a').css('color', '#000');
+      };
+    });
+  }
+
   scrollTop() {
     window.scrollTo({
       top: 0,
@@ -78,207 +95,230 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-2 col-md-2 col-sm-2">
-                <h3><span className="team">Secretary</span></h3>
-              </div>
-              <div className="col-lg-1 col-md-1 col-sm-1"></div>
-              <div className="col-lg-4 col-md-4 col-sm-4">
+              <div className="col-lg-8 col-md-8 col-sm-8">
                 <h3><span className="team">Marketing Communication</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <h3><span className="team">Secretary</span></h3>
               </div>
             </div>
 
             <br/>
 
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-3">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Ingrid_Villiana_Sura_ITXu1aRQ0.png"  alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-left">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Ingrid Villiana Sura</p>                    
-                    <p><span className="team-15x">Secretary</span></p>
-                  </div>
+
+              <div className="col-lg-7 col-md-7 col-sm-7">
+
+                <div className="row">
+
+                    <div className="col-lg-6 col-md-6 col-sm-6">
+                      <div className="speaker-card">
+                        <div className="speaker-image">
+                          <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                          <ul className="speaker-social-icons">
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-facebook-f" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-instagram" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-linkedin-in" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-twitter" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-whatsapp" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="custom-speaker-info">
+                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Srianti Mantong</p>
+                          <p>Marketing Manager</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6 col-sm-6">
+                      <div className="speaker-card">
+                        <div className="speaker-image">
+                          <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                          <ul className="speaker-social-icons">
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-facebook-f" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-instagram" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-linkedin-in" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-twitter" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-whatsapp" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="custom-speaker-info">
+                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Novira Arisanty</p>
+                          <p><span className="team-15x">Marketing Asisstant Manager</span></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6 col-sm-6">
+                      <div className="speaker-card">
+                        <div className="speaker-image">
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Anggit_Fitria_Damayanti_0IpBJ2WeT.png" alt="Imgs" />
+                          <ul className="speaker-social-icons">
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-facebook-f" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-instagram" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-linkedin-in" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-twitter" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-whatsapp" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="custom-speaker-info">
+                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Anggit Fitria Damayanti</p>
+                          <p>Marketing Communication</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6 col-sm-6">
+                      <div className="speaker-card">
+                        <div className="speaker-image">
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Petronella_Pradnya_Pradnya_Paramita_dZfrOHFYs.png" alt="Imgs" />
+                          <ul className="speaker-social-icons">
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-facebook-f" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-instagram" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-linkedin-in" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-twitter" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-whatsapp" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="custom-speaker-info">
+                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Petronella Pradnya Paramita</p>
+                          <p>Marketing Communication</p>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
+
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Srianti Mantong</p>
-                    <p>Marketing Manager</p>
-                  </div>
+              <div className="col-lg-1 col-md-1 col-sm-1"></div>              
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+
+                    <div className="col-lg-10 col-md-10 col-sm-10">
+                      <div className="speaker-card">
+                        <div className="speaker-image">
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Ingrid_Villiana_Sura_ITXu1aRQ0.png"  alt="Imgs" />
+                          <ul className="speaker-social-icons">
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-facebook-f" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-instagram" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-linkedin-in" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-twitter" />
+                              </Link>
+                            </li>
+                            <li>
+                              <Link onClick={this.scrollTop} to={"#"}>
+                                <i className="fab fa-whatsapp" />
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="custom-speaker-info text-left">
+                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Ingrid Villiana Sura</p>                    
+                          <p><span className="team-15x">Secretary</span></p>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
+
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Novira Arisanty</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Anggit_Fitria_Damayanti_0IpBJ2WeT.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Anggit Fitria Damayanti</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3"></div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Petronella_Pradnya_Pradnya_Paramita_dZfrOHFYs.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Petronella Pradnya Paramita</p>
-                    <p>Marketing Communication</p>
-                  </div>
-                </div>
-              </div>
+
+
             </div>
 
             <br/><br/><br/><br/>
@@ -292,7 +332,7 @@ class Team extends Component {
             <br/>            
 
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Robertho_R._Engel_uPzkznFsL.png"  alt="Imgs" />
@@ -330,10 +370,10 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/ABDULLAH_ADNAN_q4rv8iTqZX.png" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -368,7 +408,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
@@ -406,45 +446,8 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/M._Nasarullah_V0ykSomQK.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>M. Nasarullah</p>
-                    <p>Account Executive</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" alt="Imgs" />
@@ -482,6 +485,46 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/M._Nasarullah_V0ykSomQK.png" alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>M. Nasarullah</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+              </div>
+
             </div> 
 
             <br/><br/><br/><br/>
@@ -495,7 +538,7 @@ class Team extends Component {
             <br/>                 
             
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
@@ -533,7 +576,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Syaifullah_S_G4fl4MA7W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656611483968" height="325"  alt="Imgs" />
@@ -571,7 +614,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Andika_Dwi_Syaputra_rxgdxImpW.png" height="325"  alt="Imgs" />
@@ -609,7 +652,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Andrian_Jahar_Aripurba_uSVUfB56V.png" alt="Imgs" />
@@ -647,7 +690,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Zulkarnain_YSg1aPG0T.png" alt="Imgs" />
@@ -698,7 +741,7 @@ class Team extends Component {
             <br/>
 
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
@@ -736,7 +779,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Nurul_Arfiani_Arifin_cSBKsNNgq.png" alt="Imgs" />
@@ -774,7 +817,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
@@ -825,7 +868,7 @@ class Team extends Component {
             <br/>
 
             <div className="row">
-             <div className="col-lg-3 col-md-3 col-sm-3">
+             <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Wahyu_Irawan_S_zDqMistVo.png" alt="Imgs" />
@@ -863,7 +906,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Muh._Luthfi_P50Xhzxk-.png" alt="Imgs" />

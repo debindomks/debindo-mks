@@ -107,8 +107,12 @@ class WhoweareHeader extends Component {
         var scroll = $(window).scrollTop();
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
+          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+          $('.main-nav ul li a').css('color', '#000');
         } else {
           $(".header-area").removeClass("sticky");
+          $('.main-nav ul li a').css('color', '#fff');
+          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png');
         }
       });
       /****** Sticky Navber Js ******/
@@ -231,7 +235,7 @@ class WhoweareHeader extends Component {
                       className="logo-white"
                     >
 
-                      <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
+                      <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -325,6 +329,7 @@ class WhoweareHeader extends Component {
                     </div>
                   </nav>
                 </div>
+                
                 <div className="col-xl-2 col-2 d-none d-xl-block p-0">
                   <div className="nav-right h-100 d-flex align-items-center justify-content-end">
                     <ul>
@@ -340,6 +345,7 @@ class WhoweareHeader extends Component {
                     </ul>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>

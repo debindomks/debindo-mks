@@ -108,9 +108,41 @@ class HomeHeader extends Component {
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
           $('.main-nav ul li a').css('color', '#000');
+
+          if(window.location.pathname == '/') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+          } else {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png');
+          }
+
         } else {
           $(".header-area").removeClass("sticky");
-          $('.main-nav ul li a').css('color', '#fff');
+
+          if(window.location.pathname == '/') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png');
+            $('.main-nav ul li a').css('color', '#fff');
+          }
+
+          if(window.location.pathname === '/event') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+            $('.main-nav ul li a').css('color', '#000');
+          }          
+          
+          if(window.location.pathname === '/portfolio') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+            $('.main-nav ul li a').css('color', '#000');
+          }          
+
+          if(window.location.pathname === '/client') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+            $('.main-nav ul li a').css('color', '#000');
+          }
+
+          if(window.location.pathname === '/team') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+            $('.main-nav ul li a').css('color', '#000');
+          }          
+
         }
       });
       /****** Sticky Navber Js ******/
@@ -232,7 +264,7 @@ class HomeHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
+                      <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -328,6 +360,7 @@ class HomeHeader extends Component {
                     </div>
                   </nav>
                 </div>
+                
                 <div className="col-xl-2 col-2 d-none d-xl-block p-0">
                   <div className="nav-right h-100 d-flex align-items-center justify-content-end">
                     <ul>
@@ -343,6 +376,7 @@ class HomeHeader extends Component {
                     </ul>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
