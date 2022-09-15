@@ -80,10 +80,10 @@ class Events extends Component {
                   </div>
                 </div>
                 <div className="col-lg-1 col-md-1 col-sm-1"></div>
-                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','paddingLeft':'2em','paddingRight':'2em','margin':'2px'}}>
                   <div className="speaker-card">
-                    <div className="speaker-image"><br/>
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAS_GrDHW2YDe.png" alt="Imgs" />
+                    <div className="speaker-image">
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAS_GrDHW2YDe.png" style={{'marginTop':'75px'}} alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 

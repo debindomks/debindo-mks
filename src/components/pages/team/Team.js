@@ -579,7 +579,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Syaifullah_S_G4fl4MA7W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656611483968" height="325"  alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Syaifullah_S_G4fl4MA7W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656611483968" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -617,7 +617,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Andika_Dwi_Syaputra_rxgdxImpW.png" height="325"  alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Andika_Dwi_Syaputra_rxgdxImpW.png" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
