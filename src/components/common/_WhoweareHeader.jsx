@@ -319,13 +319,13 @@ class WhoweareHeader extends Component {
                       </li>
                     </ul>
                     <div className="inner-btn d-xl-none">
-                      <Link
-                        to={`${process.env.PUBLIC_URL}/event-details`}
-                        onClick={this.scrollTop}
-                        className="primary-btn-fill"
+                      <a
+                        className="primary-btn-outline-header"
+                        href="https://wa.me/08114101500"
+                        target="_blank"
                       >
-                        Login
-                      </Link>
+                        Contact via WA
+                      </a>
                     </div>
                   </nav>
                 </div>
