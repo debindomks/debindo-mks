@@ -334,13 +334,13 @@ class WhoweareHeader extends Component {
                   <div className="nav-right h-100 d-flex align-items-center justify-content-end">
                     <ul>
                       <li className="nav-btn">
-                        <Link
+                        <a
                           className="primary-btn-outline-header"
-                          to={`#`}
-                          onClick={this.scrollTop}
+                          href="https://wa.me/08114101500"
+                          target="_blank"
                         >
                           Contact via WA
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>
