@@ -127,7 +127,7 @@ class SliderArea extends Component {
                 </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/MEETING_e3pQBZG2i.png)`}}>
+              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/comp1/meeting_wZ1kEJC5C.png)`}}>
                 <div className="hero-background-layer"></div>
                 <div className="container">
                 <div className="hero-content-layer">
@@ -162,7 +162,7 @@ class SliderArea extends Component {
                 </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/INCENTIVE_AND_CORPORATE_EVENT_AcP_HPpxa.png)`}}>
+              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/comp1/iace_U2N9gLHah.png)`}}>
                 <div className="hero-background-layer"></div>
                 <div className="container">
                 <div className="hero-content-layer">
@@ -197,7 +197,7 @@ class SliderArea extends Component {
                 </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/CONFERENCE_43NwlY8PC.png)`}}>
+              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/comp1/conference_TZeQ4DuMc.png)`}}>
                 <div className="hero-background-layer"></div>
                 <div className="container">
                 <div className="hero-content-layer">
@@ -232,7 +232,7 @@ class SliderArea extends Component {
                 </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/EXHIBITION_qFage7HNh.png)`}}>
+              <SwiperSlide className="hero-two-item hero-two-item-1 swiper-slide" style={{backgroundImage: `url(https://ik.imagekit.io/qqyiqqfya/home/slide_cmp1/comp1/exhibition_mcztTwuFP.png)`}}>
                 <div className="hero-background-layer"></div>
                 <div className="container">
                 <div className="hero-content-layer">
