@@ -2225,23 +2225,23 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .slider-1 {
-  background: url(../images/slider/mice.png) no-repeat center;
+  background: url(../images/slider/mice.png) no-repeat center !important;
 }
 
 .slider-2{
-  background: url(../images/slider/meeting.png) no-repeat center;
+  background: url(../images/slider/meeting.png) no-repeat center !important;
 }
 
 .slider-3{
-  background: url(../images/slider/iace.png) no-repeat center;
+  background: url(../images/slider/iace.png) no-repeat center !important;
 }
 
 .slider-4{
-  background: url(../images/slider/conference.png) no-repeat center;
+  background: url(../images/slider/conference.png) no-repeat center !important;
 }
 
 .slider-5{
-  background: url(../images/slider/exhibition.png) no-repeat center;
+  background: url(../images/slider/exhibition.png) no-repeat center !important;
 }
 
 .hero-two-slider .hero-two-item-1.swiper-slide-active .hero-background-layer {
@@ -2256,7 +2256,6 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .hero-two-slider .hero-two-item-1 .hero-background-layer {
-  background: url(../images/hero/hero-bg-2.png) no-repeat center;
   background-size: cover;
   position: absolute;
   inset: 0;
