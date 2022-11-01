@@ -8,9 +8,7 @@ class HomeLayout extends Component {
     render() {
         return (
             <>
-            <WhoweareHeader />
-            <HomePage />            
-
+            <HomePage />
             </>
         );
     }

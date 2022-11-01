@@ -312,19 +312,28 @@ class MenuContactHeader extends Component {
                         </NavLink>
                       </li>
                     </ul>
+                    <div className="inner-btn d-xl-none">
+                        <a
+                          className="primary-btn-fill"
+                          href="https://wa.me/08114101500"
+                          target="_blank"
+                        >
+                          Contact via WA
+                        </a>
+                    </div>                    
                   </nav>
                 </div>
                 <div className="col-xl-2 col-2 d-none d-xl-block p-0">
                   <div className="nav-right h-100 d-flex align-items-center justify-content-end">
                     <ul>
                       <li className="nav-btn">
-                        <Link
-                          className="primary-btn-outline-header-contact"
-                          to={`#`}
-                          onClick={this.scrollTop}
-                        >
+                        <a
+                            className="primary-btn-outline-header"
+                            href="https://wa.me/08114101500"
+                            target="_blank"
+                          >
                           Contact via WA
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

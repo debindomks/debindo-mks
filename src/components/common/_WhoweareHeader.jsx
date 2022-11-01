@@ -234,7 +234,6 @@ class WhoweareHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-
                       <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
                     </Link>
                     <div className="mobile-menu d-flex ">
@@ -254,14 +253,17 @@ class WhoweareHeader extends Component {
                   <nav className="main-nav">
                     <div className="inner-logo d-xl-none">
                       <Link to={"#"} onClick={this.scrollTop}>
-
+                        <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="NavLogo" />
                       </Link>
                     </div>
                     <ul>
                       <li>
-                        <NavLink id="home" to={"/who-we-are"} className="active" style={{'fontFamily':'exo-soft'}} onClick={this.state.activeState}>
-                          Who we are
-                        </NavLink>
+                        <NavLink 
+                          id="home"
+                          to={"/who-we-are"}
+                          onClick={this.state.activeState}>
+                            Who we are
+                          </NavLink>
                       </li>
 
                       <li>
@@ -320,7 +322,7 @@ class WhoweareHeader extends Component {
                     </ul>
                     <div className="inner-btn d-xl-none">
                       <a
-                        className="primary-btn-outline-header"
+                        className="primary-btn-fill"
                         href="https://wa.me/08114101500"
                         target="_blank"
                       >

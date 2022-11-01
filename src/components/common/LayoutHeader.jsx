@@ -215,6 +215,19 @@ class HomeHeader extends Component {
     });
   }
   
+  whoWeAre() {
+    return (
+      <NavLink 
+        id="home"
+        to={`${process.env.PUBLIC_URL}/who-we-are`}
+        className="active"
+        style={{'fontFamily':'exo-soft'}} 
+        onClick={this.state.activeState}>
+        Who we are
+      </NavLink>
+    );
+  }
+
   render() {
     return (
       <>
@@ -254,9 +267,7 @@ class HomeHeader extends Component {
                     </div>
                     <ul>
                       <li>
-                        <NavLink  id="home" to={"/who-we-are"} className="active" onClick={this.state.activeState} style={{'color':'#000'}}>
-                          Who we are
-                        </NavLink>
+                      {this.whoWeAre()}
                       </li>
 
                       <li>
@@ -314,14 +325,13 @@ class HomeHeader extends Component {
                       </li>
                     </ul>
                     <div className="inner-btn d-xl-none">
-                      <Link
-                        to={`${process.env.PUBLIC_URL}/event-details`}
-                        onClick={this.scrollTop}
-                        className="primary-btn-fill"
-                        style={{'color':'#000'}}
-                      >
-                        Login
-                      </Link>
+                        <a
+                              className="primary-btn-fill"
+                              href="https://wa.me/08114101500"
+                              target="_blank"
+                            >
+                          Contact via WA
+                        </a>
                     </div>
                   </nav>
                 </div>
@@ -329,13 +339,13 @@ class HomeHeader extends Component {
                   <div className="nav-right h-100 d-flex align-items-center justify-content-end">
                     <ul>
                       <li className="nav-btn">
-                        <Link
-                          className="primary-btn-outline-header2"
-                          to={`${process.env.PUBLIC_URL}/event-details`}
-                          onClick={this.scrollTop}
-                        >
+                        <a
+                            className="primary-btn-outline-header2"
+                            href="https://wa.me/08114101500"
+                            target="_blank"
+                          >
                           Contact via WA
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

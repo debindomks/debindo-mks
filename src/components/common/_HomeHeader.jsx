@@ -288,11 +288,15 @@ class HomeHeader extends Component {
                     </div>
                     <ul>
                       <li>
-                        <NavLink id="home" to={"/who-we-are"} className="active" style={{'fontFamily':'exo-soft'}} onClick={this.state.activeState}>
+                        <NavLink 
+                          id="home"
+                          to={"/who-we-are"}
+                          className="active"
+                          style={{'fontFamily':'exo-soft'}} 
+                          onClick={this.state.activeState}>
                           Who we are
                         </NavLink>
                       </li>
-
                       <li>
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/event`}
@@ -350,13 +354,13 @@ class HomeHeader extends Component {
                       
                     </ul>
                     <div className="inner-btn d-xl-none">
-                      <a
-                        className="primary-btn-outline-header"
-                        href="https://wa.me/08114101500"
-                        target="_blank"
-                      >
-                        Contact via WA
-                      </a>
+                        <a
+                          className="primary-btn-fill"
+                          href="https://wa.me/08114101500"
+                          target="_blank"
+                        >
+                          Contact via WA
+                        </a>
                     </div>
                   </nav>
                 </div>
