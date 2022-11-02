@@ -21,7 +21,7 @@ class LayoutFooter extends Component {
                   <div className="col-lg-12">
                     <div className="footer-copyright text-center">
                       <p>
-                        Copyright 2022 <b>Debindo Mega Promo</b> | Powered by&nbsp;
+                        Copyright 2022 <b>PT Debindo Mega Promo</b> | Powered by&nbsp;
                         <a href="https://imtoor.com" target="_blank">
                           imtoor
                         </a>
