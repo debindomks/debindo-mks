@@ -10,7 +10,7 @@ class HomeHeader extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      
+
     };
   }
 
@@ -107,8 +107,27 @@ class HomeHeader extends Component {
         var scroll = $(window).scrollTop();
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
+
+          if(window.location.pathname == '/who-we-are') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
+          } else {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');            
+          }
+
+          $('.main-nav ul li a').css('color', '#000');
+
         } else {
           $(".header-area").removeClass("sticky");
+
+          if(window.location.pathname == '/who-we-are') {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
+            $('.main-nav ul li a').css('color', '#fff');
+          } else {
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');            
+            $('.main-nav ul li a').css('color', '#000');
+
+          }
+
         }
       });
       /****** Sticky Navber Js ******/
@@ -207,6 +226,24 @@ class HomeHeader extends Component {
       });
       /****** schedule-sidebar JS end ******/
     });
+
+    $("#home").click(function() {
+
+      var scroll = $(window).scrollTop();
+      if (scroll >= 20) {
+        $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
+        $('.main-nav ul li a').css('color', '#000');
+
+      } else {
+        
+        $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
+        $('.main-nav ul li a').css('color', '#fff');
+
+      }
+
+
+    });
+
   }
   scrollTop() {
     window.scrollTo({
@@ -243,7 +280,8 @@ class HomeHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      {window.location.pathname != "/who-we-are" && <img src="https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png" alt="debindo logo" />}
+                      {window.location.pathname != "/who-we-are" && <img src="https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png" alt="debindo logo" width="180px" />}
+                      {window.location.pathname == "/who-we-are" && <img src="https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png" alt="debindo logo" width="180px" />}
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -262,7 +300,7 @@ class HomeHeader extends Component {
                   <nav className="main-nav">
                     <div className="inner-logo d-xl-none">
                       <Link to={"#"} onClick={this.scrollTop}>
-                        <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="NavLogo" />
+                        <img src="https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png" alt="NavLogo" width="180px" />
                       </Link>
                     </div>
                     <ul>
@@ -275,7 +313,7 @@ class HomeHeader extends Component {
                           to={`${process.env.PUBLIC_URL}/event`}
                           className="sub-item"
                           onClick={this.scrollTop}
-                          style={{'color':'#000'}}
+                          style={{'color':'#fff'}}
                         >
                           Event
                         </NavLink>
@@ -286,7 +324,7 @@ class HomeHeader extends Component {
                           to={`${process.env.PUBLIC_URL}/portfolio`}
                           className="sub-item"
                           onClick={this.scrollTop}
-                          style={{'color':'#000'}}
+                          style={{'color':'#fff'}}
                         >
                           Portfolio
                         </NavLink>
@@ -297,7 +335,7 @@ class HomeHeader extends Component {
                           to={`${process.env.PUBLIC_URL}/client`}
                           className="sub-item"
                           onClick={this.scrollTop}
-                          style={{'color':'#000'}}
+                          style={{'color':'#fff'}}
                         >
                           Client
                         </NavLink>
@@ -308,7 +346,7 @@ class HomeHeader extends Component {
                           to={`${process.env.PUBLIC_URL}/team`}
                           className="sub-item"
                           onClick={this.scrollTop}
-                          style={{'color':'#000'}}
+                          style={{'color':'#fff'}}
                         >
                           Team
                         </NavLink>
@@ -318,7 +356,7 @@ class HomeHeader extends Component {
                         <NavLink
                           to={`${process.env.PUBLIC_URL}/contact`}
                           onClick={this.scrollTop}
-                          style={{'color':'#000'}}
+                          style={{'color':'#fff'}}
                         >
                           Contact
                         </NavLink>
@@ -326,9 +364,9 @@ class HomeHeader extends Component {
                     </ul>
                     <div className="inner-btn d-xl-none">
                         <a
-                              className="primary-btn-fill"
-                              href="https://wa.me/08114101500"
-                              target="_blank"
+                            className="primary-btn-fill"
+                            href="https://wa.me/08114101500"
+                            target="_blank"
                             >
                           Contact via WA
                         </a>

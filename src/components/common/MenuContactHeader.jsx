@@ -107,13 +107,13 @@ class MenuContactHeader extends Component {
         var scroll = $(window).scrollTop();
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
-          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/home/tr:w-171,h-36/debindo_logo_p4P3GHcin.png');
+          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
           $('.main-nav ul li a').css('color', '#000');
         } else {
           $(".header-area").removeClass("sticky");
           $('.main-nav ul li a').css('color', '#fff');
 
-          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png');
+          $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
 
         }
       });
@@ -236,7 +236,7 @@ class MenuContactHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="debindo logo" />
+                      <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png" alt="debindo logo" width="180px" />
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -255,7 +255,7 @@ class MenuContactHeader extends Component {
                   <nav className="main-nav">
                     <div className="inner-logo d-xl-none">
                       <Link to={"#"} onClick={this.scrollTop}>
-                        <img src="https://ik.imagekit.io/qqyiqqfya/tr:w-171,h-36/logo_debindo_mega_promo_white_UzLpscEKZ.png" alt="NavLogo" />
+                        <img src="https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png" alt="NavLogo" width="180px" />
                       </Link>
                     </div>
                     <ul>
