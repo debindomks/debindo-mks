@@ -121,7 +121,7 @@ class HomeHeader extends Component {
 
         } else {
           $(".header-area").removeClass("sticky");
-          
+
           $("#contact-via-wa").removeClass('primary-btn-outline-header2');
           $("#contact-via-wa").addClass('primary-btn-outline-header');
 
@@ -300,7 +300,7 @@ class HomeHeader extends Component {
                           to={"/who-we-are"}
                           className="active"
                           style={{'fontFamily':'exo-soft'}} 
-                          onClick={this.state.activeState}>
+                          onClick={this.scrollTop}>
                           Who we are
                         </NavLink>
                       </li>

@@ -18,6 +18,12 @@ class HomeHeader extends Component {
   // Init JS Script
   componentDidMount() {
     this.inItScripts();
+
+    if(window.location.pathname == '/who-we-are') {
+      $("#contact-via-wa").addClass('primary-btn-outline-header');
+      $("#contact-via-wa").removeClass('primary-btn-outline-header2');
+    }
+
   }
 
   inItScripts() {
@@ -123,7 +129,6 @@ class HomeHeader extends Component {
           }
 
           $('.main-nav ul li a').css('color', '#000');
-
           
         } else {
           $(".header-area").removeClass("sticky");
@@ -244,19 +249,9 @@ class HomeHeader extends Component {
     });
 
     $("#home").click(function() {
-
-      var scroll = $(window).scrollTop();
-      if (scroll >= 20) {
-        $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
-        $('.main-nav ul li a').css('color', '#000');
-      } else {
-        $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
-        $('.main-nav ul li a').css('color', '#fff');
-      }
-
+      $('.main-nav ul li a').css('color', '#fff');
       $("#contact-via-wa").addClass('primary-btn-outline-header');
       $("#contact-via-wa").removeClass('primary-btn-outline-header2');
-
     });
 
     $("#portfolio").click(function() {
