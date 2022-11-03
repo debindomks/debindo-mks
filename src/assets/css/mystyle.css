@@ -880,7 +880,7 @@ button[type="submit"].primary-submit:hover {
 
 .primary-btn-outline-header {
   font-weight: 600;
-  font-size: 11px;
+  font-size: 13px;
   color: #fff;
   /* color: #ce1446; */
   font-family: "exo-soft", sans-serif;
@@ -895,7 +895,7 @@ button[type="submit"].primary-submit:hover {
 
 .primary-btn-outline-header2 {
   font-weight: 600;
-  font-size: 11px;
+  font-size: 13px;
   color: #000;
   /* color: #ce1446; */
   font-family: "Barlow", sans-serif;

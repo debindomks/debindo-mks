@@ -110,21 +110,37 @@ class HomeHeader extends Component {
 
           if(window.location.pathname == '/who-we-are') {
             $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
+            
+            $("#contact-via-wa").removeClass('primary-btn-outline-header');
+            $("#contact-via-wa").addClass('primary-btn-outline-header2');
+
           } else {
-            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');            
+            $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
+
+            $("#contact-via-wa").addClass('primary-btn-outline-header2');
+            $("#contact-via-wa").removeClass('primary-btn-outline-header');
+
           }
 
           $('.main-nav ul li a').css('color', '#000');
 
+          
         } else {
           $(".header-area").removeClass("sticky");
-
+          
           if(window.location.pathname == '/who-we-are') {
             $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
             $('.main-nav ul li a').css('color', '#fff');
+
+            $("#contact-via-wa").removeClass('primary-btn-outline-header2');
+            $("#contact-via-wa").addClass('primary-btn-outline-header');  
+
           } else {
             $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');            
             $('.main-nav ul li a').css('color', '#000');
+
+            $("#contact-via-wa").addClass('primary-btn-outline-header2');
+            $("#contact-via-wa").removeClass('primary-btn-outline-header');              
 
           }
 
@@ -233,15 +249,34 @@ class HomeHeader extends Component {
       if (scroll >= 20) {
         $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
         $('.main-nav ul li a').css('color', '#000');
-
       } else {
-        
         $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
         $('.main-nav ul li a').css('color', '#fff');
-
       }
 
+      $("#contact-via-wa").addClass('primary-btn-outline-header');
+      $("#contact-via-wa").removeClass('primary-btn-outline-header2');
 
+    });
+
+    $("#portfolio").click(function() {
+      $("#contact-via-wa").addClass('primary-btn-outline-header2');
+      $("#contact-via-wa").removeClass('primary-btn-outline-header');
+    });
+
+    $("#event").click(function() {
+      $("#contact-via-wa").addClass('primary-btn-outline-header2');
+      $("#contact-via-wa").removeClass('primary-btn-outline-header');
+    });
+
+    $("#client").click(function() {
+      $("#contact-via-wa").addClass('primary-btn-outline-header2');
+      $("#contact-via-wa").removeClass('primary-btn-outline-header');
+    });
+
+    $("#team").click(function() {
+      $("#contact-via-wa").addClass('primary-btn-outline-header2');
+      $("#contact-via-wa").removeClass('primary-btn-outline-header');
     });
 
   }
@@ -252,19 +287,6 @@ class HomeHeader extends Component {
     });
   }
   
-  whoWeAre() {
-    return (
-      <NavLink 
-        id="home"
-        to={`${process.env.PUBLIC_URL}/who-we-are`}
-        className="active"
-        style={{'fontFamily':'exo-soft'}} 
-        onClick={this.state.activeState}>
-        Who we are
-      </NavLink>
-    );
-  }
-
   render() {
     return (
       <>
@@ -280,8 +302,8 @@ class HomeHeader extends Component {
                       to={`${process.env.PUBLIC_URL}/`}
                       className="logo-white"
                     >
-                      {window.location.pathname != "/who-we-are" && <img src="https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png" alt="debindo logo" width="180px" />}
-                      {window.location.pathname == "/who-we-are" && <img src="https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png" alt="debindo logo" width="180px" />}
+                      {window.location.pathname != "/who-we-are" && <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png" alt="debindo logo" width="180px" />}
+                      {window.location.pathname == "/who-we-are" && <img id="debindo_logo" src="https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png" alt="debindo logo" width="180px" />}
                     </Link>
                     <div className="mobile-menu d-flex ">
                       <Link
@@ -305,11 +327,19 @@ class HomeHeader extends Component {
                     </div>
                     <ul>
                       <li>
-                      {this.whoWeAre()}
+                      <NavLink 
+                        id="home"
+                        to={`${process.env.PUBLIC_URL}/who-we-are`}
+                        className="active"
+                        style={{'fontFamily':'exo-soft'}} 
+                        onClick={this.scrollTop}>
+                        Who we are
+                      </NavLink>
                       </li>
 
                       <li>
                         <NavLink
+                          id="event"
                           to={`${process.env.PUBLIC_URL}/event`}
                           className="sub-item"
                           onClick={this.scrollTop}
@@ -321,6 +351,7 @@ class HomeHeader extends Component {
 
                       <li>
                         <NavLink
+                          id="portfolio"
                           to={`${process.env.PUBLIC_URL}/portfolio`}
                           className="sub-item"
                           onClick={this.scrollTop}
@@ -332,6 +363,7 @@ class HomeHeader extends Component {
 
                       <li>
                         <NavLink
+                          id="client"
                           to={`${process.env.PUBLIC_URL}/client`}
                           className="sub-item"
                           onClick={this.scrollTop}
@@ -343,6 +375,7 @@ class HomeHeader extends Component {
                       
                       <li>
                         <NavLink
+                          id="team"
                           to={`${process.env.PUBLIC_URL}/team`}
                           className="sub-item"
                           onClick={this.scrollTop}
@@ -378,6 +411,7 @@ class HomeHeader extends Component {
                     <ul>
                       <li className="nav-btn">
                         <a
+                            id="contact-via-wa"
                             className="primary-btn-outline-header2"
                             href="https://wa.me/08114101500"
                             target="_blank"

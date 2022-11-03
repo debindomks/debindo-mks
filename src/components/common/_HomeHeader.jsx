@@ -108,15 +108,22 @@ class HomeHeader extends Component {
         if (scroll >= 20) {
           $(".header-area").addClass("sticky");
           $('.main-nav ul li a').css('color', '#000');
+          $("#contact-via-wa").removeClass('primary-btn-outline-header');
 
           if(window.location.pathname == '/') {
             $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_black_F3GgqzHsu.png');
           } else {
             $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
           }
+          
+
+          $("#contact-via-wa").addClass('primary-btn-outline-header2');
 
         } else {
           $(".header-area").removeClass("sticky");
+          
+          $("#contact-via-wa").removeClass('primary-btn-outline-header2');
+          $("#contact-via-wa").addClass('primary-btn-outline-header');
 
           if(window.location.pathname == '/') {
             $("img#debindo_logo").attr('src', 'https://ik.imagekit.io/qqyiqqfya/logo_long_white_hddvYjQ5u.png');
@@ -370,6 +377,7 @@ class HomeHeader extends Component {
                     <ul>
                       <li className="nav-btn">
                         <a
+                          id="contact-via-wa"
                           className="primary-btn-outline-header"
                           href="https://wa.me/08114101500"
                           target="_blank"
