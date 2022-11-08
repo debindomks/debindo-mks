@@ -450,7 +450,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/SYARFINA_qm2k-QQci.png" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -541,7 +541,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/MUH_FIRMAN_ZEN_7OjmQrrsn.png" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -744,7 +744,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/FEBYANTI_SAID_89LxMv7kK.png" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>

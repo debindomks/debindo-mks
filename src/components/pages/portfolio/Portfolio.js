@@ -265,6 +265,36 @@ Pengembangan SDA Kawasan Pedesaan</p>
                   </div>
                 </div>
               </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/portfolio/incentive/Indonesia_DEI___ESG_Awards__Ideas__js0vl4Abz.png" alt="Imgs" />
+                  </div>
+                  <div className="custom-speaker-info">
+                    <p className="text-center" style={{'fontSize':'0.9em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Indonesia DEI & ESG Awards(IDEAS)</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/portfolio/incentive/KKIN_VIII_2022_BibgqQePA.png" alt="Imgs" />
+                  </div>
+                  <div className="custom-speaker-info">
+                    <p className="text-center" style={{'fontSize':'0.9em','fontFamily':'exo-soft','letterSpacing':'1px'}}>KKIN VIII 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/portfolio/incentive/City_Sanitation_Summit_SsiKG4Dyk.png" alt="Imgs" />
+                  </div>
+                  <div className="custom-speaker-info">
+                    <p className="text-center" style={{'fontSize':'0.9em','fontFamily':'exo-soft','letterSpacing':'1px'}}>City Sanitation Summit</p>
+                  </div>
+                </div>
+              </div>
 
             </div>
 
@@ -474,6 +504,16 @@ Pengembangan SDA Kawasan Pedesaan</p>
                   </div>
                   <div className="custom-speaker-info">
                     <p className="text-center" style={{'fontSize':'0.9em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Celebes Craft</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/portfolio/exhibition/Tanjung_Bunga_Property_Expo_-Skczh85H.png" alt="Imgs" />
+                  </div>
+                  <div className="custom-speaker-info">
+                    <p className="text-center" style={{'fontSize':'0.9em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Tanjung Bunga Property Expo</p>
                   </div>
                 </div>
               </div>
