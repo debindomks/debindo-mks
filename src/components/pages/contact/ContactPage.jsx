@@ -1,17 +1,75 @@
 import $ from "jquery";
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import emailjs from '@emailjs/browser';
 import "../../../assets/css/animate.css";
 
 class ContactPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: ''
     };
- 
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  handleChange(event) {
+    this.setState({[event.target.name]: event.target.value});
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+
+    if(this.state.name == '') {
+      alert('Harap isi Nama Anda'); 
+      return false;
+    }
+
+    if(this.state.email == '') {
+      alert('Harap isi Email Anda'); 
+      return false;
+    }
+
+    if(this.state.phone == '') {
+      alert('Harap isi No. Handphone Anda'); 
+      return false;
+    }
+
+    if(this.state.subject == '') {
+      alert('Harap isi Subject Pesan'); 
+      return false;
+    }
+
+    if(this.state.message == '') {
+      alert('Harap isi Pesan Anda'); 
+      return false;
+    }
+    
+    alert('Pesan terkirim. Kami akan segera mengabari anda, terima kasih.');
+
+    let messageData = {
+      name: this.state.name,
+      email: this.state.email,
+      phone: this.state.phone,
+      subject: this.state.subject,
+      message: this.state.message
+    };
+    emailjs.send('service_sy1esol', 'template_i24pen4', messageData, 'FvfvfF-itNghP2_f0')
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        setTimeout(function() {
+          window.location.reload();
+        }, 4000);
+      }, function(error) {
+        console.log('FAILED.....', error);
+      });
+        
+  }
+  
 
   // Init JS Script
   componentDidMount() {
@@ -67,34 +125,34 @@ penuh kepada klien yang berpartisipasi dalam pameran domestik, pameran  dagang ,
             </div>
             <div className="row">
               <div className="col-lg-12 text-center">
-                <form action="#" id="contact-form">
+                <form onSubmit={this.handleSubmit} id="contact-form">
                   <div className="contact-form-wrapper">
                     <div className="row" style={{'padding':'2em'}}>
                       <div className="col-lg-6">
                         <div className="primary-input-group">
-                          <input type="text" id="name" placeholder="Your Name" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
+                          <input type="text" onChange={this.handleChange} value={this.state.name} name="name" placeholder="Nama" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
                         </div>
                         <div className="primary-input-group">
-                          <input type="email" id="email" placeholder="Your Email" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
+                          <input type="email" onChange={this.handleChange} value={this.state.email} name="email" placeholder="Email" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="primary-input-group">
-                          <input type="tel" id="phone" placeholder="Your Phone" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
+                          <input type="tel" onChange={this.handleChange} value={this.state.phone} name="phone" placeholder="No. Handphone" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
                         </div>
                         <div className="primary-input-group">
-                          <input type="text" id="subject" placeholder="Subject" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
+                          <input type="text" onChange={this.handleChange} value={this.state.subject} name="subject" placeholder="Subject" style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}} />
                         </div>                        
                       </div>
                       <div className="col-lg-12">
                       <div className="primary-input-group">
                         <textarea
-                          name="massege"
-                          id="message"
+                          name="message"
                           cols={30}
                           rows={7}
+                          value={this.state.message}
+                          onChange={this.handleChange}                          
                           placeholder="Write Message"
-                          defaultValue={""}
                           style={{'backgroundColor':'#f6f8f8','borderRadius':'10px','fontFamily':'exo-soft'}}
                         />
                       </div>
