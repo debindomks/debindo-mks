@@ -153,7 +153,7 @@ class Team extends Component {
                     <div className="col-lg-6 col-md-6 col-sm-6">
                       <div className="speaker-card">
                         <div className="speaker-image">
-                          <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/novira_arisanty_mXvLUxPSI.png" alt="Imgs" />
                           <ul className="speaker-social-icons">
                             <li>
                               <Link onClick={this.scrollTop} to={"#"}>
@@ -278,7 +278,7 @@ class Team extends Component {
                     <div className="col-lg-10 col-md-10 col-sm-10">
                       <div className="speaker-card">
                         <div className="speaker-image">
-                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Ingrid_Villiana_Sura_ITXu1aRQ0.png"  alt="Imgs" />
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/andriana_acjy7ERqW.png" alt="Imgs" />
                           <ul className="speaker-social-icons">
                             <li>
                               <Link onClick={this.scrollTop} to={"#"}>
@@ -308,7 +308,7 @@ class Team extends Component {
                           </ul>
                         </div>
                         <div className="custom-speaker-info text-left">
-                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Ingrid Villiana Sura</p>                    
+                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Andriana</p>                    
                           <p><span className="team-15x">Secretary</span></p>
                         </div>
                       </div>
@@ -939,7 +939,7 @@ class Team extends Component {
                     </ul>
                   </div>
                   <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Luthf</p>
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Luthfi</p>
                     <p>Tender Division</p>
                   </div>
                 </div>
