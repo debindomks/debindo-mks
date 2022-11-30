@@ -59,6 +59,34 @@ class Testimonial extends Component {
                   <div className="testimonial-slider-wrapper">
                     <div className="swiper testimonial-slider">
                       <Swiper {...sliderInit} className="swiper-wrapper">
+
+                      <SwiperSlide className="swiper-slide">
+                          <div className="testimonial-card">
+                            <div className="testimonial-shape">
+
+                            </div>
+                            <div className="testimonial-top" style={{'backgroundColor':'#EDF2F2'}}>
+                              <div className="reviewer-image">
+                                <img src={`https://ik.imagekit.io/qqyiqqfya/testimonial/tr:-w-200,h-200/devi_khadavi_QPj7nqrFr.png`}  alt="Imgs" />
+                              </div>
+                              <div className="reviewer-info" >
+                                <h3 className="reviewer-name" style={{'textAlign':'left','fontFamily':'exo-bold'}}>
+                                  Devi Khadafi
+                                  <p style={{'fontSize':'15px','textAlign':'left !important','fontFamily':'exo-bold'}}>Sekretaris Dinas Kebudayaan & Pariwisata Prov. Sulsel</p>
+                                </h3>
+                                <hr/>
+                                <p className="customSlider" style={{'fontFamily':'exo-light'}}>
+                                  Untuk partner terbaik dalam melaksanakan Event, Yaa Debindo Mega Promo 
+                                  pilihannya.. Event Organizer yang tanggap, keep up the good works!
+                              </p>                                
+                              </div>
+                            </div>
+                            <div className="review-texts" style={{'backgroundColor':'#EDF2F2'}}>
+                             
+                            </div>
+                          </div>
+                        </SwiperSlide>
+
                         <SwiperSlide className="swiper-slide">
                           <div className="testimonial-card">
                             <div className="testimonial-shape">
@@ -88,7 +116,7 @@ class Testimonial extends Component {
                             </div>
                           </div>
                         </SwiperSlide>
-                       
+
                       </Swiper>
                     </div>
                     <div className="swiper-pagination" />

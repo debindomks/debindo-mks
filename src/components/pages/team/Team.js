@@ -95,11 +95,11 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-8 col-md-8 col-sm-8">
-                <h3><span className="team">Marketing Communication</span></h3>
+              <div className="col-lg-6 col-md-6 col-sm-6">
+                <h3><span className="team">MARKETING COMMUNICATION</span></h3>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <h3><span className="team">Secretary</span></h3>
+              <div className="col-lg-6 col-md-6 col-sm-6">
+                <h3><span className="team secretary-label">SECRETARY</span></h3>
               </div>
             </div>
 
@@ -107,7 +107,7 @@ class Team extends Component {
 
             <div className="row">
 
-              <div className="col-lg-7 col-md-7 col-sm-7">
+              <div className="col-lg-6 col-md-6 col-sm-6">
 
                 <div className="row">
 
@@ -153,7 +153,7 @@ class Team extends Component {
                     <div className="col-lg-6 col-md-6 col-sm-6">
                       <div className="speaker-card">
                         <div className="speaker-image">
-                          <img src="https://ik.imagekit.io/qqyiqqfya/team/novira_arisanty_mXvLUxPSI.png" alt="Imgs" />
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Novira_Arisanty_97OAF-IMj.png" alt="Imgs" />
                           <ul className="speaker-social-icons">
                             <li>
                               <Link onClick={this.scrollTop} to={"#"}>
@@ -270,15 +270,23 @@ class Team extends Component {
                 </div>
 
               </div>
-              <div className="col-lg-1 col-md-1 col-sm-1"></div>              
-              <div className="col-lg-4 col-md-4 col-sm-4">
+              <div className="col-lg-6 col-md-6 col-sm-6">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2">
+                      <br/><br/>
+                      <span className="team">SECRETARY</span>
+                    </h3>
+                  </div>
+                </div>                
 
                 <div className="row">
 
-                    <div className="col-lg-10 col-md-10 col-sm-10">
+                    <div className="col-lg-6 col-md-6 col-sm-6">
                       <div className="speaker-card">
                         <div className="speaker-image">
-                          <img src="https://ik.imagekit.io/qqyiqqfya/team/andriana_acjy7ERqW.png" alt="Imgs" />
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Andriana_SYnTp6ktJ.png" height="10%" alt="Imgs" />
                           <ul className="speaker-social-icons">
                             <li>
                               <Link onClick={this.scrollTop} to={"#"}>

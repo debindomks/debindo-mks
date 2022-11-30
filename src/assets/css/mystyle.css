@@ -2224,6 +2224,20 @@ header .header-style-two .main-nav ul li a.active span {
   position: relative;
 }
 
+  
+@media screen and (max-width: 576px) {
+  .secretary-label {
+    display: none !important;
+  }
+  
+}
+
+@media screen and (min-width: 576px) {
+  .secretary-label2 {
+    display: none !important;
+  }
+}
+
 .slider-1 {
   background: url(../images/slider/mice3.png) no-repeat center !important;
 }
