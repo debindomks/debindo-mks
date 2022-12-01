@@ -95,10 +95,10 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-7 col-md-7 col-sm-7">
                 <h3><span className="team">MARKETING COMMUNICATION</span></h3>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-5 col-md-5 col-sm-5">
                 <h3><span className="team secretary-label">SECRETARY</span></h3>
               </div>
             </div>
@@ -282,6 +282,8 @@ class Team extends Component {
                 </div>                
 
                 <div className="row">
+
+                    <div className="col-lg-2 col-md-2 col-sm-2"></div>
 
                     <div className="col-lg-6 col-md-6 col-sm-6">
                       <div className="speaker-card">
