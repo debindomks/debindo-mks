@@ -61,7 +61,7 @@ class Events extends Component {
 
               <div className="row">
                 <div className="col-lg-4 col-md-4 col-sm-4">
-                  <h3><span><b>E V E N T</b></span></h3>
+                  <h3><span><b>EVENT OF THE YEAR</b></span></h3>
                   <hr/>
                 </div>
               </div>
@@ -80,10 +80,10 @@ class Events extends Component {
                   </div>
                 </div>
                 <div className="col-lg-1 col-md-1 col-sm-1"></div>
-                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','paddingLeft':'2em','paddingRight':'2em','margin':'2px'}}>
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAS_GrDHW2YDe.png" style={{'marginTop':'75px'}} alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_PROPERTY_wN0nY-JXy.png" style={{'marginTop':'75px'}} alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -94,7 +94,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_CSS_vvYiQCI0F.png"  alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAL_HOME_JeTt-JzIU.png"  alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -107,10 +107,10 @@ class Events extends Component {
 
               <div className="row text-center">
 
-                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','paddingTop':'3em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_KKIN_VIII_eIo_UOp7H.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAS_GrDHW2YDe.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -123,7 +123,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_TANJUNG_BUNGA_ZtsYKCEb_.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_CSS_vvYiQCI0F.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info text-left">
 
@@ -136,7 +136,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAL_HOME_JeTt-JzIU.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_KKIN_VIII_eIo_UOp7H.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -145,6 +145,25 @@ class Events extends Component {
                 </div>
 
               </div>
+              
+              <br/>
+
+              <div className="row text-center">
+
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
+                  <div className="speaker-card">
+                    <div className="speaker-image">
+                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_TANJUNG_BUNGA_ZtsYKCEb_.png" alt="Imgs" />
+                    </div>
+                    <div className="custom-speaker-info">
+
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-1 col-md-1 col-sm-1"></div>
+
+                </div>              
 
               {/* wew */}
             

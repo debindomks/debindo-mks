@@ -114,7 +114,7 @@ class Team extends Component {
                     <div className="col-lg-6 col-md-6 col-sm-6">
                       <div className="speaker-card">
                         <div className="speaker-image">
-                          <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Srianti_Mantong_N4w350hvO.png" alt="Imgs" />
                           <ul className="speaker-social-icons">
                             <li>
                               <Link onClick={this.scrollTop} to={"#"}>
@@ -871,7 +871,7 @@ class Team extends Component {
 
             <div className="row">
               <div className="col-lg-4 col-md-4 col-sm-4">
-                <h3><span className="team">TENDER DIVISION</span></h3>
+                <h3><span className="team">BIDDING DIVISION</span></h3>
               </div>
             </div>
 
@@ -912,7 +912,7 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Wahyu Irawan S</p>
-                    <p>Tender Division</p>
+                    <p>Bidding Division</p>
                   </div>
                 </div>
               </div>
@@ -950,7 +950,7 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Luthfi</p>
-                    <p>Tender Division</p>
+                    <p>Bidding Division</p>
                   </div>
                 </div>
               </div>              
