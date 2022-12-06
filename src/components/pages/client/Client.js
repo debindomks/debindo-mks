@@ -44,7 +44,7 @@ class Client extends Component {
             </div>
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
-                <img src="https://ik.imagekit.io/qqyiqqfya/clients/client_l_zV0H11T.png" width="100%" />
+                <img src="https://ik.imagekit.io/qqyiqqfya/clients/client2_UIt-cGVtd.png" width="100%" />
               </div>
             </div>
 
