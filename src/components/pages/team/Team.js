@@ -95,10 +95,10 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-7 col-md-7 col-sm-7">
+              <div className="col-lg-8 col-md-8 col-sm-7">
                 <h3><span className="team">MARKETING COMMUNICATION</span></h3>
               </div>
-              <div className="col-lg-5 col-md-5 col-sm-5">
+              <div className="col-lg-4 col-md-4 col-sm-5">
                 <h3><span className="team secretary-label">SECRETARY</span></h3>
               </div>
             </div>
@@ -107,7 +107,7 @@ class Team extends Component {
 
             <div className="row">
 
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-8 col-md-8 col-sm-6">
 
                 <div className="row">
 
@@ -270,7 +270,7 @@ class Team extends Component {
                 </div>
 
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-4 col-md-4 col-sm-6">
 
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12">
@@ -283,9 +283,7 @@ class Team extends Component {
 
                 <div className="row">
 
-                    <div className="col-lg-2 col-md-2 col-sm-2"></div>
-
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-12 col-md-12 col-sm-6">
                       <div className="speaker-card">
                         <div className="speaker-image">
                           <img src="https://ik.imagekit.io/qqyiqqfya/team/Andriana_SYnTp6ktJ.png" height="10%" alt="Imgs" />
@@ -334,7 +332,7 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-4">
+              <div className="col-lg-4 col-md-12 col-sm-4">
                 <h3><span className="team">ACCOUNT EXECUTIVE</span></h3>
               </div>
             </div>
@@ -421,7 +419,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" height="325"  alt="Imgs" />
+                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" style={{'height':'auto','width':'100%'}} alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -743,7 +741,7 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-4">
+              <div className="col-lg-4 col-md-12 col-sm-4">
                 <h3><span className="team">ACCOUNTING</span></h3>
               </div>
             </div>
@@ -870,7 +868,7 @@ class Team extends Component {
             <br/><br/><br/><br/>
 
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-4">
+              <div className="col-lg-4 col-md-12 col-sm-4">
                 <h3><span className="team">BIDDING DIVISION</span></h3>
               </div>
             </div>
