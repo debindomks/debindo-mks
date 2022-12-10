@@ -655,7 +655,7 @@ class Team extends Component {
                     </ul>
                   </div>
                   <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Andika Dwi Syaputra</p>
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Andika Dwi Satria</p>
                     <p>Creative Design</p>
                   </div>
                 </div>

@@ -107,7 +107,7 @@ class Events extends Component {
 
               <div className="row text-center">
 
-                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','paddingTop':'3em','margin':'2px'}}>
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','paddingTop':'3.5em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
                       <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAS_GrDHW2YDe.png" alt="Imgs" />
