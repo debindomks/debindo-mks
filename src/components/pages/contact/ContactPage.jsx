@@ -58,7 +58,7 @@ class ContactPage extends Component {
       subject: this.state.subject,
       message: this.state.message
     };
-    emailjs.send('service_sy1esol', 'template_i24pen4', messageData, 'FvfvfF-itNghP2_f0')
+    emailjs.send('service_gr96e3d', 'template_1rsgqjf', messageData, 'qsg2VHp3dB1Yg614P')
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         setTimeout(function() {
