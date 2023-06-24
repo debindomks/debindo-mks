@@ -825,44 +825,7 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Deby Angriani</p>
-                    <p>Accounting Staff</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
 
             <br/><br/><br/><br/>
