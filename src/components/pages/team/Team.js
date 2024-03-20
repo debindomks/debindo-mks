@@ -416,83 +416,6 @@ class Team extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" style={{'height':'auto','width':'100%'}} alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Oki</p>
-                    <p>Account Executive</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-4 col-sm-4">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/SYARFINA_qm2k-QQci.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Syarfina Febriani</p>
-                    <p>Account Executive</p>
-                  </div>
-                </div>
-              </div>
 
               <div className="col-lg-4 col-md-4 col-sm-4">
                 <div className="speaker-card">
@@ -528,6 +451,45 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>M. Nasarullah</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" style={{'height':'auto','width':'100%'}} alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Oki</p>
                     <p>Account Executive</p>
                   </div>
                 </div>
