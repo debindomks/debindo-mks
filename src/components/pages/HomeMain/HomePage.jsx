@@ -8,6 +8,7 @@ import PricingArea from "./PricingArea";
 import RecentSchedule from "./RecentSchedule";
 import SpeakerArea from "./SpeakerArea";
 import TestimonialArea from "./TestimonialArea";
+import InstagramArea from "./InstagramArea";
 
 class HomePage extends Component {
   render() {
@@ -24,7 +25,7 @@ class HomePage extends Component {
         <EventTimer />
         {/* <BlogArea /> */}
         {/* all section component import start */}
-
+        <InstagramArea />
       </>
     );
   }
