@@ -5,18 +5,17 @@ import { Link } from "react-router-dom";
 import WOW from "wowjs";
 import "../../../assets/css/animate.css";
 // image import
-import EventIMFG1 from "../../../assets/images/event/ev-md1.png";
-import EventIMFG10 from "../../../assets/images/event/ev-md10.png";
-import EventIMFG11 from "../../../assets/images/event/ev-md11.png";
-import EventIMFG12 from "../../../assets/images/event/ev-md12.png";
-import EventIMFG2 from "../../../assets/images/event/ev-md2.png";
-import EventIMFG3 from "../../../assets/images/event/ev-md3.png";
-import EventIMFG4 from "../../../assets/images/event/ev-md4.png";
-import EventIMFG5 from "../../../assets/images/event/ev-md5.png";
-import EventIMFG6 from "../../../assets/images/event/ev-md6.png";
-import EventIMFG7 from "../../../assets/images/event/ev-md7.png";
-import EventIMFG8 from "../../../assets/images/event/ev-md8.png";
-import EventIMFG9 from "../../../assets/images/event/ev-md9.png";
+
+// https://ik.imagekit.io/rwvfvdma8/events/2024/1.%20LOGO%20EKSPO%20REI.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/2.%20LOGO%20LITDIG.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/3.%20LOGO%20HARKOPNAS.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/4.%20LOGO%20PROPERTY.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/5.%20LOGO%20ISMEEF.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/6.%20LOGO%20IDEAL%20HOME.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/7.%20LOGO%20KONSTRUKSI%20INDONESIA.png
+// https://ik.imagekit.io/rwvfvdma8/events/2024/8.%20LOGO%20SULSEL%20EXPO.png
+
+
 class Events extends Component {
   componentDidMount(){
     new WOW.WOW().init();
@@ -72,7 +71,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_EKSPO_REI_8ML5g-SVB.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/1.%20LOGO%20EKSPO%20REI.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info text-left">
 
@@ -83,7 +82,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_PROPERTY_wN0nY-JXy.png" style={{'marginTop':'25px'}} alt="Imgs" />
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/2.%20LOGO%20LITDIG.png" style={{'marginTop':'25px'}} alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -94,7 +93,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAL_HOME_JeTt-JzIU.png"  alt="Imgs" />
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/3.%20LOGO%20HARKOPNAS.png"  alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -110,7 +109,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','paddingTop':'3.5em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_IDEAS_GrDHW2YDe.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/4.%20LOGO%20PROPERTY.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -123,7 +122,8 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_CSS_vvYiQCI0F.png" alt="Imgs" />
+                      <br/>
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/5.%20LOGO%20ISMEEF.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info text-left">
 
@@ -136,7 +136,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_KKIN_VIII_eIo_UOp7H.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/6.%20LOGO%20IDEAL%20HOME.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -153,7 +153,7 @@ class Events extends Component {
                 <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
                   <div className="speaker-card">
                     <div className="speaker-image">
-                      <img src="https://ik.imagekit.io/qqyiqqfya/event/LOGO_TANJUNG_BUNGA_ZtsYKCEb_.png" alt="Imgs" />
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/7.%20LOGO%20KONSTRUKSI%20INDONESIA.png" alt="Imgs" />
                     </div>
                     <div className="custom-speaker-info">
 
@@ -163,7 +163,20 @@ class Events extends Component {
 
                 <div className="col-lg-1 col-md-1 col-sm-1"></div>
 
-                </div>              
+                <div className="col-lg-3 col-md-3 col-sm-3" style={{'backgroundColor':'#ededed','padding':'2em','margin':'2px'}}>
+                  <div className="speaker-card">
+                    <div className="speaker-image">
+                      <img src="https://ik.imagekit.io/rwvfvdma8/events/2024/8.%20LOGO%20SULSEL%20EXPO.png" alt="Imgs" />
+                    </div>
+                    <div className="custom-speaker-info">
+
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-1 col-md-1 col-sm-1"></div>                
+
+              </div>              
 
               {/* wew */}
             
