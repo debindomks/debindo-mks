@@ -8,7 +8,6 @@ import Layout from "./components/App";
 // layout default import from compnent
 import PrehomeLayout from "./components/layout/Prehome";
 import HomeLayout from "./components/layout/Home";
-import MainLayout from "./components/layout/Main";
 import MainTwoLayout from "./components/layout/Main-two";
 /*import all pages from components*/
 import Error from "./components/pages/404/Error";
@@ -36,13 +35,6 @@ import "./index.css";
 
 // default Warning Error hide
 console.log = console.warn = console.error = () => {};
-
-/*
-=>version : 0.1
-=>Event : Rendering al content to web
-=>Action: define all routes and page
-@return HTML
-*/
 
 class Root extends React.Component {
   render() {

@@ -1,6 +1,5 @@
 import $ from "jquery";
-import React, { Component } from "react";
-import CountdownShape from "../../../assets/images/shapes/countdown-vactor.png";
+import { Component } from "react";
 class EventTimer extends Component {
   componentDidMount() {
     this.eventTimer();

@@ -14,11 +14,11 @@
     "react-countup": "^6.1.0",
     "react-datepicker": "^4.3.0",
     "react-dom": "^17.0.2",
-    "react-fancybox": "^0.2.5",
+    "react-fancybox": "^1.0.2",
     "react-modal-video": "^1.2.8",
     "react-moment": "^1.1.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-video-pop": "^1.0.3",
     "react-wow": "^1.0.0",
     "sass": "^1.38.0",
@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.2.0",
+    "process": "^0.11.10",
     "sass": "1.38.0",
     "style-loader": "3.2.1"
   }

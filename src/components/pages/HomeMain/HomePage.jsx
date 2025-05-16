@@ -1,12 +1,8 @@
-import React, { Component } from "react";
-import AchiveMentCounter from "./AchiveMentCounter";
-import BlogArea from "./BlogArea";
+import { Component } from "react";
 import EventTimer from "./EventTimer";
 import HeroArea from "./HeroArea";
 import PopularEventArea from "./PopularEventArea";
-import PricingArea from "./PricingArea";
 import RecentSchedule from "./RecentSchedule";
-import SpeakerArea from "./SpeakerArea";
 import TestimonialArea from "./TestimonialArea";
 import InstagramArea from "./InstagramArea";
 
@@ -18,13 +14,8 @@ class HomePage extends Component {
         <HeroArea />
         <PopularEventArea />
         <RecentSchedule />
-        {/* <AchiveMentCounter /> */}
-        {/* <SpeakerArea /> */}
         <TestimonialArea />
-        {/* <PricingArea /> */}
         <EventTimer />
-        {/* <BlogArea /> */}
-        {/* all section component import start */}
         <InstagramArea />
       </>
     );

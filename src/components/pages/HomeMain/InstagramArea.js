@@ -1,5 +1,4 @@
-import $ from "jquery";
-import React, { Component } from "react";
+import { Component } from "react";
 import '../../../assets/css/instagram-button.css';
 class InstagramArea extends Component {
   componentDidMount() {

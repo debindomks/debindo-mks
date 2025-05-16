@@ -1,25 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 // page animation
-import WOW from "wowjs";
 import "../../../assets/css/animate.css";
-// image import
-import EventIMFG1 from "../../../assets/images/event/ev-md1.png";
-import EventIMFG10 from "../../../assets/images/event/ev-md10.png";
-import EventIMFG11 from "../../../assets/images/event/ev-md11.png";
-import EventIMFG12 from "../../../assets/images/event/ev-md12.png";
-import EventIMFG2 from "../../../assets/images/event/ev-md2.png";
-import EventIMFG3 from "../../../assets/images/event/ev-md3.png";
-import EventIMFG4 from "../../../assets/images/event/ev-md4.png";
-import EventIMFG5 from "../../../assets/images/event/ev-md5.png";
-import EventIMFG6 from "../../../assets/images/event/ev-md6.png";
-import EventIMFG7 from "../../../assets/images/event/ev-md7.png";
-import EventIMFG8 from "../../../assets/images/event/ev-md8.png";
-import EventIMFG9 from "../../../assets/images/event/ev-md9.png";
+
 class PopularEventArea extends Component {
-  componentDidMount(){
-    new WOW.WOW().init()
-  }
+  componentDidMount() {}
   scrollTop() {
     window.scrollTo({
       top: 0,

@@ -1,27 +1,17 @@
-import React, { Component } from "react";
-import DatePicker from "react-datepicker";
+import { Component } from "react";
 import "react-datepicker/dist/react-datepicker.css";
-import { Link } from "react-router-dom";
+
 // Swiper slider imported
 import SwiperCore, {
   Navigation,
 } from "swiper";
 import "swiper/components/effect-fade/effect-fade.min.css";
 import "swiper/components/navigation/navigation.min.css";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import "swiper/swiper.min.css";
-import WOW from 'wowjs';
 import '../../../assets/css/animate.css';
-// image import
-import HeroIMG1 from "../../../assets/images/hero/hero-figure1.png";
-import HeroIMG2 from "../../../assets/images/shapes/hero-animi.png";
+
 import ImageShape from "../../../assets/images/shapes/hero-shape.png";
-import SpeakerThumb2 from "../../../assets/images/speaker/sb-speaker1.png";
-import SpeakerThumb1 from "../../../assets/images/speaker/sb-speaker2.png";
-import SpeakerThumb3 from "../../../assets/images/speaker/sb-speaker3.png";
-import SpeakerThumb4 from "../../../assets/images/speaker/sb-speaker4.png";
-import SpeakerThumb5 from "../../../assets/images/speaker/sb-speaker5.png";
 
 // install Swiper modules
 SwiperCore.use([ Navigation]);
@@ -38,9 +28,7 @@ class HeroArea extends Component {
       startDate: new Date(),
     };
   }
-  componentDidMount(){
-      new WOW.WOW().init()
-  }
+  componentDidMount() {}
   changeDatepickerHaldeller = (date) => {
     this.setState({ startDate: date });
   };

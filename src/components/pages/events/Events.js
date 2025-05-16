@@ -1,16 +1,12 @@
 import $ from "jquery";
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-// page animation
-import WOW from "wowjs";
+import { Component } from "react";
+
 import "../../../assets/css/animate.css";
 import "./style.css"
-// image import
 
 class Events extends Component {
 
   componentDidMount(){
-    new WOW.WOW().init();
     this.inItScripts();
   }
 
@@ -18,11 +14,9 @@ class Events extends Component {
     $('.main-nav ul li a').css('color', '#000');
     $(window).on("scroll", function () {
       var scroll = $(window).scrollTop();
-      if (scroll >= 20) {
-        
-      } else {
+      if (scroll < 20) {
         $('.main-nav ul li a').css('color', '#000');
-      };
+      }
     });
   }
 
@@ -118,8 +112,7 @@ class Events extends Component {
                   <p><span className="team-2x"></span></p>
                 </div>
               </div>
-            </div>             
-              {/* wew */}
+            </div>
 
               <div className="row">
                 <div className="col-lg-4 col-md-4 col-sm-4">
@@ -145,8 +138,6 @@ class Events extends Component {
               <div className='row text-center'>
                 {event3 && event3.map(({img, date, place}) => <Events img={img} date={date} place={place} />)}
               </div>
-
-              {/* wew */}
             
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import AchiveMentCounter from "./AchiveMentCounter";
 import BlogArea from "./BlogArea";
 import EventTimer from "./EventTimer";

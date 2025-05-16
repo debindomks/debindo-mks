@@ -1,5 +1,4 @@
-import $ from "jquery";
-import React, { Component } from "react";
+import { Component } from "react";
 import emailjs from '@emailjs/browser';
 import "../../../assets/css/animate.css";
 
@@ -24,27 +23,27 @@ class ContactPage extends Component {
   handleSubmit(event) {
     event.preventDefault();
 
-    if(this.state.name == '') {
+    if(this.state.name === '') {
       alert('Harap isi Nama Anda'); 
       return false;
     }
 
-    if(this.state.email == '') {
+    if(this.state.email === '') {
       alert('Harap isi Email Anda'); 
       return false;
     }
 
-    if(this.state.phone == '') {
+    if(this.state.phone === '') {
       alert('Harap isi No. Handphone Anda'); 
       return false;
     }
 
-    if(this.state.subject == '') {
+    if(this.state.subject === '') {
       alert('Harap isi Subject Pesan'); 
       return false;
     }
 
-    if(this.state.message == '') {
+    if(this.state.message === '') {
       alert('Harap isi Pesan Anda'); 
       return false;
     }
@@ -91,10 +90,10 @@ class ContactPage extends Component {
             <div className="row align-items-end">
               <div className="col-lg-12">
                 <div className="breadcrumb-content text-center" style={{'fontFamily':'exo-soft'}}>
-                    <img src="https://ik.imagekit.io/qqyiqqfya/contact/logo_debindo_putih_e2xVdVJ5K.png" width="50%" style={{'marginBottom':'25px'}} />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/contact/logo_debindo_putih_e2xVdVJ5K.png" alt="debindo logo" width="50%" style={{'marginBottom':'25px'}} />
                     <h4 style={{'color':'#fff','marginBottom':'25px'}}>Jl. Lanto dg. pasewang No. 18 F Kel. Maricaya Selatan Kec.<br />Mamajang, Makassar Sulawesi Selatan 90131</h4>
                     <h4 style={{'color':'#fff'}}>Contact Us</h4>
-                    <a style={{'color':'#fff','fontSize':'1.1em','marginRight':'10px'}} href="//debindomks.com" target="_blank">www.debindomks.com</a>
+                    <a style={{'color':'#fff','fontSize':'1.1em','marginRight':'10px'}} href="//debindomks.com" target="_blank" rel="noreferrer">www.debindomks.com</a>
                     <a style={{'color':'#fff','fontSize':'1.1em','marginLeft':'10px'}} href="mailto:info@debindomks.com">info@debindomks.com</a><br/>
                     <a style={{'color':'#fff','fontSize':'1.1em','wordSpacing':'2px'}} href="javascript:void(0)">(62-411) 858-353, 858-363, 858-383</a>
                 </div>

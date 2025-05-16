@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { useLocation } from "react-router-dom";
+import { Component } from "react";
 import LayoutFooter from "./common/LayoutFooter";
 import LayoutHeader from "./common/LayoutHeader";
 import MenuContactHeader from "./common/MenuContactHeader";

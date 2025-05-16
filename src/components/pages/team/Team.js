@@ -1,16 +1,6 @@
 import $ from "jquery";
-import React, { Component } from "react";
+import { Component } from "react";
 import { Link } from "react-router-dom";
-// image import
-import Speaker1 from "../../../assets/images/speaker/speaker-1.png";
-import Speaker2 from "../../../assets/images/speaker/speaker-2.png";
-import Speaker3 from "../../../assets/images/speaker/speaker-3.png";
-import Speaker4 from "../../../assets/images/speaker/speaker-4.png";
-import Speaker5 from "../../../assets/images/speaker/speaker-5.png";
-import Speaker6 from "../../../assets/images/speaker/speaker-6.png";
-import Speaker7 from "../../../assets/images/speaker/speaker-7.png";
-import Speaker8 from "../../../assets/images/speaker/speaker-8.png";
-import Speaker9 from "../../../assets/images/speaker/speaker-9.png";
 class Team extends Component {
   componentDidMount() {
     this.inItScripts();

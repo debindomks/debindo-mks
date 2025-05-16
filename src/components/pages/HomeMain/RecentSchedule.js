@@ -13,8 +13,7 @@ import "swiper/components/pagination/pagination.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import "swiper/swiper.min.css";
-// page animation
-import WOW from "wowjs";
+
 import "../../../assets/css/animate.css";
 // image import
 import speaker1 from "../../../assets/images/speaker/speaker-sm1.png";
@@ -25,9 +24,7 @@ import speaker4 from "../../../assets/images/speaker/speaker-sm4.png";
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade]);
 class Schedule extends Component {
-  componentDidMount() {
-    new WOW.WOW().init();
-  }
+  componentDidMount() {}
   scrollTop() {
     window.scrollTo({
       top: 0,

@@ -12,10 +12,7 @@ import "swiper/components/pagination/pagination.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import "swiper/swiper.min.css";
-// import image
-import QuoteIcon from "../../../assets/images/icons/qoute-icon.png";
-import TestimonialShape from "../../../assets/images/shapes/testi-shape.png";
-import Reviewer from "../../../assets/images/speaker/reviewer.png";
+
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, Navigation, EffectFade]);
 class Testimonial extends Component {
