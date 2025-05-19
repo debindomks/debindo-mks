@@ -29,6 +29,45 @@ class Events extends Component {
 
   render() {
 
+    const event251 = [
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/rei_fUVQt1jlX.png?updatedAt=1747639755962',
+        date: '19 - 23 Februari 2025',
+        place: 'Mal Ratu Indah Makassar',
+      },
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/issei_BeigmSXw0.png?updatedAt=1747639755964',
+        date: '21 - 23 Mei 2025',
+        place: 'Jakarta Convention Center'
+      },
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/property-expo_gnIync9lX.png?updatedAt=1747639755910',
+        date: '27 - 31 Juli 2025',
+        place: 'Trans Studio Mall Makassar'
+      },
+    ];
+
+    const event252 = [
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/ismeef_GvDl_1pym.png?updatedAt=1747639755812',
+        date: '12 - 16 Agustus 2025',
+        place: 'SMESCO Indonesia',
+      },
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/sulsel-expo_xOC6wB1tO.png?updatedAt=1747639755812',
+        date: '20 - 24 Agustus 2025',
+        place: 'Plaza Parkir - Phinisi Point'
+      },
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/paqs_1msLjNJGw.png?updatedAt=1747639756130',
+        date: '22 - 26 Agustus 2025',
+        place: 'Raffles Hotel, Jakarta'
+      },
+    ];
+
+    
+
+
     const event1 = [
       {
         img: 'https://ik.imagekit.io/rwvfvdma8/events/2024/1.%20LOGO%20EKSPO%20REI.png',
@@ -114,14 +153,31 @@ class Events extends Component {
               </div>
             </div>
 
-              <div className="row">
+              <div className="row mb-5">
                 <div className="col-lg-4 col-md-4 col-sm-4">
                   <h3><span><b>EVENT OF THE YEAR</b></span></h3>
                   <hr/>
                 </div>
+              </div>            
+
+              <div className='row text-center'>
+                {event251 && event251.map(({img, date, place}) => <Events img={img} date={date} place={place} />)}
               </div>
 
-              <br/>
+              <br />
+
+              <div className='row text-center mb-5'>
+                {event252 && event252.map(({img, date, place}) => <Events img={img} date={date} place={place} />)}
+              </div>
+
+              <br />
+
+              <div className="row mb-5">
+                <div className="col-lg-4 col-md-4 col-sm-4">
+                  <h3><span><b>2024</b></span></h3>
+                  <hr/>
+                </div>
+              </div>
 
               <div className='row text-center'>
                 {event1 && event1.map(({img, date, place}) => <Events img={img} date={date} place={place} />)}

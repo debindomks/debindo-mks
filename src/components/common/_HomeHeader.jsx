@@ -1,9 +1,8 @@
 import $ from "jquery";
-import React, { Component } from "react";
+import { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../../assets/css/animate.css";
-// image import
-import NavLogo from "../../assets/images/logo-v2.png";
+
 // import Logo from "../../assets/images/logo.png";
 class HomeHeader extends Component {
   // Inheritaed Parenty Options
@@ -11,8 +10,7 @@ class HomeHeader extends Component {
     super(props);
     this.state = {
       
-    };
- 
+    }; 
   }
 
 

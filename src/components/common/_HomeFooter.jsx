@@ -1,8 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-// image import
-import BGIconTxt from "../../assets/images/background-texts/footer-watermark.png";
-import LogoV2 from "../../assets/images/logo-v2.png";
+import { Component } from "react";
+
 class HomeFooter extends Component {
   scrollTop() {
     window.scrollTo({
