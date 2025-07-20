@@ -41,33 +41,25 @@ class Events extends Component {
         place: 'Jakarta Convention Center'
       },
       {
-        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/property-expo_gnIync9lX.png?updatedAt=1747639755910',
-        date: '27 - 31 Juli 2025',
-        place: 'Trans Studio Mall Makassar'
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/ismeef_GvDl_1pym.png?updatedAt=1747639755812',
+        date: '12 - 16 Agustus 2025',
+        place: 'SMESCO Indonesia'
       },
     ];
 
     const event252 = [
       {
-        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/ismeef_GvDl_1pym.png?updatedAt=1747639755812',
-        date: '12 - 16 Agustus 2025',
-        place: 'SMESCO Indonesia',
-      },
-      {
-        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/sulsel-expo_xOC6wB1tO.png?updatedAt=1747639755812',
-        date: '20 - 24 Agustus 2025',
-        place: 'Plaza Parkir - Phinisi Point'
-      },
-      {
         img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/paqs_1msLjNJGw.png?updatedAt=1747639756130',
         date: '22 - 26 Agustus 2025',
         place: 'Raffles Hotel, Jakarta'
       },
+      {
+        img: 'https://ik.imagekit.io/qqyiqqfya/event/2025/ivef_KK1dHq_D_.png?updatedAt=1752991909667',
+        date: '5 - 8 November 2025',
+        place: 'Nusantara International Convention Exhibition'
+      },
     ];
-
     
-
-
     const event1 = [
       {
         img: 'https://ik.imagekit.io/rwvfvdma8/events/2024/1.%20LOGO%20EKSPO%20REI.png',
@@ -155,7 +147,7 @@ class Events extends Component {
 
               <div className="row mb-5">
                 <div className="col-lg-4 col-md-4 col-sm-4">
-                  <h3><span><b>EVENT OF THE YEAR</b></span></h3>
+                  <h3><span><b>EVENTS OF THE YEAR</b></span></h3>
                   <hr/>
                 </div>
               </div>            

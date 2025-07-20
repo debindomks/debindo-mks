@@ -26,7 +26,7 @@ import FAQ from "./components/pages/Faq/FAQ";
 import Gallary from "./components/pages/Gallary/Gallary";
 import Pricing from "./components/pages/pricing/Pricing";
 import Schedule from "./components/pages/Schedule/Schedule";
-import Team from "./components/pages/team/Team";
+import Team from "./components/pages/team/Team2025.js";
 import Speaker from "./components/pages/speakers/Speaker";
 import SpeakersDetails from "./components/pages/speakers/SpeakersDetails";
 import SpeakerTopBar from "./components/pages/speakers/SpeakerTopBar";
