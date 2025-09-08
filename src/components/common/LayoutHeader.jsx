@@ -393,7 +393,7 @@ class HomeHeader extends Component {
                     <div className="inner-btn d-xl-none">
                         <a
                             className="primary-btn-fill"
-                            href="https://wa.me/08114101500"
+                            href="https://wa.me/6281110139161"
                             target="_blank"
                             >
                           Contact via WA
@@ -408,7 +408,7 @@ class HomeHeader extends Component {
                         <a
                             id="contact-via-wa"
                             className="primary-btn-outline-header2"
-                            href="https://wa.me/08114101500"
+                            href="https://wa.me/6281110139161"
                             target="_blank"
                           >
                           Contact via WA

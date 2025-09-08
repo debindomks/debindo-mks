@@ -86,7 +86,7 @@ class Team extends Component {
 
             <div className="row">
               <div className="col-lg-4 col-md-4 col-sm-12">
-                <h3 style={{'text-align':'center'}}><span className="team">MARKETING COMMUNICATION</span></h3>
+                <h3 style={{'text-align':'center'}}><span className="team">MANAGING DIRECTOR</span></h3>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12">
                 <h3 style={{'text-align':'center'}}><span className="team secretary-label">HRD</span></h3>
@@ -1019,7 +1019,7 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info text-center">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Fenti Lisari</p>
-                    <p>Sales & Marketing Jakarta</p>
+                    <p>Marketing Communication Jakarta</p>
                   </div>
                 </div>
                 <br/>
