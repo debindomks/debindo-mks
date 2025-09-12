@@ -89,7 +89,7 @@ class Team extends Component {
                 <h3 style={{'text-align':'center'}}><span className="team">MANAGING DIRECTOR</span></h3>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12">
-                <h3 style={{'text-align':'center'}}><span className="team secretary-label">HRD</span></h3>
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">OPERATION & GENERAL MANAGER</span></h3>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12">
                 <h3 style={{'text-align':'center'}}><span className="team secretary-label">SECRETARY</span></h3>
@@ -101,44 +101,44 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-4">
 
                 <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                      <div className="speaker-card">
-                        <div className="speaker-image">
-                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Srianti_Mantong_N4w350hvO.png" alt="Imgs" />
-                          <ul className="speaker-social-icons">
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-facebook-f" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-instagram" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-linkedin-in" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-twitter" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-whatsapp" />
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="custom-speaker-info" style={{'text-align':'center'}}>
-                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Srianti Mantong</p>
-                          <p>Marketing Manager</p>
-                        </div>
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Srianti_Mantong_N4w350hvO.png" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Srianti Mantong</p>
+                        <p>Managing Director</p>
                       </div>
                     </div>
+                  </div>
                 </div>
 
               </div>
@@ -149,7 +149,178 @@ class Team extends Component {
                   <div className="col-lg-12 col-md-12 col-sm-12">
                     <h3 className="secretary-label2 text-center">
                       <br/><br/>
-                      <span className="team">HRD</span>
+                      <span className="team">OPERATION & GENERAL MANAGER</span>
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/ABDULLAH_ADNAN_q4rv8iTqZX.png" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Dodi Adnan</p>
+                        <p><span className="team-15x">Operation & General Manager</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2 text-center">
+                      <br/><br/>
+                      <span className="team">SECRETARY</span>
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Andriana_06GOk62Nj.png?updatedAt=1752992444870" height="10%" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Andriana</p>                    
+                        <p><span className="team-15x">Secretary</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <br/><br/><br/><br/>
+
+            <div className="row">
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team">HRD & FINANCE MANAGER</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">HUMAN RESOURCE DEVELOPMENT</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">FINANCE & TAX</span></h3>
+              </div>
+            </div>
+
+            <div className="row">
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Nurul_Arfiani_Arifin_cSBKsNNgq.png" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Nurul Arifiani Arifin</p>
+                        <p>HRD & Finance Manager</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2 text-center">
+                      <br/><br/>
+                      <span className="team">HUMAN RESOURCE DEVELOPMENT</span>
                     </h3>
                   </div>
                 </div>
@@ -188,8 +359,8 @@ class Team extends Component {
                         </ul>
                       </div>
                       <div className="custom-speaker-info" style={{'text-align':'center'}}>
-                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Felicia Hanna T</p>
-                        <p><span className="team-15x">HRD</span></p>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Falecia Hanna</p>
+                        <p><span className="team-15x">Human Resource Development</span></p>
                       </div>
                     </div>
                   </div>
@@ -203,57 +374,643 @@ class Team extends Component {
                   <div className="col-lg-12 col-md-12 col-sm-12">
                     <h3 className="secretary-label2 text-center">
                       <br/><br/>
-                      <span className="team">SECRETARY</span>
+                      <span className="team">FINANCE & TAX</span>
                     </h3>
                   </div>
                 </div>
 
                 <div className="row">
-
-                    <div className="col-lg-12 col-md-12 col-sm-12">
-                      <div className="speaker-card">
-                        <div className="speaker-image">
-                          <img src="https://ik.imagekit.io/qqyiqqfya/team/Andriana_06GOk62Nj.png?updatedAt=1752992444870" height="10%" alt="Imgs" />
-                          <ul className="speaker-social-icons">
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-facebook-f" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-instagram" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-linkedin-in" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-twitter" />
-                              </Link>
-                            </li>
-                            <li>
-                              <Link onClick={this.scrollTop} to={"#"}>
-                                <i className="fab fa-whatsapp" />
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="custom-speaker-info" style={{'text-align':'center'}}>
-                          <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Andriana</p>                    
-                          <p><span className="team-15x">Secretary</span></p>
-                        </div>
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Surahma_44SFasdhz.png?updatedAt=1752993837493" height="10%" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Surahmah</p> 
+                        <p><span className="team-15x">Finance & Tax</span></p>
                       </div>
                     </div>
-
+                  </div>
                 </div>
 
               </div>
 
             </div>
+
+            <br/><br/><br/><br/>
+
+            <div className="row">
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team">MARKETING & BUSINESS DEVELOP</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">ACCOUNT EXECUTIVE & PUBLIC RELATION</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">ACCOUNT EXECUTIVE & MARKETING COMMUNICATION</span></h3>
+              </div>
+            </div>
+
+            <div className="row">
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Alamsyah%20Landomang_92bixnuTb.png?updatedAt=1752997899868" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Alamsyah Landomang</p>
+                        <p>Marketing & Business Development</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2 text-center">
+                      <br/><br/>
+                      <span className="team">ACCOUNT EXECUTIVE & PUBLIC RELATION</span>
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Geraldine%20Nadya_SMN-ebbyd.png?updatedAt=1752997899167" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Geraldine Nadya</p>
+                        <p><span className="team-15x">Account Executive & Public Relation</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2 text-center">
+                      <br/><br/>
+                      <span className="team">ACCOUNT EXECUTIVE & MARKETING COMMUNICATION</span>
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Fenti%20Lisari_l4-4ufjNQ.png?updatedAt=1752997895229" height="10%" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Fenti Lisari</p> 
+                        <p><span className="team-15x">Account Executive & Marketing Communication</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <br/><br/><br/><br/>
+
+            <div className="row">
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team">ACCOUNT EXECUTIVE & MARKETING COMMUNICATION</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">ACCOUNT EXECUTIVE & MARKETING ASSOCIATE</span></h3>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3 style={{'text-align':'center'}}><span className="team secretary-label">BIDDING DIVISION</span></h3>
+              </div>
+            </div>
+
+            <div className="row">
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Jeihan%20Achtar%20Nizamuddin_eH93b1Q2F.png?updatedAt=1752997901542" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Jeihan Achtar</p>
+                        <p>Account Executive & Marketing Communication</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2 text-center">
+                      <br/><br/>
+                      <span className="team">ACCOUNT EXECUTIVE & MARKETING ASSOCIATE</span>
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Graha%20Abadi%20Pasyaman_db6mvIndfg.png?updatedAt=1752997902274" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Graha Abadi Pasyaman</p>
+                        <p><span className="team-15x">Account Executive & Marketing Associate</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-4">
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <h3 className="secretary-label2 text-center">
+                      <br/><br/>
+                      <span className="team">BIDDING DIVISION</span>
+                    </h3>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-lg-12 col-md-12 col-sm-12">
+                    <div className="speaker-card">
+                      <div className="speaker-image">
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Muh._Luthfi_P50Xhzxk-.png" height="10%" alt="Imgs" />
+                        <ul className="speaker-social-icons">
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-facebook-f" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-instagram" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-linkedin-in" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-twitter" />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link onClick={this.scrollTop} to={"#"}>
+                              <i className="fab fa-whatsapp" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="custom-speaker-info" style={{'text-align':'center'}}>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Lutfi</p> 
+                        <p><span className="team-15x">Bidding Division</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <br/><br/><br/><br/>
+
+            <div className="row">
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Robertho_R._Engel_uPzkznFsL.png"  alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Robertho R. Engel</p>
+                    <p><span className="team-15x">Account Executive</span></p>
+                  </div>
+                </div>
+                <br/>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/M._Nasarullah_V0ykSomQK.png" alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>M. Nasarullah</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+                <br/>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Eka%20Prajawati%20Syam_cVFrEuLbzs.png?updatedAt=1752997903427" style={{'height':'auto','width':'100%'}} alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Eka Prajawati Syam</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+                <br/>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Azzahra%20Tatya%20Btari_S2KVEMLhzr.png?updatedAt=1752997902472" style={{'height':'auto','width':'100%'}} alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Azzahra Tatya Btari</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+                <br/>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Anggit_Fitria_Damayanti_0IpBJ2WeT.png" alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Anggit Fitria Damayanti</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+                <br/>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Petronella%20Pradnya_Yg9uF6yu0.png?updatedAt=1752997899403" style={{'height':'auto','width':'100%'}} alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Petronella Pradnya</p>
+                    <p>Account Executive</p>
+                  </div>
+                </div>
+                <br/>
+              </div>
+
+            </div> 
 
             <br/><br/><br/><br/>
 
@@ -264,7 +1021,8 @@ class Team extends Component {
             </div>
 
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6">
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
 
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12">
@@ -310,7 +1068,7 @@ class Team extends Component {
                       </div>
                       <div className="custom-speaker-info text-center">
                         <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Firman Zen</p>                    
-                        <p><span className="team-15x">Creative Design Manager</span></p>
+                        <p><span className="team-15x">Creative Design & Production Manager</span></p>
                       </div>
                     </div>
 
@@ -319,7 +1077,8 @@ class Team extends Component {
 
                 <br/>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-6">
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Syaifullah_S_G4fl4MA7W.png" alt="Imgs" />
@@ -353,12 +1112,13 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info text-center">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Syaifullah S</p>
-                    <p>Creative Design</p>
+                    <p>Creative Design & Production</p>
                   </div>
                 </div>
                 <br/>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-6">
+
+              <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
                     <img src="https://ik.imagekit.io/qqyiqqfya/team/Andika_Dwi_Syaputra_rxgdxImpW.png" alt="Imgs" />
@@ -392,54 +1152,16 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info text-center">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Andika Dwi Satria</p>
-                    <p>Creative Design</p>
+                    <p>Creative Design & Production</p>
                   </div>
                 </div>
                 <br/>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-6">
+
+              <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Zulkarnain_YSg1aPG0T.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Zulkarnain</p>
-                    <p>Creative Design</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-              <div className="col-lg-3 col-md-3 col-sm-12">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://www.tascsoftware.co.uk/wiki/PARS/images/8/8f/Grey.jpg" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Sitti%20Nur%20Azizah%20-%20Designer_tb_RgvASD.png?updatedAt=1757654756786" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -470,243 +1192,71 @@ class Team extends Component {
                   </div>
                   <div className="custom-speaker-info text-center">
                     <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Sitti Nur Azizah</p>
-                    <p>Creative Design</p>
+                    <p>Creative Design & Production</p>
                   </div>
                 </div>
                 <br/>
               </div>
-            </div>             
 
-            <br/><br/><br/><br/>
-
-            <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <h3><span className="team secretary-label">GENERAL MANAGER</span></h3>
+              <div className="col-lg-4 col-md-4 col-sm-6">
+                <div className="speaker-card">
+                  <div className="speaker-image">
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Aspar%20Nurdin%20-%20Designer_KA9xfMtxc.png?updatedAt=1757654756784" alt="Imgs" />
+                    <ul className="speaker-social-icons">
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-facebook-f" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-instagram" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-linkedin-in" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-twitter" />
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={this.scrollTop} to={"#"}>
+                          <i className="fab fa-whatsapp" />
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="custom-speaker-info text-center">
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Aspar Nurdin</p>
+                    <p>Creative Design & Production</p>
+                  </div>
+                </div>
+                <br/>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <h3><span className="team secretary-label">ACCOUNTING</span></h3>
-              </div>
+              
             </div>
-
-            <br/>
-
-            <div className="row">
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-
-                <div className="row">
-                  <div className="col-lg-12 col-md-12 col-sm-12">
-                    <h3 className="secretary-label2 text-center">
-                      <br/><br/>
-                      <span className="team">GENERAL MANAGER</span>
-                    </h3>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-lg-12 col-md-12 col-sm-12">
-                    <div className="speaker-card">
-                      <div className="speaker-image">
-                        <img src="https://ik.imagekit.io/qqyiqqfya/team/ABDULLAH_ADNAN_q4rv8iTqZX.png" alt="Imgs" />
-                        <ul className="speaker-social-icons">
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-facebook-f" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-instagram" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-linkedin-in" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-twitter" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-whatsapp" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="custom-speaker-info text-center">
-                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Abdullah Adnan</p>
-                        <p>Operation & General Manager</p>
-                      </div>
-                    </div>
-                    <br/>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Muh._Luthfi_P50Xhzxk-.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Muh. Luthfi</p>
-                    <p>Staff Bidding</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-
-                <div className="row">
-                  <div className="col-lg-12 col-md-12 col-sm-12">
-                    <h3 className="secretary-label2 text-center">
-                      <br/><br/>
-                      <span className="team">ACCOUNTING</span>
-                    </h3>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-lg-12 col-md-12 col-sm-12">
-                    <div className="speaker-card">
-                      <div className="speaker-image">
-                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Nurul_Arfiani_Arifin_cSBKsNNgq.png" alt="Imgs" />
-                        <ul className="speaker-social-icons">
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-facebook-f" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-instagram" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-linkedin-in" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-twitter" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link onClick={this.scrollTop} to={"#"}>
-                              <i className="fab fa-whatsapp" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="custom-speaker-info text-center">
-                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Nurul Arfiani Arifin</p>
-                        <p>Accounting Manager</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Surahma_44SFasdhz.png?updatedAt=1752993837493" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Surahmah</p>
-                    <p>Finance ADM Support</p>
-                  </div>
-                </div>
-              </div>
-
-            </div> 
 
             <br/><br/><br/><br/>
 
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
-                <h3><span className="team secretary-label">ACCOUNTING EXECUTIVE</span></h3>
+                <h3><span className="team secretary-label">GENERAL AFFAIR</span></h3>
               </div>
             </div>
 
-            <br/>
-
             <div className="row">
 
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="row">
-                  <div className="col-lg-12 col-md-12 col-sm-12">
-                    <h3 className="secretary-label2 text-center">
-                      <span className="team">ACCOUNTING EXECUTIVE</span>
-                    </h3>
-                  </div>
-                </div>
+              <div className="col-lg-4 col-md-4 col-sm-6">
 
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="speaker-card">
                       <div className="speaker-image">
-                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Alamsyah%20Landomang_92bixnuTb.png?updatedAt=1752997899868"  alt="Imgs" />
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Taufan%20-%20General%20Affair__PhoPS-3Ob.png?updatedAt=1757654756722" alt="Imgs" />
                         <ul className="speaker-social-icons">
                           <li>
                             <Link onClick={this.scrollTop} to={"#"}>
@@ -736,19 +1286,21 @@ class Team extends Component {
                         </ul>
                       </div>
                       <div className="custom-speaker-info text-center">
-                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Alamsyah Landomang</p>
-                        <p><span className="team-15x">Marketing & Business Develop</span></p>
+                        <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Taufan</p>                    
+                        <p><span className="team-15x">General Affair</span></p>
                       </div>
                     </div>
-                    <br/>
+
                   </div>
                 </div>
+
+                <br/>
               </div>
 
-              <div className="col-lg-3 col-md-3 col-sm-6">
+              <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Robertho_R._Engel_uPzkznFsL.png"  alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Taufik%20-%20Driver_tykb1e1fo.png?updatedAt=1757654756959" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -778,17 +1330,17 @@ class Team extends Component {
                     </ul>
                   </div>
                   <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Robertho R. Engel</p>
-                    <p><span className="team-15x">Sales & Marketing</span></p>
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Taufik</p>
+                    <p>Driver</p>
                   </div>
                 </div>
                 <br/>
               </div>
 
-              <div className="col-lg-3 col-md-3 col-sm-6">
+              <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Andi%20Achmad%20Aria_VJAzgTNlS.png?updatedAt=1752997899470" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Randi%20-%20Driver_2frXBL5UA.png?updatedAt=1757654756554" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -818,17 +1370,17 @@ class Team extends Component {
                     </ul>
                   </div>
                   <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Andi Achmad Aria</p>
-                    <p>Sales & Narketing</p>
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Randi Saputro</p>
+                    <p>Driver</p>
                   </div>
                 </div>
                 <br/>
               </div>
 
-              <div className="col-lg-3 col-md-3 col-sm-6">
+              <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/M._Nasarullah_V0ykSomQK.png" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Adolfina%20-%20Office%20girl_sR6fMoLDw.jpg?updatedAt=1757654755859" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -858,17 +1410,17 @@ class Team extends Component {
                     </ul>
                   </div>
                   <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>M. Nasarullah</p>
-                    <p>Account Executive</p>
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Adolfina Ruru</p>
+                    <p>Office Girl</p>
                   </div>
                 </div>
                 <br/>
               </div>
 
-              <div className="col-lg-3 col-md-3 col-sm-6">
+              <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Eka%20Prajawati%20Syam_cVFrEuLbzs.png?updatedAt=1752997903427" style={{'height':'auto','width':'100%'}} alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Syamsir%20-%20Security_CuYxpG0BK.png?updatedAt=1757654756610" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -898,294 +1450,14 @@ class Team extends Component {
                     </ul>
                   </div>
                   <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Eka Prajawati Syam</p>
-                    <p>Sales & Marketing</p>
+                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px'}}>Syamsir</p>
+                    <p>Security</p>
                   </div>
                 </div>
                 <br/>
               </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Azzahra%20Tatya%20Btari_S2KVEMLhzr.png?updatedAt=1752997902472" style={{'height':'auto','width':'100%'}} alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Azzahra Tatya Btari</p>
-                    <p>Sales & Marketing</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Geraldine%20Nadya_SMN-ebbyd.png?updatedAt=1752997899167" style={{'height':'auto','width':'100%'}} alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Geraldine Nadya</p>
-                    <p>Sales & PR Jakarta Area</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Fenti%20Lisari_l4-4ufjNQ.png?updatedAt=1752997895229" style={{'height':'auto','width':'100%'}} alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Fenti Lisari</p>
-                    <p>Marketing Communication Jakarta</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Petronella%20Pradnya_Yg9uF6yu0.png?updatedAt=1752997899403" style={{'height':'auto','width':'100%'}} alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Petronella Pradnya</p>
-                    <p>Marketing Communication Jakarta</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Anggit_Fitria_Damayanti_0IpBJ2WeT.png" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Anggit Fitria Damayanti</p>
-                    <p>Marketing Communication</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Graha%20Abadi%20Pasyaman_db6mvIndfg.png?updatedAt=1752997902274" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Graha Abadi Pasyaman</p>
-                    <p>Account Executive Jakarta</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6">
-                <div className="speaker-card">
-                  <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Jeihan%20Achtar%20Nizamuddin_eH93b1Q2F.png?updatedAt=1752997901542" alt="Imgs" />
-                    <ul className="speaker-social-icons">
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-facebook-f" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-linkedin-in" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link onClick={this.scrollTop} to={"#"}>
-                          <i className="fab fa-whatsapp" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="custom-speaker-info text-center">
-                    <p style={{'fontSize':'1.1em','fontFamily':'exo-soft','letterSpacing':'1px','fontWeight':'bolder'}}>Jeihan Achtar Nizamuddin</p>
-                    <p>Account Executive Jakarta</p>
-                  </div>
-                </div>
-                <br/>
-              </div>
-
-            </div> 
+              
+            </div>
 
           </div>
         </div>
