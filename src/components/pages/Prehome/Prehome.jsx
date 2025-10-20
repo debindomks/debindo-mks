@@ -8,6 +8,14 @@ class PrehomePage extends Component {
       <div className="homepage">
         {/* <!-- Start Preloader Area --> */}
        
+        <div className="preloader">
+          <div className="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
 
         <SliderArea />
 
