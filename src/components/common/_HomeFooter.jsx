@@ -16,8 +16,8 @@ class HomeFooter extends Component {
     return (
       <>
         {/* ===============  footer area start  =============== */}
-        <div className="footer-outer ">
-          <div className="footer-area ">
+        <div className="footer-outer" style={{width:'100%',position:'relative',bottom:0}}>
+          <div className="footer-area" style={{'bottom':0,'right':0,'left':0,'position':'relative',margin:0,padding:0}}>
 
               <div className="footer-bottom footer-bottom-style-two">
                 <div className="row align-items-center">
@@ -25,7 +25,7 @@ class HomeFooter extends Component {
                     <div className="footer-copyright text-center">
                       <p>
                         Copyright 2022 - { currYear }. <b>PT Debindo Mega Promo</b> | Powered by&nbsp;
-                        <a href="https://imtoor.com" target="_blank" style={{display:'inline-block'}}>
+                        <a href="https://imtoor.com" target="_blank" rel="noreferrer" style={{display:'inline-block'}}>
                           <u>imtoor</u>
                         </a>
                       </p>

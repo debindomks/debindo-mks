@@ -95,7 +95,7 @@ class ContactPage extends Component {
                     <h4 style={{'color':'#fff'}}>Contact Us</h4>
                     <a style={{'color':'#fff','fontSize':'1.1em','marginRight':'10px'}} href="//debindomks.com" target="_blank" rel="noreferrer">www.debindomks.com</a>
                     <a style={{'color':'#fff','fontSize':'1.1em','marginLeft':'10px'}} href="mailto:info@debindomks.com">info@debindomks.com</a><br/>
-                    <a style={{'color':'#fff','fontSize':'1.1em','wordSpacing':'2px'}} href="javascript:void(0)">(62-411) 858-353, 858-363, 858-383</a>
+                    <a style={{'color':'#fff','fontSize':'1.1em','wordSpacing':'2px'}} href="tel:+62411858353" target="_blank" rel="noreferrer">(62-411) 858-353, 858-363, 858-383</a>
                 </div>
               </div>
             </div>

@@ -404,7 +404,7 @@ Custom Cursor
 
 /* breadcrumb area*/
 .contact-breadcrumb-area {
-  background: url(https://ik.imagekit.io/qqyiqqfya/contact/background_od8ERdCdG.png);
+  background: url(https://res.cloudinary.com/dyvpc85eh/image/upload/v1760965431/background_od8ERdCdG_copy_lrg6ci.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2047,9 +2047,9 @@ header .header-style-two .main-nav ul li a.active span {
 
 .hero-area {
   /* background: conic-gradient(from 243.17deg at 52.66% 45.72%, rgba(206, 20, 70, 0.25) 0deg, rgba(255, 255, 255, 0) 66.85deg, rgba(222, 95, 129, 0.3) 266.25deg, rgba(206, 20, 70, 0.25) 360deg); */
-  background-image: url('https://ik.imagekit.io/qqyiqqfya/home/background2_rxU4UrY2M.png');
+  background-image: url('https://res.cloudinary.com/dyvpc85eh/image/upload/v1760967695/background2_rxU4UrY2M_c8cv0e.webp');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   position: relative;
 }
 
@@ -2239,23 +2239,28 @@ header .header-style-two .main-nav ul li a.active span {
 }
 
 .slider-1 {
-  background: url(../images/slider/mice3.png) no-repeat center !important;
+  background: url('https://res.cloudinary.com/dyvpc85eh/image/upload/v1760966970/MICE_DSX9zTw79_mnodjm.webp') no-repeat center !important;
+  background-size: cover !important;
 }
 
 .slider-2{
-  background: url(../images/slider/meeting3.png) no-repeat center !important;
+  background: url('https://res.cloudinary.com/dyvpc85eh/image/upload/v1760967292/MEETING_B-D4-MgC3_l5y6wz.webp') no-repeat center !important;
+  background-size: cover !important;
 }
 
 .slider-3{
-  background: url(../images/slider/iace3.png) no-repeat center !important;
+  background: url('https://res.cloudinary.com/dyvpc85eh/image/upload/v1760967297/INCENTIVE_AND_CORPORATE_EVENT_U2ZDQrLRE_k8ymba.webp') no-repeat center !important;
+  background-size: cover !important;
 }
 
 .slider-4{
-  background: url(../images/slider/conference3.png) no-repeat center !important;
+  background: url('https://res.cloudinary.com/dyvpc85eh/image/upload/v1760967214/CONFERENCE_JD1SAWd_x_zkq1qu.webp') no-repeat center !important;
+  background-size: cover !important;
 }
 
 .slider-5{
-  background: url(../images/slider/exhibition3.png) no-repeat center !important;
+  background: url('https://res.cloudinary.com/dyvpc85eh/image/upload/v1760967299/EXHIBITION_tJPTL_fjs_mscrpy.webp') no-repeat center !important;
+  background-size: cover !important;
 }
 
 .hero-two-slider .hero-two-item-1.swiper-slide-active .hero-background-layer {

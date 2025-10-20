@@ -1,5 +1,5 @@
 import $ from "jquery";
-import React, { Component } from "react";
+import { Component } from "react";
 // Swiper slider imported
 import SwiperCore, {
   Autoplay,
@@ -110,7 +110,7 @@ class SliderArea extends Component {
                       </div>
                       <div className="hero-countdown-box" style={{visibility:'hidden'}}>
                         <h3 id="seconds_h">05</h3>
-                        <p>Secoend</p>
+                        <p>Second</p>
                       </div>
                     </div>
                     <div className="hero-btns" style={{visibility:'hidden'}}>
