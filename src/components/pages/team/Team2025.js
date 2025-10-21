@@ -1340,7 +1340,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Randi%20-%20Driver_2frXBL5UA.png?updatedAt=1757654756554" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Randi%20-%20Driver%202_Nf9NsXOMT.png?updatedAt=1761009165731" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
