@@ -1256,7 +1256,7 @@ class Team extends Component {
                   <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="speaker-card">
                       <div className="speaker-image">
-                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Taufan%20-%20General%20Affair__PhoPS-3Ob.png?updatedAt=1757654756722" alt="Imgs" />
+                        <img src="https://ik.imagekit.io/qqyiqqfya/team/Taufan_General%20Affair_Flh4jJLDO.png?updatedAt=1761042002264" alt="Imgs" />
                         <ul className="speaker-social-icons">
                           <li>
                             <Link onClick={this.scrollTop} to={"#"}>
@@ -1300,7 +1300,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Taufik%20-%20Driver_tykb1e1fo.png?updatedAt=1757654756959" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Taufik_Driver_FL7UGpxQC.png?updatedAt=1761041993494" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -1380,7 +1380,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Adolfina%20-%20Office%20girl_sR6fMoLDw.jpg?updatedAt=1757654755859" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Adolfina%20Ruru_Office%20Girl_5G-0g7x2Z3.png?updatedAt=1761042001316" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
@@ -1420,7 +1420,7 @@ class Team extends Component {
               <div className="col-lg-4 col-md-4 col-sm-6">
                 <div className="speaker-card">
                   <div className="speaker-image">
-                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Syamsir%20-%20Security_CuYxpG0BK.png?updatedAt=1757654756610" alt="Imgs" />
+                    <img src="https://ik.imagekit.io/qqyiqqfya/team/Syamsir_Security_xLqWwnHE7.png?updatedAt=1761041995119" alt="Imgs" />
                     <ul className="speaker-social-icons">
                       <li>
                         <Link onClick={this.scrollTop} to={"#"}>
